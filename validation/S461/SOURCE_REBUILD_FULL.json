@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "source_chain": "JP clean -> S441..S456 -> S457 -> S458 -> S459 -> S460 -> S461",
+  "bps_used": false,
+  "source_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "intermediate_rc4_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "target_rc5_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "actual_rebuild_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "byte_exact": true,
+  "upstream_source_repair": {
+    "result": "PASS",
+    "truncated_rc4_package_copy_sha256": "e6dbc4d4a40cfa0b8db4421f5cefa801d81b286256a9a07f1e31048501c098d3",
+    "complete_unsanitized_archive_sha256": "5cfe3602abcd233156283652820b9c718e4d37500de639a8749e32408508c8b1",
+    "packaged_recursively_sanitized_archive_sha256": "f88217b6a17aa7b708167ada7b6741f2d3262bce063829506bbbe1ac7d8ee5f7",
+    "complete_archive_zip_test": "PASS",
+    "recursive_sanitization": "132 ROM/build/bytecode members removed; child ZIP identities and guards propagated; full S441-S461 rebuild repeated after sanitization.",
+    "reason": "The RC4 package copy lacked a central directory; S461 restores, recursively sanitizes and revalidates the complete source chain."
+  }
+}

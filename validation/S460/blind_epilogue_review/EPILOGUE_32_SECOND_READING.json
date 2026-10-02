@@ -1,0 +1,21 @@
+{
+  "scope": "32 unique full-screen epilogue pages across all ending routes",
+  "method": "screenshots from the exact RC4 were randomized; visible text and layout were reviewed and hash-locked before the source mapping was revealed",
+  "independence": "blind visual reading independent from the encoded source table; this is a second QA pass, not a claim of a separate human reviewer",
+  "rom_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "transcription_sha256": "7bc585cf9e46b47834ebfc267f1561009601e751bdda4ab3fe9fa67e97f23c02",
+  "sealed_mapping_sha256": "1c210d520086d3e83dbcf0af3ae372df6258b5aae8c207d6780ef84cace05254",
+  "pages_total": 32,
+  "pages_pass": 32,
+  "text_mismatches": 0,
+  "legibility_failures": 0,
+  "clipping_failures": 0,
+  "pages_with_visible_japanese": 0,
+  "status": "PASS",
+  "normalization_used_for_comparison": {
+    "ellipsis": "… equals ...",
+    "wave_dash": "∼ equals ~",
+    "em_dash": "— equals -",
+    "reason": "plain-text equivalents only; line breaks and all letters had to match"
+  }
+}

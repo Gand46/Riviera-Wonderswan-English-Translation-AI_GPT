@@ -1,0 +1,36 @@
+{
+  "stage": "PW3",
+  "selected_in_package": 5,
+  "new_selected": 4,
+  "inherited_input_checkpoint_copied": 1,
+  "prior_cumulative_selected": 49,
+  "cumulative_selected_after_pw3": 53,
+  "limit": 12,
+  "items": [
+    {
+      "file": "PW3_01_start_1_1_before_progress.mss",
+      "bytes": 29304,
+      "sha256": "2fe8ec0c4447cca2c35de1783795dbaa6e3a81e7a8a3930887f1cce8ea728725"
+    },
+    {
+      "file": "PW3_02_first_battle_started.mss",
+      "bytes": 30629,
+      "sha256": "8b3eba4cb301ac6803306216d0277c4c30d1108f826017a21dab92a23e513b3b"
+    },
+    {
+      "file": "PW3_03_first_battle_postdialogue.mss",
+      "bytes": 37671,
+      "sha256": "beafafee14e00742c5b51c2f53cfa905dcff290a400393cdf7d0e9116c740de3"
+    },
+    {
+      "file": "PW3_04_second_encounter_item_select.mss",
+      "bytes": 25955,
+      "sha256": "b7b8505aa5c07e6f297b6b8386ca689e6bfc4f7bb3fd72e1691e7c8eec6cd75a"
+    },
+    {
+      "file": "PW3_05_second_battle_in_progress.mss",
+      "bytes": 35368,
+      "sha256": "76a49adf29aa9b3859ae6ce63f51afaa6206fabed0231a1a9d1f21247b0475df"
+    }
+  ]
+}

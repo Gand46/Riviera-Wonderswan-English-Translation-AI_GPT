@@ -1,0 +1,32 @@
+{
+  "stage": "v0.114-S461-RC5",
+  "date_utc": "2026-10-01",
+  "rom_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "manual_test_ready": true,
+  "manual_testing_approved": false,
+  "final_approved": false,
+  "release_classification": "RELEASE_CANDIDATE_NOT_FINAL",
+  "summary": {"PASS":12,"NOT_VALIDATED":2,"FAIL":0,"N/A":0},
+  "gates": [
+    {"gate":"S461-IDENTITY","result":"PASS","reason":"8 MiB, checksum 2750 and exact RC5 SHA-256.","evidence":"BUILD.json"},
+    {"gate":"S461-BOUNDED-DIFF","result":"PASS","reason":"1,249 RC4→RC5 changed bytes, all within the page-08 compressed credit block and checksum.","evidence":"CREDITS_PAGE_08_VALIDATION.json"},
+    {"gate":"SOURCE-REBUILD-FULL","result":"PASS","reason":"S441→S461 packaged source chain reproduced RC5 byte-for-byte without BPS intermediates.","evidence":"SOURCE_REBUILD_FULL.json"},
+    {"gate":"BPS-ROUNDTRIP","result":"PASS","reason":"Cumulative clean JP→RC5 BPS reapplied byte-exact.","evidence":"BPS_ROUNDTRIP_RC5.json"},
+    {"gate":"CREDITS-PAGE-08","result":"PASS","reason":"Native ROM routines, native font, unique context-free recognition, layout and scoped regression passed.","evidence":"CREDITS_PAGE_08_VALIDATION.json","access_method":"WRAM_POKE_NATIVE_ROM_ROUTINES"},
+    {"gate":"FINAL-ROUTES","result":"PASS","reason":"Inherited unchanged: five controlled-state branches returned; natural reachability is not claimed.","evidence":"../S460/final_routes/*/RUN.json","access_method":"SYNTHETIC_STATE","secondary_label":"PASS_SYNTHETIC"},
+    {"gate":"FINAL-DIALOG-COVERAGE","result":"PASS","reason":"Inherited unchanged: 102/102, with 94 SYNTHETIC_STATE and 8 POINTER_INJECTION.","evidence":"../S460/FINAL_DIALOG_COVERAGE.json","access_method":["SYNTHETIC_STATE","POINTER_INJECTION"],"secondary_label":"PASS_SYNTHETIC"},
+    {"gate":"EPILOGUE-32-BLIND-READ","result":"PASS","reason":"Inherited unchanged: 32/32 pages; resources and renderer were not modified.","evidence":"../S460/blind_epilogue_review/EPILOGUE_32_SECOND_READING.json"},
+    {"gate":"VISUAL-QA","result":"PASS","reason":"Inherited unchanged for the defined S460 final-scene scope only.","evidence":"../S460/DIALOG_VISUAL_REVIEW.json"},
+    {"gate":"LINGUISTIC-QA","result":"PASS","reason":"Inherited unchanged for 102 final streams and 32 epilogue pages only.","evidence":"../S460/LINGUISTIC_REVIEW.json"},
+    {"gate":"SCOPED-VISUAL-LINGUISTIC-QA","result":"PASS","reason":"PASS only for Hades, post-final scene, five branches, 32 epilogue pages, plus the RC5 page-08 row; not project-wide.","evidence":["../S460/GLOBAL_VISUAL_LINGUISTIC_APPROVAL.json","CREDITS_PAGE_08_VALIDATION.json"]},
+    {"gate":"PACKAGE-SANITIZATION","result":"PASS","reason":"No ROM, BIOS, emulator, SRAM, work directory or bytecode in the release package."},
+    {"gate":"I04-6C-TECH","result":"NOT_VALIDATED","reason":"No authentic ninth-resource consumer and no proof of global disuse.","evidence":"I04_STRUCTURAL_CLOSEOUT.json"},
+    {"gate":"I05-READINGS","result":"NOT_VALIDATED","reason":"深尾伸也 PASS as Shinya Fukao; 高津利恵 and 橋本信之 remain NOT_VALIDATED.","evidence":"I05_READINGS_CLOSEOUT.json"}
+  ],
+  "open_release_blockers": 2,
+  "pending_validation_items": ["I04-6C-TECH","I05-READINGS"],
+  "approved_scope": "Hades, post-final scene, five ending branches, 32 fullscreen epilogue pages, and the modified row on credits page 8",
+  "project_wide_visual_linguistic_approval": false,
+  "high_score_followup": "Separate; excluded from this closeout.",
+  "second_human_review_followup": "Separate; excluded from this closeout."
+}

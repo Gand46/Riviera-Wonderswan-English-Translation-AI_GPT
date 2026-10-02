@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "format": "BPS1",
+  "patch": "Riviera_EN_v0.113_S460_RC4_CUMULATIVE_FROM_JP.bps",
+  "patch_sha256": "49156de5c1f0e75c09b3fbf4873709efca93efcfcf281718a0899d7369443c47",
+  "patch_size": 287935,
+  "source_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "target_rc4_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "target_size": 8388608,
+  "target_checksum": "22D1",
+  "roundtrip_byte_exact": true,
+  "wrong_source_rejected": true,
+  "corrupt_patch_rejected": true,
+  "bps_info": {
+    "format": "bps",
+    "source_size": 8388608,
+    "target_size": 8388608,
+    "metadata": "{\"project\":\"Riviera Work Pt1.5\",\"version\":\"v0.113 S460 RC4\",\"source_sha256\":\"62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921\",\"target_sha256\":\"931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d\"}",
+    "size": 287935,
+    "source_crc32": "2460b45a",
+    "target_crc32": "db209cb7",
+    "patch_crc32": "0111f040"
+  }
+}

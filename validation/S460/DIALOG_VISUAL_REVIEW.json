@@ -1,0 +1,21 @@
+{
+  "reviewed_utc": "2026-09-30T14:43:06.106199+00:00",
+  "rom_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "status": "PASS",
+  "condition_gated_streams_reviewed_synthetically": 8,
+  "condition_gated_pages_reviewed": 12,
+  "condition_gated_evidence": "optional_npc_synthetic/OPTIONAL_NPC_SYNTHETIC_VALIDATION.json",
+  "epilogue_pages_reviewed_blind": 32,
+  "epilogue_evidence": "blind_epilogue_review/EPILOGUE_32_SECOND_READING.json",
+  "visible_japanese_findings": 0,
+  "clipping_findings": 0,
+  "corruption_findings": 0,
+  "legibility_failures": 0,
+  "notes": "Ten controlled synthetic-state dialogue contact sheets, twelve pointer-injection conditional pages and four blind epilogue sheets were inspected at native-pixel nearest-neighbor scale.",
+  "controlled_contact_sheets_reviewed": 10,
+  "controlled_unique_capture_frames_reviewed": 167,
+  "controlled_sheet_manifest": "dialog_visual_review/CONTACT_SHEETS.json",
+  "primary_access_method": "SYNTHETIC_STATE",
+  "conditional_access_method": "POINTER_INJECTION",
+  "scope": "Hades, post-final scene, five ending branches and 32 fullscreen epilogue pages"
+}

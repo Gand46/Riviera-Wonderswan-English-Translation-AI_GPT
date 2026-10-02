@@ -1,0 +1,1756 @@
+{
+  "stage": "S460",
+  "version": "v0.113 RC4",
+  "base_sha256": "c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd",
+  "rom_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "rom_size": 8388608,
+  "checksum": "22D1",
+  "allocation_start": "0x7ced22",
+  "allocation_exclusive_end": "0x7cf866",
+  "allocation_bytes": 2884,
+  "translated_streams": 102,
+  "translated_pages": 139,
+  "changed_bytes": 2996,
+  "unexpected_changed_bytes": 0,
+  "compact_hook_entry_unchanged": true,
+  "compact_dispatch_extended": true,
+  "compact_dispatch_reserved_extent": [
+    "0xED22",
+    "0x10000"
+  ],
+  "apostrophe_glyph_avoided": true,
+  "translations": [
+    {
+      "owner_rom": "0x793563",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c17dd",
+      "old_bytes": 7,
+      "old_sha256": "67f385715f2c489e573ed22de5fcb85ff05e53fad54dbcd6f57a2cb7276d5c5f",
+      "new_stream_rom": "0x7ced22",
+      "new_bytes": 8,
+      "new_sha256": "4f36cadd34cbe96354635595a872d5db06600e32788d0f7ed30cf757f68fc7c6",
+      "pages": [
+        [
+          "......?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793568",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c17e4",
+      "old_bytes": 6,
+      "old_sha256": "ba6782ae201708bdfff47bfc67c68687f630abb76102c64aa5e458d26c71060f",
+      "new_stream_rom": "0x7ced2a",
+      "new_bytes": 5,
+      "new_sha256": "b620007a6f1cfc08a8b19682308046c3764d54030eeb5ca6e482e3ea7100b8b4",
+      "pages": [
+        [
+          "Fia!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79356d",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c17ea",
+      "old_bytes": 6,
+      "old_sha256": "ffd3478ca127f842f421fac27f6831235adac0e06c36f3044dfa70397def25d8",
+      "new_stream_rom": "0x7ced2f",
+      "new_bytes": 6,
+      "new_sha256": "cb328a681b8944f1b71c1fffbf5db0642297e68e6c4aaec50b6d6caac984beb1",
+      "pages": [
+        [
+          "Lina!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793573",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c17f0",
+      "old_bytes": 6,
+      "old_sha256": "15909843577480d8d7e1ed6907529834718696b2dacb2f76f5e402fed1ab3051",
+      "new_stream_rom": "0x7ced35",
+      "new_bytes": 8,
+      "new_sha256": "b2666798c77b27caa452de5c684bbb5f5d6bb2d5e2f3f9402f54c74d3a625950",
+      "pages": [
+        [
+          "Serene!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793578",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c17f6",
+      "old_bytes": 6,
+      "old_sha256": "ceb79b8e894ffe705700d7bda9facc7333d6dcc22ee1bc5a109847e2ec1dc496",
+      "new_stream_rom": "0x7ced3d",
+      "new_bytes": 8,
+      "new_sha256": "09bb7ceb9f1adc41c9d9321520b08a5187e62339e3ab26bd2b386afe2f34d13b",
+      "pages": [
+        [
+          "Cierra!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79357f",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c17fc",
+      "old_bytes": 5,
+      "old_sha256": "1d9f876e2dea09feea868e509b72f09170a349799ffec798ebe18c5cf5e35fa9",
+      "new_stream_rom": "0x7ced45",
+      "new_bytes": 6,
+      "new_sha256": "a595852fdbba1b72fb0f9640bcc0da17e3ed473dfb0846defd1dd8931379866d",
+      "pages": [
+        [
+          "Rose!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793583",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1801",
+      "old_bytes": 21,
+      "old_sha256": "c5b37e2ec96307efc88d92ada2a91148850d63fb6c2f217ca1e8c9baf8821fa7",
+      "new_stream_rom": "0x7ced4b",
+      "new_bytes": 24,
+      "new_sha256": "89c960c977d98e64c72388bd82634514d5c7ecf3be3dfc9ccee645e97fba3e17",
+      "pages": [
+        [
+          "Everyone...",
+          "We made it!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793595",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1816",
+      "old_bytes": 15,
+      "old_sha256": "c4cddb3e7d4a648bdb3f1702cadd838eee713e5dae943e363f6b059a9be6cfee",
+      "new_stream_rom": "0x7ced63",
+      "new_bytes": 22,
+      "new_sha256": "05d47364c78ca7c1bf9e2696a61e474bf180a23bf53e8e83f50e89673b1a9cbf",
+      "pages": [
+        [
+          "...Huh?",
+          "I am alive..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935a1",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1825",
+      "old_bytes": 6,
+      "old_sha256": "be25911d9e69bce45166bc9974eb8ae73d7652b07b70b0ebb6b67e64f2b9c211",
+      "new_stream_rom": "0x7ced79",
+      "new_bytes": 14,
+      "new_sha256": "51e373a498a33a1e91fd0d3045d782e4ac897f7abcdf156274e5ef87017b91fb",
+      "pages": [
+        [
+          "Where are we?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935b4",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c182b",
+      "old_bytes": 16,
+      "old_sha256": "6a5e2505d830f6d0284e682a1a2f1ed9397945545a827ff6d5f6c059355383f2",
+      "new_stream_rom": "0x7ced87",
+      "new_bytes": 15,
+      "new_sha256": "c5a5eca86b8fa805c742a881bc6fa9841d57bd38c03338810e1e5b376ef80418",
+      "pages": [
+        [
+          "It is Elendia!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935c7",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c183b",
+      "old_bytes": 26,
+      "old_sha256": "4a057a1d20baa77d1c8522b3c50cf0863625b4e343f1bb457831b37c0afd784b",
+      "new_stream_rom": "0x7ced96",
+      "new_bytes": 26,
+      "new_sha256": "68145edabd9cae580134809b726221439192e1cb748bfe9bf550a7e415ae2f3f",
+      "pages": [
+        [
+          "We made it...",
+          "back alive."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935d3",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1855",
+      "old_bytes": 30,
+      "old_sha256": "86517dd35e98ed22f01e69e0a502e1e46fe7a0ede7ac5de3e23b9ae128c68887",
+      "new_stream_rom": "0x7cedb0",
+      "new_bytes": 16,
+      "new_sha256": "c7eba5e5c716ce111c7665fe7bdcc755dbf37c53670875e40d426d3d22e3f517",
+      "pages": [
+        [
+          "Thank goodness!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935d7",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1873",
+      "old_bytes": 19,
+      "old_sha256": "0d3b8e523c8aeb163c1ce38eea55e823a0637e44482f88b9b80be5bbda7a2538",
+      "new_stream_rom": "0x7cedc0",
+      "new_bytes": 29,
+      "new_sha256": "3fc4530fe6c63dbb1af6a4f536f5ccd83f7345f87b894fec3df6e3ad4b7a8a3a",
+      "pages": [
+        [
+          "It was Ursula.",
+          "She saved us."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935db",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1886",
+      "old_bytes": 8,
+      "old_sha256": "74577764a06b1fc4a45fa2a2e7aa987f6cecd786530a21c8a60b37853a296bfd",
+      "new_stream_rom": "0x7ceddd",
+      "new_bytes": 15,
+      "new_sha256": "9820a30532da03803da5d3941f049fee551270c599ea425510bba984c07acc68",
+      "pages": [
+        [
+          "You are right."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935df",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c188e",
+      "old_bytes": 23,
+      "old_sha256": "2ac7cfd1631556110e5c0e304694fbc0391b37f255f935739a311e42d504190b",
+      "new_stream_rom": "0x7cedec",
+      "new_bytes": 25,
+      "new_sha256": "15457e53a1a8853a5d1d0fca3e663a01de381686804f13d1bff888f55c9032c2",
+      "pages": [
+        [
+          "Riviera is",
+          "peaceful now!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935e3",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c18a5",
+      "old_bytes": 33,
+      "old_sha256": "5954cd1b2f7cdb87ad733a3889533c4642c854d287fe47d483fa6db2d7c85e24",
+      "new_stream_rom": "0x7cee05",
+      "new_bytes": 61,
+      "new_sha256": "4fcb71aa28b2a25f0a17b58280ae646bf7d59eb85ccdd8c55fa45d7ca2edb1c1",
+      "pages": [
+        [
+          "Yeah..."
+        ],
+        [
+          "No more Seth..."
+        ],
+        [
+          "No more",
+          "judgment."
+        ],
+        [
+          "It is all over."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7935e7",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c18c6",
+      "old_bytes": 24,
+      "old_sha256": "051bbe33f575b957ad1ee50b21ac3432b28ad6215e8325eaa7d7024f53d35243",
+      "new_stream_rom": "0x7cee42",
+      "new_bytes": 25,
+      "new_sha256": "538ba60fbb976e358d601ddde93d351c794b332a7b03c0398c8ec82841647ba2",
+      "pages": [
+        [
+          "Riviera is free",
+          "at last!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793623",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c18de",
+      "old_bytes": 52,
+      "old_sha256": "0b87f381e974986afceead2931f400c7f96a55a7b5546125632e64acd84ee494",
+      "new_stream_rom": "0x7cee5b",
+      "new_bytes": 48,
+      "new_sha256": "79c6231e8829cca3ba974a8a8276160f829dd3c591f1ecda34d28810c392ac02",
+      "pages": [
+        [
+          "Master Ein!",
+          "You are safe!"
+        ],
+        [
+          "You are a true",
+          "hero."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793639",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1912",
+      "old_bytes": 66,
+      "old_sha256": "330689c52eb3091e99a973a9fa38b3a87be3afb45ef133bb37c2765ef1814327",
+      "new_stream_rom": "0x7cee8b",
+      "new_bytes": 63,
+      "new_sha256": "b0dd081a3b0ec599a62f5491f99f17f7b8c2a5776c749a73f9f47465d07ab146",
+      "pages": [
+        [
+          "Elendia exists",
+          "because of you."
+        ],
+        [
+          "Thank you, Ein,",
+          "from my heart."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79365a",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1954",
+      "old_bytes": 23,
+      "old_sha256": "5475cd27b56b9d662c36abcd47ea3e4183d50e1ca2da87b7607ceed463801d75",
+      "new_stream_rom": "0x7ceeca",
+      "new_bytes": 15,
+      "new_sha256": "b460d15126a5f26996f9957707f710c5d628de3226554fa9ba80e109f3bdddfd",
+      "pages": [
+        [
+          "Our hero, Ein!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79365e",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c196b",
+      "old_bytes": 20,
+      "old_sha256": "5e3ce8716d9a3573943ee67207cd85201fc73cf1de3beabb81777da5251417d9",
+      "new_stream_rom": "0x7ceed9",
+      "new_bytes": 23,
+      "new_sha256": "7c1202053500f224c0e6552da6bcec1535f75dd2d5cf1c7139478d59586af2eb",
+      "pages": [
+        [
+          "Umm... Thanks,",
+          "mister."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793681",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c197f",
+      "old_bytes": 30,
+      "old_sha256": "8b5d439cc4c5a106709db34e79884dcac8bcd199939e5dd4f4311d91f7bd32bd",
+      "new_stream_rom": "0x7ceef0",
+      "new_bytes": 25,
+      "new_sha256": "f322429ed344f028f76eceff2650a103125f80b93ef112241da7ac8da8818593",
+      "pages": [
+        [
+          "Glad we have a",
+          "tomorrow."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793685",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c199d",
+      "old_bytes": 22,
+      "old_sha256": "4acd6102975b5022ec3ed30ff28a02deeac05381c8f3a2063161a6159e606d3f",
+      "new_stream_rom": "0x7cef09",
+      "new_bytes": 24,
+      "new_sha256": "f5c3f4d5e34ae314dd7c984a618e795f6559b301a5d425a342ead2762c81685f",
+      "pages": [
+        [
+          "No more fear",
+          "of demons!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79369d",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c19b3",
+      "old_bytes": 43,
+      "old_sha256": "b691f5b0b17faf748c8f1d5e1599ef61cf29e19301af6373ae84115184e736b5",
+      "new_stream_rom": "0x7cef21",
+      "new_bytes": 53,
+      "new_sha256": "f80fcf11109209eda4d2b68852273f887fc6c300e9e20546034460bbb7ef8f88",
+      "pages": [
+        [
+          "The winds have",
+          "calmed..."
+        ],
+        [
+          "We owe it all",
+          "to you, Ein."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7936b3",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c19de",
+      "old_bytes": 63,
+      "old_sha256": "6effb67a293d001984573146d3d2adb0bcceae5ad1753e18545c999e16e773a1",
+      "new_stream_rom": "0x7cef56",
+      "new_bytes": 58,
+      "new_sha256": "0916a9282bbeb708577457d24de6731ca7ef8f9572180e1ef821ccad923887ca",
+      "pages": [
+        [
+          "It began when",
+          "we found you..."
+        ],
+        [
+          "I am glad this",
+          "ended well!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7936c9",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1a1d",
+      "old_bytes": 50,
+      "old_sha256": "4394609569df12fee5091fb904f42361ae2557fa09fa9985b2d4a8d19e646590",
+      "new_stream_rom": "0x7cef90",
+      "new_bytes": 63,
+      "new_sha256": "d1edc6f5ca9ba58ae72cb9e63e169f92b97f823decd01612832b75ed0adcacc6",
+      "pages": [
+        [
+          "The sun is nice",
+          "and warm. Nya."
+        ],
+        [
+          "Purr... I hope",
+          "this will last."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7936e8",
+      "opcode": "0x63",
+      "old_stream_rom": "0x7c1a4f",
+      "old_bytes": 46,
+      "old_sha256": "a276301591c9101cfbf912d1926c8ebdec47bc006e6357e5cf9375311234f53e",
+      "new_stream_rom": "0x7cefcf",
+      "new_bytes": 11,
+      "new_sha256": "f2a071ca9bfa6c0e1edd19a89cf7f63070f2e0b93e9bb8dbe7a499923b290c29",
+      "pages": [
+        [
+          "Oh, Ein! ❤"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793717",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1a7d",
+      "old_bytes": 22,
+      "old_sha256": "f9ef7ac6f6e480fb42b9b7c1bcab4dc3264bb30915789c65891a9056cead1994",
+      "new_stream_rom": "0x7cefda",
+      "new_bytes": 29,
+      "new_sha256": "bd1787afa5a3c43233075e4cd4e8b823c6aba8013e96d5ed20ce51458580a8c2",
+      "pages": [
+        [
+          "You beat all",
+          "those demons..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79371b",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1a93",
+      "old_bytes": 37,
+      "old_sha256": "f8a7531fbf8dd9aee5c84f9d48adf8a6fdbf5535d0a5f11809790f52425c15b6",
+      "new_stream_rom": "0x7ceff7",
+      "new_bytes": 20,
+      "new_sha256": "5fe6062ca97dbb75c6d7fc493495c22f6f4035690a96b5c84dd4b43a2f52964a",
+      "pages": [
+        [
+          "You are so",
+          "awesome!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793722",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1ab8",
+      "old_bytes": 30,
+      "old_sha256": "efd74c3b091490248829e6ce98ad9fedb753c8f2042987f248e73cc8cc36e4c9",
+      "new_stream_rom": "0x7cf00b",
+      "new_bytes": 51,
+      "new_sha256": "2e6b6cccb537f1b39bfb4859342fea21b36b0d6bd671fa7f987a8cfaffa1bf50",
+      "pages": [
+        [
+          "You got so far",
+          "by luck..."
+        ],
+        [
+          "But you are not",
+          "so bad."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793726",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1ad6",
+      "old_bytes": 17,
+      "old_sha256": "ab3bff3673424a629b27b507f340a38e82f217d2fe747eaee0d7c3c13ac7c067",
+      "new_stream_rom": "0x7cf03e",
+      "new_bytes": 8,
+      "new_sha256": "231b5d17e6c124c454c17e886c6e22ab56ad1ce863689676ac43c0ade286bfb0",
+      "pages": [
+        [
+          "......!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79372a",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1ae7",
+      "old_bytes": 20,
+      "old_sha256": "74d491dd37a2fa55a43afde8eb9e5198674f289fcfbb11345f31e49ad25d8fda",
+      "new_stream_rom": "0x7cf046",
+      "new_bytes": 27,
+      "new_sha256": "b04c958439a0351b55064e864703dabdf2b207097f95a352fa93f1a33058ade0",
+      "pages": [
+        [
+          "Meute says",
+          "thank you, too."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793742",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1afb",
+      "old_bytes": 57,
+      "old_sha256": "a38d70e998480f23711bb82765d27059cf6ff2dfe4184120c10ff33f4d4daeea",
+      "new_stream_rom": "0x7cf061",
+      "new_bytes": 48,
+      "new_sha256": "c6590c15ab994395080c95cf70f430a2cab6a19fd608ffd6e97440953ee29d37",
+      "pages": [
+        [
+          "So, Elendia is",
+          "saved."
+        ],
+        [
+          "I cheered from",
+          "the mine."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793758",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1b34",
+      "old_bytes": 69,
+      "old_sha256": "503c37b7f5b8842fc1415a1e8f59f6ef12e6f9744eab7d3138edba5fa9738b60",
+      "new_stream_rom": "0x7cf091",
+      "new_bytes": 74,
+      "new_sha256": "c4f4d67e210f76f8d5a906f07a5028a653d9455d545a78f34e89c5c3b8e9892d",
+      "pages": [
+        [
+          "Knowledge turns",
+          "into treasure"
+        ],
+        [
+          "through action.",
+          "Now tell me"
+        ],
+        [
+          "what you saw."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793779",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1b79",
+      "old_bytes": 35,
+      "old_sha256": "9a6670fff7ca288c7f9672542e3e9f50b21c06ae7e2a2a15c6b430291df11c57",
+      "new_stream_rom": "0x7cf0db",
+      "new_bytes": 48,
+      "new_sha256": "917eb608cbbdd2c2c4ddfd515cba151244d9e2cf18780032de18a73b6b8f82c5",
+      "pages": [
+        [
+          "No more demons!",
+          "I can focus on"
+        ],
+        [
+          "my experiments."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79377d",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1b9c",
+      "old_bytes": 37,
+      "old_sha256": "8cd3a9c3add4ebc9bb825026048966d46f958a6a05dbfbac329eed88d4a97081",
+      "new_stream_rom": "0x7cf10b",
+      "new_bytes": 31,
+      "new_sha256": "73479fb391be43c95d6b74d04e7b97d7dd352c92a76460c5d9ed59201d1de061",
+      "pages": [
+        [
+          "Now I can leave",
+          "for supplies ★"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793781",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1bc1",
+      "old_bytes": 29,
+      "old_sha256": "b925ce2e7e88c5e65ef6295d4785ffb3581b8dcd7f10451e5799c086dbc0eee4",
+      "new_stream_rom": "0x7cf12a",
+      "new_bytes": 27,
+      "new_sha256": "11a17b2a00dacf14e1f7ecbc065e700230e76400862117f08468855ad7a5c2a0",
+      "pages": [
+        [
+          "Bring me three",
+          "dried bats!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793785",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1bde",
+      "old_bytes": 12,
+      "old_sha256": "e07f922b05cd27339358c51204c92c4cad92ccfda7cac3f720697ee0ab392b79",
+      "new_stream_rom": "0x7cf145",
+      "new_bytes": 28,
+      "new_sha256": "6685276d627d1a57008fa2e72af4f3ac01fae8d0da037796112fb8f12a12d6bb",
+      "pages": [
+        [
+          "I should have",
+          "kept quiet..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79379e",
+      "opcode": "0x63",
+      "old_stream_rom": "0x7c1bea",
+      "old_bytes": 63,
+      "old_sha256": "60a9368e764b6424e668a59ebc50ae424e136009dba750cdb721500bce4a99b7",
+      "new_stream_rom": "0x7cf161",
+      "new_bytes": 56,
+      "new_sha256": "58237252687118f104cfb61a76c77dbb4fade780d8371746895303882cdc5183",
+      "pages": [
+        [
+          "Were my weapons",
+          "useful?"
+        ],
+        [
+          "Need anything?",
+          "I will make it!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7937f6",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1c29",
+      "old_bytes": 17,
+      "old_sha256": "c008cde1263a4b70b2fa1bf38c4f76df312c47ecf1bad690cfbfca2323f9fa6e",
+      "new_stream_rom": "0x7cf199",
+      "new_bytes": 19,
+      "new_sha256": "e2ddfa9e1ac99594068f6e66382dd9589cec172e8b0db578e0e789352f95b213",
+      "pages": [
+        [
+          "Welcome home,",
+          "Ein!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7937ff",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1c3a",
+      "old_bytes": 14,
+      "old_sha256": "925bc67da4b31484f4713a41eb6ed50eba89eead2d5128443a1357adbee07193",
+      "new_stream_rom": "0x7cf1ac",
+      "new_bytes": 14,
+      "new_sha256": "1c48a87ad5c57930dd500d4fadb1d07a8087854886bd31734edb669aad8f5659",
+      "pages": [
+        [
+          "You are late!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793803",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1c48",
+      "old_bytes": 27,
+      "old_sha256": "b7e6d89453a1d2f4dda22a517883ef1a2948830efddcf1824ca2eaf44aabcfb5",
+      "new_stream_rom": "0x7cf1ba",
+      "new_bytes": 31,
+      "new_sha256": "e45c13251805f48bc5b85b7a4b6110b4ff5eae228536c5af0e4703e98bff9af6",
+      "pages": [
+        [
+          "Serene, pass me",
+          "the seasoning?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793807",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1c63",
+      "old_bytes": 14,
+      "old_sha256": "ee1959b431e68e0cc1b92faddcdfecce8b805ec66e764f9267a9a92b4a8b49c3",
+      "new_stream_rom": "0x7cf1d9",
+      "new_bytes": 16,
+      "new_sha256": "bd7da0b95664c2570258efcc583ed74b051a93c4a139fac35065ba56bddb20df",
+      "pages": [
+        [
+          "Okay. This one?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79380e",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1c71",
+      "old_bytes": 32,
+      "old_sha256": "dc51036b113b9751fdbe944fbe1372f0d0969471bec8f3abe2aae20a00e310db",
+      "new_stream_rom": "0x7cf1e9",
+      "new_bytes": 57,
+      "new_sha256": "ba3fd698d1c248ac71e9e7a001338e5a4b1bbffd865fe5a836fe8d39ca4674b5",
+      "pages": [
+        [
+          "Here it is: a",
+          "cake made with"
+        ],
+        [
+          "the best fruit",
+          "in Elendia."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793812",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1c91",
+      "old_bytes": 38,
+      "old_sha256": "5ae46abc966cdb9e15efafae947118abf56bd8831b1fafbd07f69a9dac965204",
+      "new_stream_rom": "0x7cf222",
+      "new_bytes": 43,
+      "new_sha256": "63c082654546cb20c35fb9d4863ba07ec4397cb82a89f886e83135ded3723cbc",
+      "pages": [
+        [
+          "Yummy! It looks",
+          "so good..."
+        ],
+        [
+          "Just one bite!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793816",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1cb7",
+      "old_bytes": 49,
+      "old_sha256": "209442fe9b853a93138c6bd94520b752837e27b362c7a250f75510e66efba242",
+      "new_stream_rom": "0x7cf24d",
+      "new_bytes": 61,
+      "new_sha256": "09ea717b506b444b5d3f524a858ad8c6990f0f391f63e2d9f474ca76858b7fa6",
+      "pages": [
+        [
+          "No, not yet!"
+        ],
+        [
+          "Ein gets the",
+          "first bite."
+        ],
+        [
+          "That is my",
+          "decision."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79381a",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1ce8",
+      "old_bytes": 8,
+      "old_sha256": "cd40602d227e9a7d4eba775c648aea1a3a475478a0a92863ec66f87a31af4168",
+      "new_stream_rom": "0x7cf28a",
+      "new_bytes": 5,
+      "new_sha256": "aa1d544875dc20d056fb76d016dae8a679ecc07d275a3e709554b4869a862ca5",
+      "pages": [
+        [
+          "Why?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79381e",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1cf0",
+      "old_bytes": 12,
+      "old_sha256": "550d57d8113823c49abd959c49bf628a8ee49adf8ae5aed1079a56a8219c1ec9",
+      "new_stream_rom": "0x7cf28f",
+      "new_bytes": 21,
+      "new_sha256": "0d09d515b704353486f1c4d15e57540adf91fea2b33726c5a6c3d908098c5c19",
+      "pages": [
+        [
+          "W-Well...",
+          "Because..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793822",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1cfc",
+      "old_bytes": 6,
+      "old_sha256": "6b684174eeb5b2028a4e1ba96e14d725972d2e3c23c0be9bd50544b522d6a62e",
+      "new_stream_rom": "0x7cf2a4",
+      "new_bytes": 13,
+      "new_sha256": "4f3b9e2221a92c5bdcd7f6c1747102b26e5716560f598ccc24e1b53ae184ef3d",
+      "pages": [
+        [
+          "Because why?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793826",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1d02",
+      "old_bytes": 13,
+      "old_sha256": "8c91657fbdc79ccbff35354e4626153f8ecddaa42b5b4fc980d6a16ee12fe050",
+      "new_stream_rom": "0x7cf2b1",
+      "new_bytes": 16,
+      "new_sha256": "062340e64d32aa7209a1b398f1bb9d92bbedfb761b552625335dca98adc8a3f4",
+      "pages": [
+        [
+          "Uh... No reason"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79382d",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1d0f",
+      "old_bytes": 58,
+      "old_sha256": "e7cac34cb4f682a82d1e6555687a1a0c539f15e598ad1aee2625a28d773283a7",
+      "new_stream_rom": "0x7cf2c1",
+      "new_bytes": 30,
+      "new_sha256": "e4eb34048964ca0e9cff070dd8c22d9511e0d8e75ba6bdef5b6fd53dae5d2ab2",
+      "pages": [
+        [
+          "Oh, the cake is",
+          "already done?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793834",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1d49",
+      "old_bytes": 32,
+      "old_sha256": "dd3490462a07fd8047fdb066c6c7b965791c628b32e02723f0ff1797ed2412e9",
+      "new_stream_rom": "0x7cf2df",
+      "new_bytes": 20,
+      "new_sha256": "81480fc3b9a934c0de646b25db3e9aec447c3397d44343bc1756844673701b51",
+      "pages": [
+        [
+          "More heat...",
+          "Fire!!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793838",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1d69",
+      "old_bytes": 26,
+      "old_sha256": "25aa1f8b21046fd8e98c2a77cadec83588ce7b966d477bee466124e041b025d9",
+      "new_stream_rom": "0x7cf2f3",
+      "new_bytes": 29,
+      "new_sha256": "509fe53037cfa639cfa4ea7d85ae4ff50472d02ea661e89684da68d623af18aa",
+      "pages": [
+        [
+          "Cierra! Fire!",
+          "It is burning!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79383c",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1d83",
+      "old_bytes": 36,
+      "old_sha256": "af6fa2d63b3daf47d28bce85c93509842ae7e2e5ddbde83307371e6e10d13d65",
+      "new_stream_rom": "0x7cf310",
+      "new_bytes": 29,
+      "new_sha256": "ebd4d8e1703fb1d73b9221a41eaa59e9b80eb6ef0c7ee008cf11055ad46bca8c",
+      "pages": [
+        [
+          "Oops... Now?"
+        ],
+        [
+          "Flood spell..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793840",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1da7",
+      "old_bytes": 18,
+      "old_sha256": "e261e50d4cbc5303eea06e3014000b81a0c5296189eadf06d3c3078854e5aed0",
+      "new_stream_rom": "0x7cf32d",
+      "new_bytes": 24,
+      "new_sha256": "97a44e8b47030556412ef68c7a60a1821519abea05ffe12435290e5fd173d696",
+      "pages": [
+        [
+          "It will ruin",
+          "our house!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793844",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1db9",
+      "old_bytes": 7,
+      "old_sha256": "6fb9c470dcd67c3b14fab78ec895b2383ed1d9626e392688040df5c3e398c09a",
+      "new_stream_rom": "0x7cf345",
+      "new_bytes": 11,
+      "new_sha256": "15005259e0d30aecc3a753717f1ba26fca7fd02c9a2b72471b362bfe89253482",
+      "pages": [
+        [
+          "Oh dear..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793848",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1dc0",
+      "old_bytes": 42,
+      "old_sha256": "e1f26dea7eab6de78746186431a303db0d247f4e328370c6fb94504e60c8739f",
+      "new_stream_rom": "0x7cf350",
+      "new_bytes": 59,
+      "new_sha256": "59e62b29137f03b61c1a0001e72a0e56d2fa2a0cda511b48a05d1ed96499c3eb",
+      "pages": [
+        [
+          "Stop talking!",
+          "Put it out!"
+        ],
+        [
+          "The whole house",
+          "will burn down!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79384f",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1dea",
+      "old_bytes": 77,
+      "old_sha256": "11e2e046c9381e2b932d2395b8bd6f383a3c0f272494ff123ca977822b0e2b62",
+      "new_stream_rom": "0x7cf38b",
+      "new_bytes": 81,
+      "new_sha256": "ae291d84b8ed02b41877c194fabbceda1fd56799be0e680550002fbd1b6e404e",
+      "pages": [
+        [
+          "It has already",
+          "been a month..."
+        ],
+        [
+          "It all seems",
+          "so surreal."
+        ],
+        [
+          "We made it back",
+          "alive."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793853",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1e37",
+      "old_bytes": 7,
+      "old_sha256": "28394f093383caad4ab8c12c813cb46686cafc7b0c84f11b5b24d1a84b255470",
+      "new_stream_rom": "0x7cf3dc",
+      "new_bytes": 22,
+      "new_sha256": "3e95d01088827c01f2ba039aadb161c9dd88a3e403117f6c54c3da960da72c99",
+      "pages": [
+        [
+          "I know what",
+          "you mean."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793857",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1e3e",
+      "old_bytes": 18,
+      "old_sha256": "581da938a8bea75d1af6ade839f9e6afd70f8928d52bdd74834f77f181ec8e0c",
+      "new_stream_rom": "0x7cf3f2",
+      "new_bytes": 9,
+      "new_sha256": "ef69b48969029875729f0311406cadad2cec40eaaa7a03add882c2f652b5fbf3",
+      "pages": [
+        [
+          "Still..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79385b",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1e50",
+      "old_bytes": 33,
+      "old_sha256": "931dd82878b6f0f6f87eacb353993baf8a03e8bc947f48c3d438d838b633446e",
+      "new_stream_rom": "0x7cf3fb",
+      "new_bytes": 23,
+      "new_sha256": "79d0e76a32160b4a014366c368810fa5749c2de4ce91260f29adb1ac383fea7e",
+      "pages": [
+        [
+          "I still have",
+          "no voice!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79385f",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1e71",
+      "old_bytes": 7,
+      "old_sha256": "d2e370e157776fd7acdbc57082abc0307161a3196dab124171828fde26c8b069",
+      "new_stream_rom": "0x7cf412",
+      "new_bytes": 9,
+      "new_sha256": "abf1c6dd850dd152ca063c88f10deccb462b1ab9d0d37358c291e1f76d2f5146",
+      "pages": [
+        [
+          "........"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793863",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1e78",
+      "old_bytes": 66,
+      "old_sha256": "c1c934d4db192c67ebf18f64c7c2fd96fb32c5cbe5ccb4eec1e5b8394ee91535",
+      "new_stream_rom": "0x7cf41b",
+      "new_bytes": 59,
+      "new_sha256": "ee7ec95f4bd453f2e5137dd4c322651758c5e0db9690f096620a91b09caca6a7",
+      "pages": [
+        [
+          "So..."
+        ],
+        [
+          "What will you",
+          "do now?"
+        ],
+        [
+          "Back to Asgard",
+          "or stay here?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793867",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1eba",
+      "old_bytes": 13,
+      "old_sha256": "a40630a132754ed7c6af430a0721246aec4852208efb3495999430f618159353",
+      "new_stream_rom": "0x7cf456",
+      "new_bytes": 12,
+      "new_sha256": "abdf26a4e458cb9ef28b57e304c978f68511a0b4dce8b69ac54b164b434aa60c",
+      "pages": [
+        [
+          "Me? Well..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79394f",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1ec7",
+      "old_bytes": 37,
+      "old_sha256": "731cb63a245fe8148a5834ed8d44de8a979ab46d936bf2061415d233c7203c59",
+      "new_stream_rom": "0x7cf462",
+      "new_bytes": 43,
+      "new_sha256": "e979d68b5994de216ba239c57045bca7e966e02903e03aff952d72e27d08316b",
+      "pages": [
+        [
+          "Ein! Over here!"
+        ],
+        [
+          "The treasure is",
+          "this way!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79395d",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1eec",
+      "old_bytes": 13,
+      "old_sha256": "46ae81868a3733a52a22ff25f7acce121054e90505be1967e92345860da15568",
+      "new_stream_rom": "0x7cf48d",
+      "new_bytes": 15,
+      "new_sha256": "b9cc023c895c250c1c0f654e853c083abe9c4483cb74b9256b87f16c66db96e5",
+      "pages": [
+        [
+          "Careful, Lina!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793966",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1ef9",
+      "old_bytes": 15,
+      "old_sha256": "1eb5d27107b43d0ad92c56999a6087dc776e5532ae2804250e1314e74804df09",
+      "new_stream_rom": "0x7cf49c",
+      "new_bytes": 15,
+      "new_sha256": "962dc000b8a187468d26a5486063e861567e142a6eb382365b4e275d172620d2",
+      "pages": [
+        [
+          "Stop worrying!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x79398b",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1f08",
+      "old_bytes": 6,
+      "old_sha256": "ffd3478ca127f842f421fac27f6831235adac0e06c36f3044dfa70397def25d8",
+      "new_stream_rom": "0x7cf4ab",
+      "new_bytes": 6,
+      "new_sha256": "cb328a681b8944f1b71c1fffbf5db0642297e68e6c4aaec50b6d6caac984beb1",
+      "pages": [
+        [
+          "Lina!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7939a3",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1f0e",
+      "old_bytes": 18,
+      "old_sha256": "4f85e749698e0c8a7f24838c0cea52813d7dec335126f9950953ef3c43f0c388",
+      "new_stream_rom": "0x7cf4b1",
+      "new_bytes": 20,
+      "new_sha256": "a4f9ae0c5e19eb1c79094c260400f086460ebc6bef37af562de2406b14a53930",
+      "pages": [
+        [
+          "Hee hee...",
+          "Oopsie ♪"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7939cc",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1f20",
+      "old_bytes": 34,
+      "old_sha256": "f86bf4064b27712b12e973fc667e79af86caa99668de2fc0856730c5fd3ad83b",
+      "new_stream_rom": "0x7cf4c5",
+      "new_bytes": 49,
+      "new_sha256": "22ada4935ec58bfce663a18ccf9f173ba70d1eef4f2bc9acab384e51bb729417",
+      "pages": [
+        [
+          "Ancient spirits",
+          "binding Riviera"
+        ],
+        [
+          "guard our land."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7939e2",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1f42",
+      "old_bytes": 9,
+      "old_sha256": "560fa867e02f353170468c22d56a5fd91a9a51380d36944cd67bf58e0007a5c5",
+      "new_stream_rom": "0x7cf4f6",
+      "new_bytes": 5,
+      "new_sha256": "84e04a5173efbdc2c7234be944d0647e71792e92188f944a752897225f04a980",
+      "pages": [
+        [
+          "Ein!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7939e7",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1f4b",
+      "old_bytes": 44,
+      "old_sha256": "e52537a0f0d854130152b7c86a0a21e20ce4a56a652695b21a0940ff84b148ea",
+      "new_stream_rom": "0x7cf4fb",
+      "new_bytes": 57,
+      "new_sha256": "d216e8156c1faccdcf756454f4b0620b99b1fa7beef23e29e274aae8a93d7bc3",
+      "pages": [
+        [
+          "It is thanks to",
+          "you, Fia."
+        ],
+        [
+          "No demons have",
+          "appeared here."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7939f0",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1f77",
+      "old_bytes": 6,
+      "old_sha256": "4363688dbc7c32fdae364cce573a21fcac63b1974e97d6fd216df5fb349d2ea5",
+      "new_stream_rom": "0x7cf534",
+      "new_bytes": 6,
+      "new_sha256": "404bc94fa43f5a396c1c230db6ce19f687db757c60a1eccd6f58e9b80bbf4444",
+      "pages": [
+        [
+          "No..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7939f4",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1f7d",
+      "old_bytes": 17,
+      "old_sha256": "bec6201699eda164ab3bd4b35c4216babc339a3bcbb57683e549405536908034",
+      "new_stream_rom": "0x7cf53a",
+      "new_bytes": 20,
+      "new_sha256": "164eff3f4a067b575d2d8fdd50cfdce9a395f22c0ab2c6e648a9d1441419fc28",
+      "pages": [
+        [
+          "Thanks to you,",
+          "Ein."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x7939fd",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1f8e",
+      "old_bytes": 34,
+      "old_sha256": "d8d3cdcc20a72622a574cef080ff9260ce81d8f040bb649b0b1ef1c5a96aa18e",
+      "new_stream_rom": "0x7cf54e",
+      "new_bytes": 41,
+      "new_sha256": "48c364bec9d1a2ca65eaf6758c250e14846cd1551ebca0ad7ff5e698605b733c",
+      "pages": [
+        [
+          "No. I did",
+          "nothing."
+        ],
+        [
+          "You are strong,",
+          "Fia."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a04",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1fb0",
+      "old_bytes": 20,
+      "old_sha256": "7e7ad2fca27de9496f80d3aeb3a46e371060cd631552e17d254f93ca569b4b03",
+      "new_stream_rom": "0x7cf577",
+      "new_bytes": 29,
+      "new_sha256": "90f6c07c214dbd1ace5d1d76625e8399b423baa871b12afd9fec0961a33d78d4",
+      "pages": [
+        [
+          "May this peace",
+          "last forever."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a08",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c1fc4",
+      "old_bytes": 22,
+      "old_sha256": "d707af7a8e97aa72733a50ec5a58cfb95e236f0ca6ace74be6956812e5e9c397",
+      "new_stream_rom": "0x7cf594",
+      "new_bytes": 26,
+      "new_sha256": "69f060fbd7202723320fa83deda45fe7e12236918858bb066785f5883d6aeb90",
+      "pages": [
+        [
+          "It will, if we",
+          "work hard."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a0c",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1fda",
+      "old_bytes": 10,
+      "old_sha256": "6fb4f89b48d7150f11a513e50d45c889cf17b1a245878a11630920f5979e96b2",
+      "new_stream_rom": "0x7cf5ae",
+      "new_bytes": 22,
+      "new_sha256": "164fe96947516990967f969fdd455f3ea1d19bb8c763e396adf140dfbe1cae8c",
+      "pages": [
+        [
+          "Yes... You are",
+          "right."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a3f",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c1fe4",
+      "old_bytes": 44,
+      "old_sha256": "554ed961f980bc719a4e2e703457aedda02fe1b0e748b681eafef9e1a276547b",
+      "new_stream_rom": "0x7cf5c4",
+      "new_bytes": 70,
+      "new_sha256": "0e25eb2ed8ba48a43859c09304852ab6fccce76a93cd449faedd82413de0355f",
+      "pages": [
+        [
+          "A new herb..."
+        ],
+        [
+          "I have never",
+          "seen it before."
+        ],
+        [
+          "It may create",
+          "new magic."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a4d",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c2010",
+      "old_bytes": 18,
+      "old_sha256": "afe21159894ca08f0fe287946673f63cb6ab71bf6c03abdfdab48860e635a8cd",
+      "new_stream_rom": "0x7cf60a",
+      "new_bytes": 25,
+      "new_sha256": "debdb82e50aa6bf53d96e9efe6fd9c1f1d6028a2ffa2768ec91cd69354db58ad",
+      "pages": [
+        [
+          "Ein, look!",
+          "A great find!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a5b",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c2022",
+      "old_bytes": 9,
+      "old_sha256": "07fe8b8a183a278d4416c6e37b575baee3b2f21382d15afc9f202ebffa86523f",
+      "new_stream_rom": "0x7cf623",
+      "new_bytes": 12,
+      "new_sha256": "476f034bb4d309271829beacc8af30372310e7b5b739ac55d6553c8e63f1f1a5",
+      "pages": [
+        [
+          "A new herb?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a60",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c202b",
+      "old_bytes": 34,
+      "old_sha256": "828859d881205822d1dffc92ef55dbe9666bd7709eba6c4105d39a558781dc0a",
+      "new_stream_rom": "0x7cf62f",
+      "new_bytes": 27,
+      "new_sha256": "f1af0e4d043af40c55dec44b0503a1598ab5d0648c640fe9eaf635f3a9584652",
+      "pages": [
+        [
+          "A ten-year leap",
+          "for magic!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a64",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c204d",
+      "old_bytes": 7,
+      "old_sha256": "2351c4bd00448ba3235800d520c720252685298da8098864706fcbee70618fe3",
+      "new_stream_rom": "0x7cf64a",
+      "new_bytes": 8,
+      "new_sha256": "b7ded4feaeabdbde1f25d4406845bb170c0673a44341c4f1a76f2962796750bd",
+      "pages": [
+        [
+          "Really?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a6f",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c2054",
+      "old_bytes": 9,
+      "old_sha256": "b9908a0fa6d99ccc2ae2d5d6bec71fa021e669d528a0cd8a11f1b8b16c62eb30",
+      "new_stream_rom": "0x7cf652",
+      "new_bytes": 26,
+      "new_sha256": "3364805647e235e08a88500b988d0226a99220edbb7a53a4575085d1a102be60",
+      "pages": [
+        [
+          "I just need to",
+          "test it..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a73",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c205d",
+      "old_bytes": 5,
+      "old_sha256": "3570896b3968b5c5fbefc02c5cbe38e734a366d9ee976e5be2b4428226af4b01",
+      "new_stream_rom": "0x7cf66c",
+      "new_bytes": 5,
+      "new_sha256": "8103bdb6e8e9203f8c336733dedcc28a828da8983aa67a67023a362ff41c26f0",
+      "pages": [
+        [
+          "Huh?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a89",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c2062",
+      "old_bytes": 25,
+      "old_sha256": "87ac6559d15d8cc8741d581474a5a89afa75eaf52c69a6450ca885dde2c18d1a",
+      "new_stream_rom": "0x7cf671",
+      "new_bytes": 31,
+      "new_sha256": "8ff2d842e5749aa783c8011cc162b4b7bd861deb569037b0f39c3e537eae2192",
+      "pages": [
+        [
+          "Cough... Did it",
+          "work? Cough..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793a90",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c207b",
+      "old_bytes": 26,
+      "old_sha256": "38db3ab41370995270fd0935587c3fc1593fab4852eebc7c4cfac51327893bbf",
+      "new_stream_rom": "0x7cf690",
+      "new_bytes": 32,
+      "new_sha256": "d15ccae6e59d4f80843f5ea177152b57307ff3212ccee0fcaa94dd7c326fba0f",
+      "pages": [
+        [
+          "Huh!? No clue."
+        ],
+        [
+          "What was wrong?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793ab9",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c2095",
+      "old_bytes": 14,
+      "old_sha256": "f5cceb06d3cfbcfea209774adc9dc1a28b6a404848ed0a448d7c5e28bb4c2003",
+      "new_stream_rom": "0x7cf6b0",
+      "new_bytes": 11,
+      "new_sha256": "4effc7ebb168ff8f4415a4c2e930847c46b42e9d01d8ddf09ea63f9355120fcb",
+      "pages": [
+        [
+          "Take that!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793afb",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c20a3",
+      "old_bytes": 7,
+      "old_sha256": "a01e970879f0cc4cd262b77e0880417c9817c23da69a42f7962f07e0563ed81d",
+      "new_stream_rom": "0x7cf6bb",
+      "new_bytes": 5,
+      "new_sha256": "84e04a5173efbdc2c7234be944d0647e71792e92188f944a752897225f04a980",
+      "pages": [
+        [
+          "Ein!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b00",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c20aa",
+      "old_bytes": 17,
+      "old_sha256": "58950fe3a0365e06e91c9729aeff7de6a105dbe2d27b03b8bf5f678f065de0be",
+      "new_stream_rom": "0x7cf6c0",
+      "new_bytes": 22,
+      "new_sha256": "9707359bca98e8e443c78be7a58c129837a5db328560bc16b5447c2e88ae1569",
+      "pages": [
+        [
+          "Was that all,",
+          "Serene?"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b04",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c20bb",
+      "old_bytes": 9,
+      "old_sha256": "65b539af06fbe112a85a873e75a02e36e08b6df30e68e3d6067eda012fe85c05",
+      "new_stream_rom": "0x7cf6d6",
+      "new_bytes": 14,
+      "new_sha256": "834739f268859bc6f3bedca8aeccee8bb3124454809753a13d2643f68344a5ad",
+      "pages": [
+        [
+          "I think so..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b0d",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c20c4",
+      "old_bytes": 34,
+      "old_sha256": "6eb0c51979f3194abf7d88c28527860b51c585cd1edf9002f1ea865d31acf16c",
+      "new_stream_rom": "0x7cf6e4",
+      "new_bytes": 29,
+      "new_sha256": "23fd96a2c80334969e85bebd4cf1c2290221b53ac98f22bcf6ff2b87cb37d6ef",
+      "pages": [
+        [
+          "Nearby towns",
+          "can live safely"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b11",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c20e6",
+      "old_bytes": 36,
+      "old_sha256": "ebd640e22ab5a270d1603d86ad4b851c9855d366d984963868a19c3aaa81c986",
+      "new_stream_rom": "0x7cf701",
+      "new_bytes": 42,
+      "new_sha256": "105837170d5e15d309dcb7f3f86aa0ef4ae98b63e5eb088863d2fee8ee769aff",
+      "pages": [
+        [
+          "Demons remain",
+          "in Riviera."
+        ],
+        [
+          "But one day..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b15",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c210a",
+      "old_bytes": 25,
+      "old_sha256": "95b47fac32a2a92a88a3e1dec46d397fcb384f48a31176931062ae9c8ee44b56",
+      "new_stream_rom": "0x7cf72b",
+      "new_bytes": 26,
+      "new_sha256": "5bb830e3d611b71a845f908df39db37b0d86789ac70a4916ac59f4ab3aff5bd4",
+      "pages": [
+        [
+          "We can end them",
+          "for good."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b1e",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c2123",
+      "old_bytes": 8,
+      "old_sha256": "d3314fecfbcbd0d068e82bec0a8ab730d862628475151f44285447a501594852",
+      "new_stream_rom": "0x7cf745",
+      "new_bytes": 26,
+      "new_sha256": "c96aa4c82ef74f9ff6919725114a4b434f772d29e26b574015516b84919c833f",
+      "pages": [
+        [
+          "Darn right!",
+          "We sure will!"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b3f",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c212b",
+      "old_bytes": 33,
+      "old_sha256": "853bd5094a8fb5f067ca4237f4c41310282d5c16add00d726ded1f1d1606aba9",
+      "new_stream_rom": "0x7cf75f",
+      "new_bytes": 51,
+      "new_sha256": "df676797c1dede2d7cecd0f0d57d6c653bb66a5efbfd69a126fe079cdf9a1c48",
+      "pages": [
+        [
+          "Ein, there was",
+          "another demon"
+        ],
+        [
+          "sighting in",
+          "Riviera."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b50",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c214c",
+      "old_bytes": 23,
+      "old_sha256": "7b42c4f820b340061f99023c9c19717d63c36053cf990ee14a4ee6da74072ae1",
+      "new_stream_rom": "0x7cf792",
+      "new_bytes": 41,
+      "new_sha256": "35aa92c631681accc94a16dd4393e395de79a3e98bdd9a26ab7c98d6369a088f",
+      "pages": [
+        [
+          "All right..."
+        ],
+        [
+          "Time to use my",
+          "Einherjar--"
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b54",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c2163",
+      "old_bytes": 30,
+      "old_sha256": "1755a0aa868665fa3434d3083175535958c45c04d84ce397f5fae6158594a82b",
+      "new_stream_rom": "0x7cf7bb",
+      "new_bytes": 39,
+      "new_sha256": "5bb987d953b1de73f032f1adf523086fa4c0a66e06c89b7c67518908843d1a91",
+      "pages": [
+        [
+          "Easy, Ein."
+        ],
+        [
+          "Let the Sprites",
+          "handle it."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b58",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c2181",
+      "old_bytes": 10,
+      "old_sha256": "d77853364d5db0ad8488b0608ce5b63645d0352934a9d6ea229614204848dad8",
+      "new_stream_rom": "0x7cf7e2",
+      "new_bytes": 15,
+      "new_sha256": "d31edc1c7a552e27b3f08b3b5c01d3dba448539841077e7327bd01b3a2348eb4",
+      "pages": [
+        [
+          "Oh, r-right..."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b5c",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c218b",
+      "old_bytes": 27,
+      "old_sha256": "13b789011e37d6cb4d75041f408758d9e3098cff763c22b99e7b22ec0a9e7ceb",
+      "new_stream_rom": "0x7cf7f1",
+      "new_bytes": 38,
+      "new_sha256": "2716d96c92de1626c07ad2d3c23572a55938d46ab7e150b2152b4ad24ed5ef37",
+      "pages": [
+        [
+          "Now hurry!"
+        ],
+        [
+          "Your report is",
+          "due today."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b60",
+      "opcode": "0x66",
+      "old_stream_rom": "0x7c21a6",
+      "old_bytes": 39,
+      "old_sha256": "bfb75340a1800f70cbae03866c38c6f7d9a4036e7ead93932b515171be87dd79",
+      "new_stream_rom": "0x7cf817",
+      "new_bytes": 32,
+      "new_sha256": "5f79afc12564cae819caef52a9fb0f759c78309cd9a061b20eed2090406db46a",
+      "pages": [
+        [
+          "Okay. We should",
+          "do what we can."
+        ]
+      ]
+    },
+    {
+      "owner_rom": "0x793b64",
+      "opcode": "0x67",
+      "old_stream_rom": "0x7c21cd",
+      "old_bytes": 28,
+      "old_sha256": "f7aeab1d08384b19cf0ebb42c7da718ae6b15be1e688c0e1ef8e5a0c1f1c66ff",
+      "new_stream_rom": "0x7cf837",
+      "new_bytes": 47,
+      "new_sha256": "0ca1162497daf26c6ed8088292a2ca8325bb34cbcbed30497d4bde4a5fcd76fd",
+      "pages": [
+        [
+          "Do not worry."
+        ],
+        [
+          "Riviera belongs",
+          "to the Sprites."
+        ]
+      ]
+    }
+  ],
+  "source_chain": "JP clean -> packaged S459 cumulative BPS -> S460 source overlay",
+  "source_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "intermediate_rc3_sha256": "c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd",
+  "bps_used_for_prior_base": true,
+  "s460_built_from_source": true,
+  "result": "PASS"
+}

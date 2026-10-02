@@ -1,0 +1,26 @@
+{
+  "name": "final_route1_branch",
+  "rom_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "route": 1,
+  "late_subset": true,
+  "chunks": [
+    {
+      "index": 0,
+      "returncode": 0,
+      "complete": false
+    },
+    {
+      "index": 1,
+      "returncode": 0,
+      "complete": false
+    },
+    {
+      "index": 2,
+      "returncode": 0,
+      "complete": true
+    }
+  ],
+  "complete": true,
+  "emulator_sha256": "ae43f1438282aaaff90a009aa8ada648bc5d631b070656285d7de9cbff513b41",
+  "seconds": 44.84529120800107
+}

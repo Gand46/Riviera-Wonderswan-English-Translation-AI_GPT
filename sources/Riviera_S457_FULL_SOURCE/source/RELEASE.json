@@ -1,0 +1,2962 @@
+{
+  "stage": "S457",
+  "version": "0.110",
+  "base_sha256": "b6ae03cda1be9d1742ca7aae3cfc32fe389c3fd51e9e3bc5b4929ff3653dcdc1",
+  "target_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+  "checksum": "D44D",
+  "changed_bytes": 7361,
+  "unexpected_changed_offsets": 0,
+  "stub_address": 8379456,
+  "stub_length": 537,
+  "allocation_end": 8387636,
+  "owned_region_end": 8388568,
+  "blocks": [
+    {
+      "id": "CREDIT-7A399A",
+      "page": 0,
+      "destination": 23008,
+      "height": 80,
+      "role": "Produce",
+      "original": [
+        "\u78ef\u8c9d \u5efa\u592b",
+        "\u5800\u5185 \u7f8e\u5eb7",
+        "\u5c71\u85e4 \u6b66\u5fd7"
+      ],
+      "names": [
+        "Takeo Isogai",
+        "Yoshiyasu Horiuchi",
+        "Takeshi Santo"
+      ],
+      "native_lines": 3,
+      "lines": [
+        "Takeo",
+        "Isogai",
+        "Yoshiyasu",
+        "Horiuchi",
+        "Takeshi",
+        "Santo"
+      ],
+      "metrics": [
+        {
+          "text": "Takeo",
+          "width": 33,
+          "x": 31,
+          "y": 6,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Isogai",
+          "width": 30,
+          "x": 33,
+          "y": 18,
+          "capital_i_extended": true
+        },
+        {
+          "text": "Yoshiyasu",
+          "width": 52,
+          "x": 22,
+          "y": 30,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Horiuchi",
+          "width": 40,
+          "x": 28,
+          "y": 42,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Takeshi",
+          "width": 40,
+          "x": 28,
+          "y": 54,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Santo",
+          "width": 30,
+          "x": 33,
+          "y": 66,
+          "capital_i_extended": false
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "H",
+          "address": 5584410,
+          "raw_sha256": "fb3fb4552cd18636c51ab89f148b12b3981e677d84b13a429d5ae597fcd96a50",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "I",
+          "address": 5584460,
+          "raw_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "width": 3,
+          "height": 10,
+          "extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1",
+          "source_width": 1,
+          "source_glyph_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "font_data_changed": false
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "c",
+          "address": 5585460,
+          "raw_sha256": "5b925059000a4870509fa243e1cc8ddf2370271b7c7c8a4ad61df542bf654706",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "g",
+          "address": 5585660,
+          "raw_sha256": "1d523a0fc405eb0939bacf64059611df04a0e47730f177d588572b9ba1a9c9da",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "y",
+          "address": 5586560,
+          "raw_sha256": "ec4420397c7d9c7a14bb6879b9252efc3c4444b9d5eabf496172079057aa3079",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "source": 8380032,
+      "length": 3840,
+      "sha256": "b3335baca1718b151d40f4309f5d6146664b06f3e81a8024b4af6503a902a846",
+      "inherited": true,
+      "compressed_length": 303,
+      "compressed_sha256": "fd9c57e4ff0b545b5aeb95a18e491b694fb53fb5bcb752fd89985cc0b8aa932a",
+      "codec": "RLE_PACKED_1BPP_V1",
+      "capital_i_extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1"
+    },
+    {
+      "id": "CREDIT-7A3A9C",
+      "page": 3,
+      "destination": 23008,
+      "height": 104,
+      "role": "Scenario",
+      "original": [
+        "\u6a4b\u672c \u5609\u53f2",
+        "\u5c71\u91ce\u8fba \u4e00\u8a18",
+        "\u7530\u7551 \u96c4\u4e8c\u90ce",
+        "\u306f\u305b\u3079 \u305f\u304b\u3072\u308d"
+      ],
+      "names": [
+        "Yoshifumi Hashimoto",
+        "Kazuki Yamanobe",
+        "Yujiro Tabata",
+        "Takahiro Hasebe"
+      ],
+      "native_lines": 4,
+      "lines": [
+        "Yoshifumi",
+        "Hashimoto",
+        "Kazuki",
+        "Yamanobe",
+        "Yujiro",
+        "Tabata",
+        "Takahiro",
+        "Hasebe"
+      ],
+      "metrics": [
+        {
+          "text": "Yoshifumi",
+          "width": 50,
+          "x": 23,
+          "y": 6
+        },
+        {
+          "text": "Hashimoto",
+          "width": 54,
+          "x": 21,
+          "y": 18
+        },
+        {
+          "text": "Kazuki",
+          "width": 34,
+          "x": 31,
+          "y": 30
+        },
+        {
+          "text": "Yamanobe",
+          "width": 53,
+          "x": 21,
+          "y": 42
+        },
+        {
+          "text": "Yujiro",
+          "width": 30,
+          "x": 33,
+          "y": 54
+        },
+        {
+          "text": "Tabata",
+          "width": 36,
+          "x": 30,
+          "y": 66
+        },
+        {
+          "text": "Takahiro",
+          "width": 46,
+          "x": 25,
+          "y": 78
+        },
+        {
+          "text": "Hasebe",
+          "width": 36,
+          "x": 30,
+          "y": 90
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "H",
+          "address": 5584410,
+          "raw_sha256": "fb3fb4552cd18636c51ab89f148b12b3981e677d84b13a429d5ae597fcd96a50",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "b",
+          "address": 5585410,
+          "raw_sha256": "6f421058bf3f6f63aa92f3f9af32cbae7c14713d4ae625ab09a593abac91bf3f",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "f",
+          "address": 5585610,
+          "raw_sha256": "b0ca4d53bfaa72481bacbc511f4cb116075dba87fe55414f5d9ddecd62e80f88",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "j",
+          "address": 5585810,
+          "raw_sha256": "2f051c5ae25ba2af5aee2a9176b2bd9355699f1c505106966ed1f06c6a973c96",
+          "width": 2,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "m",
+          "address": 5585960,
+          "raw_sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "z",
+          "address": 5586610,
+          "raw_sha256": "dcfddb4474d23ce4bd65dd4b104a008bad7403a4816c7b3b238cc3b5c700854e",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "source": 8380335,
+      "length": 4992,
+      "sha256": "79f18b572369a574d5f9557d4261eac1034a07e6ddb0ec49a4b9b9170685ad21",
+      "inherited": true,
+      "compressed_length": 463,
+      "compressed_sha256": "87e705cfca16ea868c1f37e2275ed91b157cf58d65266402be7811636c300c3d",
+      "codec": "RLE_PACKED_1BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A399A_ANIMATION",
+      "page": 0,
+      "kind": "animation_table",
+      "source": 8380798,
+      "destination": 55061,
+      "length": 72,
+      "sha256": "b0f665c9f0ffa2d1d5ca4a44b18f19126d22a43f2de6113a1ba2e7db78be2c03",
+      "inherited": true,
+      "compressed_length": 74,
+      "compressed_sha256": "80a80d1f664115a31c03262a0a96f2d31a84d3fce2d13f4445630247ece7bc69",
+      "codec": "RLE_ZERO_LITERAL_V1"
+    },
+    {
+      "id": "CREDIT-7A3A9C_ANIMATION",
+      "page": 3,
+      "kind": "animation_table",
+      "source": 8380872,
+      "destination": 55085,
+      "length": 96,
+      "sha256": "0a5b4f0bbda6d0bcd3322213482bb7afd9b8c4a6cd54dc4b448a8a784bb9dd7b",
+      "inherited": true,
+      "compressed_length": 100,
+      "compressed_sha256": "ef32d65fff940391ddaf6de006fd0c83a62b5c668d1cb07e0b55213b7a81be6e",
+      "codec": "RLE_ZERO_LITERAL_V1"
+    },
+    {
+      "id": "CREDIT-7A3B4E",
+      "page": 5,
+      "role": "Graphic",
+      "destination": 23008,
+      "height": 128,
+      "native_lines": 9,
+      "original": [
+        "\u591a\u7530 \u30ca\u30c4\u30b3",
+        "\u5ddd\u53e3 \u679d\u91cc\u5b50",
+        "A-man",
+        "\u30c6\u30e0\u305f\u3059\u3051",
+        "\u3068\u3093\u3061\u3089",
+        "\u77f3\u4e2d \u53f2\u6075",
+        "\u5c71\u53e3 \u548c\u5b50",
+        "\u9ed2\u7530 \u662d\u4eba",
+        "JaJa"
+      ],
+      "names": [
+        "Natsuko Tada",
+        "Eriko Kawaguchi",
+        "A-man",
+        "Temu Tasuke",
+        "Tonchira",
+        "Fumie Ishinaka",
+        "Kazuko Yamaguchi",
+        "Akihito Kuroda",
+        "JaJa"
+      ],
+      "lines": [
+        "Natsuko Tada",
+        "Eriko Kawaguchi",
+        "A-man",
+        "Temu Tasuke",
+        "Tonchira",
+        "Fumie Ishinaka",
+        "Kazuko",
+        "Yamaguchi",
+        "Akihito Kuroda",
+        "JaJa"
+      ],
+      "preserved_alias_rows": {
+        "2": 2,
+        "9": 8
+      },
+      "metrics": [
+        {
+          "text": "Natsuko Tada",
+          "width": 72,
+          "x": 12,
+          "y": 6,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Eriko Kawaguchi",
+          "width": 85,
+          "x": 5,
+          "y": 18,
+          "capital_i_extended": false
+        },
+        {
+          "text": "A-man",
+          "y": 30,
+          "preserved_native_alias_row": 2,
+          "width": 35,
+          "x": 30,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Temu Tasuke",
+          "width": 70,
+          "x": 13,
+          "y": 42,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Tonchira",
+          "width": 45,
+          "x": 25,
+          "y": 54,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Fumie Ishinaka",
+          "width": 75,
+          "x": 10,
+          "y": 66,
+          "capital_i_extended": true
+        },
+        {
+          "text": "Kazuko",
+          "width": 39,
+          "x": 28,
+          "y": 78,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Yamaguchi",
+          "width": 54,
+          "x": 21,
+          "y": 90,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Akihito Kuroda",
+          "width": 78,
+          "x": 9,
+          "y": 102,
+          "capital_i_extended": false
+        },
+        {
+          "text": "JaJa",
+          "y": 114,
+          "preserved_native_alias_row": 8,
+          "width": 23,
+          "x": 36,
+          "capital_i_extended": false
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "-",
+          "address": 5582760,
+          "raw_sha256": "bd1a3515a71114aaad131ba108028f14dce83c518ba4f6b63040fae90a8cd1a4",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "A",
+          "address": 5584060,
+          "raw_sha256": "b44e9bfa9c0b08f61dde319fb3feb0a5ba1901dc0610c052a877d915333ad2b2",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "E",
+          "address": 5584260,
+          "raw_sha256": "8ea25b98c364d932f524b59905d454903c3b47cea1ac4e992c87acf2663089b7",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "F",
+          "address": 5584310,
+          "raw_sha256": "2c02773b9601fcf0dd331597788131b3058ff93d821585bde50a2b38a840d018",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "I",
+          "address": 5584460,
+          "raw_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "width": 3,
+          "height": 10,
+          "extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1",
+          "source_width": 1,
+          "source_glyph_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "font_data_changed": false
+        },
+        {
+          "character": "J",
+          "address": 5584510,
+          "raw_sha256": "1069a9068cfb471c635dac3c3edcf31ccceda99abd22e65a5727a56b2acaf04a",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "N",
+          "address": 5584710,
+          "raw_sha256": "bfd4b5ee4fe3b2d445c684b34d8174abab10bc24a5f90f0e5ab8c2905adc68da",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "c",
+          "address": 5585460,
+          "raw_sha256": "5b925059000a4870509fa243e1cc8ddf2370271b7c7c8a4ad61df542bf654706",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "d",
+          "address": 5585510,
+          "raw_sha256": "5da53ebe84e307fb75166e1ef0fe144d92bdc8a4ab59b67e84621ce0f9f45946",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "g",
+          "address": 5585660,
+          "raw_sha256": "1d523a0fc405eb0939bacf64059611df04a0e47730f177d588572b9ba1a9c9da",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "m",
+          "address": 5585960,
+          "raw_sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "w",
+          "address": 5586460,
+          "raw_sha256": "ac97b554d8c603fb9d55c050299a07b8b64a5d669409e3eb32b979bd6ff26f38",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "z",
+          "address": 5586610,
+          "raw_sha256": "dcfddb4474d23ce4bd65dd4b104a008bad7403a4816c7b3b238cc3b5c700854e",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "inherited": true,
+      "source": 8380972,
+      "length": 6144,
+      "sha256": "d0fc8c61b10d1bb6ed88e413f35a40ccd34a9b809a52cdd61ee363f6b5f0bc49",
+      "compressed_length": 756,
+      "compressed_sha256": "436661d60354d25e483f108d6af592f490344b4837d6b498f4fde92de0763fc5",
+      "codec": "RLE_PACKED_1BPP_V1",
+      "capital_i_extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1"
+    },
+    {
+      "id": "CREDIT-7A3B4E_ANIMATION",
+      "page": 5,
+      "kind": "animation_table",
+      "destination": 55205,
+      "inherited": true,
+      "source": 8381728,
+      "length": 24,
+      "sha256": "c996d07c9265ed74a7f4a1280f1ff3f577535f6fe556f01f9d97775c4b904bab",
+      "compressed_length": 27,
+      "compressed_sha256": "d74f598c533f9b1ce11168a910599a0a9b8f1dbdef610206dda0d42341793c6d",
+      "codec": "RLE_ZERO_LITERAL_V1"
+    },
+    {
+      "id": "CREDIT-7A3BC7",
+      "page": 6,
+      "role": "Sound",
+      "destination": 23008,
+      "height": 56,
+      "native_lines": 4,
+      "original": [
+        "\u798e \u6e05\u5f18",
+        "\u8db3\u7acb \u7f8e\u5948\u5b50",
+        "\u6a2a\u7530 \u62d3\u4e5f",
+        "\u677e\u5ca1 \u8015\u5e73"
+      ],
+      "names": [
+        "Kiyohiro Sada",
+        "Minako Adachi",
+        "Takuya Yokota",
+        "Kouhei Matsuoka"
+      ],
+      "lines": [
+        "Kiyohiro Sada",
+        "Minako Adachi",
+        "Takuya Yokota",
+        "Kouhei Matsuoka"
+      ],
+      "preserved_alias_rows": {},
+      "metrics": [
+        {
+          "text": "Kiyohiro Sada",
+          "width": 70,
+          "x": 13,
+          "y": 6
+        },
+        {
+          "text": "Minako Adachi",
+          "width": 74,
+          "x": 11,
+          "y": 18
+        },
+        {
+          "text": "Takuya Yokota",
+          "width": 81,
+          "x": 7,
+          "y": 30
+        },
+        {
+          "text": "Kouhei Matsuoka",
+          "width": 89,
+          "x": 3,
+          "y": 42
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "address": 5584060,
+          "raw_sha256": "b44e9bfa9c0b08f61dde319fb3feb0a5ba1901dc0610c052a877d915333ad2b2",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "M",
+          "address": 5584660,
+          "raw_sha256": "bed5a490412fa5d74cec74db26ff67c1db7e5e81cc5a2755e1e57588cdacd11d",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "c",
+          "address": 5585460,
+          "raw_sha256": "5b925059000a4870509fa243e1cc8ddf2370271b7c7c8a4ad61df542bf654706",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "d",
+          "address": 5585510,
+          "raw_sha256": "5da53ebe84e307fb75166e1ef0fe144d92bdc8a4ab59b67e84621ce0f9f45946",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "y",
+          "address": 5586560,
+          "raw_sha256": "ec4420397c7d9c7a14bb6879b9252efc3c4444b9d5eabf496172079057aa3079",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "inherited": true,
+      "source": 8381755,
+      "length": 2688,
+      "sha256": "7d2f8a1d43d5e077be25c005e7d5bc509247ee6e03ecd03455727c715a84454b",
+      "compressed_length": 409,
+      "compressed_sha256": "30270f9f99d8f99aa0d19c8cf066a8d9733036e2ce00136168cde15deedbf36b",
+      "codec": "RLE_PACKED_1BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A3C11",
+      "page": 7,
+      "row": 0,
+      "role": "Assist Work",
+      "destination": 23008,
+      "height": 16,
+      "native_lines": 1,
+      "original": [
+        "\u6d32\u5d0e \u6566\u5f66"
+      ],
+      "names": [
+        "Atsuhiko Suzaki"
+      ],
+      "lines": [
+        "Atsuhiko Suzaki"
+      ],
+      "metrics": [
+        {
+          "text": "Atsuhiko Suzaki",
+          "width": 84,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "address": 5584060,
+          "raw_sha256": "b44e9bfa9c0b08f61dde319fb3feb0a5ba1901dc0610c052a877d915333ad2b2",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "z",
+          "address": 5586610,
+          "raw_sha256": "dcfddb4474d23ce4bd65dd4b104a008bad7403a4816c7b3b238cc3b5c700854e",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "inherited": true,
+      "source": 8382164,
+      "length": 768,
+      "sha256": "4a699ed308a28b611709ba4e7adac26876703c8d40c58f9f60144d6a4dfc44ca",
+      "compressed_length": 111,
+      "compressed_sha256": "ce659465a46b02b11189a91baf0826f927b95867458e631c7894017150f20a17",
+      "codec": "RLE_PACKED_1BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A3C32",
+      "page": 7,
+      "row": 1,
+      "role": "Marketing",
+      "destination": 24928,
+      "height": 32,
+      "native_lines": 2,
+      "original": [
+        "\u7b39\u91ce\u4e95 \u9686\u5e83",
+        "\u91d1\u5b50 \u6643\u5229"
+      ],
+      "names": [
+        "Takahiro Sasanoi",
+        "Akitoshi Kaneko"
+      ],
+      "lines": [
+        "Takahiro Sasanoi",
+        "Akitoshi Kaneko"
+      ],
+      "metrics": [
+        {
+          "text": "Takahiro Sasanoi",
+          "width": 89,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "text": "Akitoshi Kaneko",
+          "width": 86,
+          "x": 5,
+          "y": 18
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "address": 5584060,
+          "raw_sha256": "b44e9bfa9c0b08f61dde319fb3feb0a5ba1901dc0610c052a877d915333ad2b2",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "inherited": true,
+      "source": 8382275,
+      "length": 1536,
+      "sha256": "4240eaf26fac5ae867e410d25dbc82584e87c43e2afe7692f00f94c7164966d0",
+      "compressed_length": 235,
+      "compressed_sha256": "653dcc13e0a01f2614b704e0f8ec93c29fd1e3501adb11022d14b5476484ed16",
+      "codec": "RLE_PACKED_1BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A3C59",
+      "page": 7,
+      "row": 2,
+      "role": "Sales",
+      "destination": 26848,
+      "height": 40,
+      "native_lines": 3,
+      "original": [
+        "\u5e72\u5ddd \u8015\u53f8",
+        "\u5409\u7530 \u8ce2\u53f8",
+        "\u5927\u91ce \u8061"
+      ],
+      "names": [
+        "Kouji Hoshikawa",
+        "Kenji Yoshida",
+        "Satoshi Ono"
+      ],
+      "lines": [
+        "Kouji Hoshikawa",
+        "Kenji Yoshida",
+        "Satoshi Ono"
+      ],
+      "metrics": [
+        {
+          "text": "Kouji Hoshikawa",
+          "width": 84,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "text": "Kenji Yoshida",
+          "width": 68,
+          "x": 14,
+          "y": 18
+        },
+        {
+          "text": "Satoshi Ono",
+          "width": 62,
+          "x": 17,
+          "y": 30
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "H",
+          "address": 5584410,
+          "raw_sha256": "fb3fb4552cd18636c51ab89f148b12b3981e677d84b13a429d5ae597fcd96a50",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "O",
+          "address": 5584760,
+          "raw_sha256": "f9bef4c37647eb75cdb90d2ef4197c5d97d92c915110f8e57f7d22ee9f41adbc",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "d",
+          "address": 5585510,
+          "raw_sha256": "5da53ebe84e307fb75166e1ef0fe144d92bdc8a4ab59b67e84621ce0f9f45946",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "j",
+          "address": 5585810,
+          "raw_sha256": "2f051c5ae25ba2af5aee2a9176b2bd9355699f1c505106966ed1f06c6a973c96",
+          "width": 2,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "w",
+          "address": 5586460,
+          "raw_sha256": "ac97b554d8c603fb9d55c050299a07b8b64a5d669409e3eb32b979bd6ff26f38",
+          "width": 8,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "inherited": true,
+      "source": 8382510,
+      "length": 1920,
+      "sha256": "9284c67d49fe4f55222ff4b1dce74c1996e53852cb81d8dd8086780ec1eadeed",
+      "compressed_length": 289,
+      "compressed_sha256": "f37b6aedcaaadd482aaa077f2e3fff996c2b14764dad7f4a88b2ba3960826e09",
+      "codec": "RLE_PACKED_1BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A3D82",
+      "page": 10,
+      "destination": 23392,
+      "height": 96,
+      "native_lines": 7,
+      "names": [
+        "Tatsuya Ohara",
+        null,
+        "Yoshihisa Tomita",
+        "Atsuya Kitamura",
+        "Kenjiro Suzuki",
+        "Tomomi Saito",
+        "Mie Terao"
+      ],
+      "lines": [
+        "Tatsuya Ohara",
+        null,
+        "Yoshihisa Tomita",
+        "Atsuya Kitamura",
+        "Kenjiro Suzuki",
+        "Tomomi Saito",
+        "Mie Terao"
+      ],
+      "original": [
+        "\u5c0f\u539f \u8fb0\u4e5f",
+        "\u9ad8\u6d25 \u5229\u6075",
+        "\u51a8\u7530 \u4f73\u5bff",
+        "\u5317\u6751 \u7be4\u54c9",
+        "\u9234\u6728 \u5065\u4e8c\u90ce",
+        "\u658e\u85e4 \u3068\u3082\u5b9f",
+        "\u5bfa\u5c3e \u7f8e\u6075"
+      ],
+      "role": "Special Thanks",
+      "metrics": [
+        {
+          "text": "Tatsuya Ohara",
+          "width": 76,
+          "x": 10,
+          "y": 6,
+          "gap": 1,
+          "row": 0
+        },
+        {
+          "text": "Yoshihisa Tomita",
+          "width": 88,
+          "x": 4,
+          "y": 30,
+          "gap": 1,
+          "row": 2
+        },
+        {
+          "text": "Atsuya Kitamura",
+          "width": 87,
+          "x": 4,
+          "y": 42,
+          "gap": 1,
+          "row": 3
+        },
+        {
+          "text": "Kenjiro Suzuki",
+          "width": 73,
+          "x": 11,
+          "y": 54,
+          "gap": 1,
+          "row": 4
+        },
+        {
+          "text": "Tomomi Saito",
+          "width": 71,
+          "x": 12,
+          "y": 66,
+          "gap": 1,
+          "row": 5
+        },
+        {
+          "text": "Mie Terao",
+          "width": 51,
+          "x": 22,
+          "y": 78,
+          "gap": 1,
+          "row": 6
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "address": 5584060,
+          "raw_sha256": "b44e9bfa9c0b08f61dde319fb3feb0a5ba1901dc0610c052a877d915333ad2b2",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "M",
+          "address": 5584660,
+          "raw_sha256": "bed5a490412fa5d74cec74db26ff67c1db7e5e81cc5a2755e1e57588cdacd11d",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "O",
+          "address": 5584760,
+          "raw_sha256": "f9bef4c37647eb75cdb90d2ef4197c5d97d92c915110f8e57f7d22ee9f41adbc",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "j",
+          "address": 5585810,
+          "raw_sha256": "2f051c5ae25ba2af5aee2a9176b2bd9355699f1c505106966ed1f06c6a973c96",
+          "width": 2,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "m",
+          "address": 5585960,
+          "raw_sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "y",
+          "address": 5586560,
+          "raw_sha256": "ec4420397c7d9c7a14bb6879b9252efc3c4444b9d5eabf496172079057aa3079",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "z",
+          "address": 5586610,
+          "raw_sha256": "dcfddb4474d23ce4bd65dd4b104a008bad7403a4816c7b3b238cc3b5c700854e",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "native_reference_sha256": "587403b19721c971fbdde0445ce1080defd71afb590a04133b26d57250786115",
+      "inherited": true,
+      "source": 8382799,
+      "length": 4608,
+      "sha256": "e74168a6cbab050e683b637dcc06b985154f570f887ea9b22c807a2304e9cdde",
+      "compressed_length": 1169,
+      "compressed_sha256": "b20bba0c43992268a0b9949253e2b95f757d302daaa2b2ae226bc6b1fa903681",
+      "codec": "RLE_PACKED_2BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A3C8D",
+      "page": 8,
+      "destination": 23008,
+      "height": 128,
+      "native_lines": 10,
+      "names": [
+        "Toru Hashimoto",
+        "Atsushi Miyake",
+        "Yusuke Tsuruoka",
+        null,
+        "Yoshiaki Kawamura",
+        "Makoto Kohatsu",
+        "Daisuke Toda",
+        "Tsuyoshi Koyama",
+        "Masayuki Uesugi",
+        "Mari Miyata"
+      ],
+      "lines": [
+        "Toru Hashimoto",
+        "Atsushi Miyake",
+        "Yusuke Tsuruoka",
+        null,
+        "Yoshiaki",
+        "Kawamura",
+        "Makoto Kohatsu",
+        "Daisuke Toda",
+        "Tsuyoshi Koyama",
+        "Masayuki Uesugi",
+        "Mari Miyata"
+      ],
+      "original": [
+        "\u6a4b\u672c \u5fb9",
+        "\u4e09\u5b85 \u6df3",
+        "\u9db4\u5ca1 \u52c7\u8f14",
+        "\u6df1\u5c3e \u4f38\u4e5f",
+        "\u5ddd\u6751 \u7fa9\u662d",
+        "\u5c0f\u6ce2\u6d25 \u8aa0",
+        "\u6238\u7530 \u5927\u4ecb",
+        "\u5c0f\u5c71 \u525b",
+        "\u4e0a\u6749 \u5c06\u4e4b",
+        "\u5bae\u7530 \u9ebb\u91cc"
+      ],
+      "role": "Tuning",
+      "line_owners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "pitch": 10,
+      "metrics": [
+        {
+          "text": "Toru Hashimoto",
+          "width": 83,
+          "x": 6,
+          "y": 6,
+          "gap": 1,
+          "row": 0,
+          "person": 0
+        },
+        {
+          "text": "Atsushi Miyake",
+          "width": 78,
+          "x": 9,
+          "y": 16,
+          "gap": 1,
+          "row": 1,
+          "person": 1
+        },
+        {
+          "text": "Yusuke Tsuruoka",
+          "width": 92,
+          "x": 2,
+          "y": 26,
+          "gap": 1,
+          "row": 2,
+          "person": 2
+        },
+        {
+          "text": "Yoshiaki",
+          "width": 43,
+          "x": 26,
+          "y": 46,
+          "gap": 1,
+          "row": 4,
+          "person": 4
+        },
+        {
+          "text": "Kawamura",
+          "width": 54,
+          "x": 21,
+          "y": 56,
+          "gap": 1,
+          "row": 5,
+          "person": 4
+        },
+        {
+          "text": "Makoto Kohatsu",
+          "width": 87,
+          "x": 4,
+          "y": 66,
+          "gap": 1,
+          "row": 6,
+          "person": 5
+        },
+        {
+          "text": "Daisuke Toda",
+          "width": 70,
+          "x": 13,
+          "y": 76,
+          "gap": 1,
+          "row": 7,
+          "person": 6
+        },
+        {
+          "text": "Tsuyoshi Koyama",
+          "width": 91,
+          "x": 2,
+          "y": 86,
+          "gap": 1,
+          "row": 8,
+          "person": 7
+        },
+        {
+          "text": "Masayuki Uesugi",
+          "width": 83,
+          "x": 6,
+          "y": 96,
+          "gap": 1,
+          "row": 9,
+          "person": 8
+        },
+        {
+          "text": "Mari Miyata",
+          "width": 58,
+          "x": 19,
+          "y": 106,
+          "gap": 1,
+          "row": 10,
+          "person": 9
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "address": 5584060,
+          "raw_sha256": "b44e9bfa9c0b08f61dde319fb3feb0a5ba1901dc0610c052a877d915333ad2b2",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "D",
+          "address": 5584210,
+          "raw_sha256": "50acf63d0806cffec7c9bf3faecd7e89b5f659fd2aee93f57649f7f7fc9101bc",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "H",
+          "address": 5584410,
+          "raw_sha256": "fb3fb4552cd18636c51ab89f148b12b3981e677d84b13a429d5ae597fcd96a50",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "M",
+          "address": 5584660,
+          "raw_sha256": "bed5a490412fa5d74cec74db26ff67c1db7e5e81cc5a2755e1e57588cdacd11d",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "U",
+          "address": 5585060,
+          "raw_sha256": "b3dd4c83276be7e7abcd004ba4164f54e6afbcad892044fa109a83cd5a8d720b",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "d",
+          "address": 5585510,
+          "raw_sha256": "5da53ebe84e307fb75166e1ef0fe144d92bdc8a4ab59b67e84621ce0f9f45946",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "g",
+          "address": 5585660,
+          "raw_sha256": "1d523a0fc405eb0939bacf64059611df04a0e47730f177d588572b9ba1a9c9da",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "m",
+          "address": 5585960,
+          "raw_sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "w",
+          "address": 5586460,
+          "raw_sha256": "ac97b554d8c603fb9d55c050299a07b8b64a5d669409e3eb32b979bd6ff26f38",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "y",
+          "address": 5586560,
+          "raw_sha256": "ec4420397c7d9c7a14bb6879b9252efc3c4444b9d5eabf496172079057aa3079",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "native_reference_sha256": "8bce5e45a95cfb394977a0864aa16a329602536fba01c546f0fe5f612fd061bd",
+      "preserved_japanese_rows": [
+        {
+          "native_row": 3,
+          "source_y": 42,
+          "target_y": 36,
+          "height": 10
+        }
+      ],
+      "inherited": false,
+      "source": 8383968,
+      "length": 6144,
+      "sha256": "1a580dc716f3ddd24959ff67b9fca8082130029d551f25a086450e0895dc4f4d",
+      "compressed_length": 1802,
+      "compressed_sha256": "bf49c532eca027d0c6396a5fe4cbe5b13513da52f80828e4d07ac4b31f223047",
+      "codec": "RLE_PACKED_2BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A3D29",
+      "page": 9,
+      "destination": 23392,
+      "height": 96,
+      "native_lines": 7,
+      "names": [
+        "Makoto Shibasaki",
+        "Satoshi Oshita",
+        "Takashi Shoji",
+        null,
+        "Takuji Nakamura",
+        "Masashi Umeda",
+        "Toshimitsu Sakairi"
+      ],
+      "lines": [
+        "Makoto Shibasaki",
+        "Satoshi Oshita",
+        "Takashi Shoji",
+        null,
+        "Takuji Nakamura",
+        "Masashi Umeda",
+        "Toshimitsu Sakairi"
+      ],
+      "original": [
+        "\u67f4\u5d0e \u8aa0",
+        "\u5927\u4e0b \u8061",
+        "\u6771\u6d77\u6797 \u9686",
+        "\u6a4b\u672c \u4fe1\u4e4b",
+        "\u4e2d\u6751 \u5353\u53f8",
+        "\u6885\u7530 \u660c\u53f2",
+        "\u5742\u5165 \u4fca\u5149"
+      ],
+      "role": "Special Thanks",
+      "line_owners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pitch": 12,
+      "metrics": [
+        {
+          "text": "Makoto Shibasaki",
+          "width": 91,
+          "x": 2,
+          "y": 6,
+          "gap": 1,
+          "row": 0,
+          "person": 0
+        },
+        {
+          "text": "Satoshi Oshita",
+          "width": 74,
+          "x": 11,
+          "y": 18,
+          "gap": 1,
+          "row": 1,
+          "person": 1
+        },
+        {
+          "text": "Takashi Shoji",
+          "width": 68,
+          "x": 14,
+          "y": 30,
+          "gap": 1,
+          "row": 2,
+          "person": 2
+        },
+        {
+          "text": "Takuji Nakamura",
+          "width": 86,
+          "x": 5,
+          "y": 54,
+          "gap": 1,
+          "row": 4,
+          "person": 4
+        },
+        {
+          "text": "Masashi Umeda",
+          "width": 77,
+          "x": 9,
+          "y": 66,
+          "gap": 1,
+          "row": 5,
+          "person": 5
+        },
+        {
+          "text": "Toshimitsu Sakairi",
+          "width": 94,
+          "x": 1,
+          "y": 78,
+          "gap": 1,
+          "row": 6,
+          "person": 6
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "M",
+          "address": 5584660,
+          "raw_sha256": "bed5a490412fa5d74cec74db26ff67c1db7e5e81cc5a2755e1e57588cdacd11d",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "N",
+          "address": 5584710,
+          "raw_sha256": "bfd4b5ee4fe3b2d445c684b34d8174abab10bc24a5f90f0e5ab8c2905adc68da",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "O",
+          "address": 5584760,
+          "raw_sha256": "f9bef4c37647eb75cdb90d2ef4197c5d97d92c915110f8e57f7d22ee9f41adbc",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "U",
+          "address": 5585060,
+          "raw_sha256": "b3dd4c83276be7e7abcd004ba4164f54e6afbcad892044fa109a83cd5a8d720b",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "b",
+          "address": 5585410,
+          "raw_sha256": "6f421058bf3f6f63aa92f3f9af32cbae7c14713d4ae625ab09a593abac91bf3f",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "d",
+          "address": 5585510,
+          "raw_sha256": "5da53ebe84e307fb75166e1ef0fe144d92bdc8a4ab59b67e84621ce0f9f45946",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "j",
+          "address": 5585810,
+          "raw_sha256": "2f051c5ae25ba2af5aee2a9176b2bd9355699f1c505106966ed1f06c6a973c96",
+          "width": 2,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "m",
+          "address": 5585960,
+          "raw_sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "native_reference_sha256": "598805de7004ad92adfb4445cadc0340f433b0e6ffc53f2bd6051d316bf353d2",
+      "preserved_japanese_rows": [
+        {
+          "native_row": 3,
+          "source_y": 42,
+          "target_y": 42,
+          "height": 10
+        }
+      ],
+      "inherited": false,
+      "source": 8385770,
+      "length": 4608,
+      "sha256": "a433dcc69f4495bed9ec45764be73b6dd66c200e7cacd075cb7f91b3163da948",
+      "compressed_length": 1223,
+      "compressed_sha256": "e082fe4259bd0e87c1f6d89d12727399f7ce4e26744556e22ea407b06684fa4e",
+      "codec": "RLE_PACKED_2BPP_V1"
+    },
+    {
+      "id": "CREDIT-7A3DDD",
+      "page": 11,
+      "destination": 23392,
+      "height": 96,
+      "native_lines": 7,
+      "names": [
+        "Kanji Uemura",
+        "Takeo Enomoto",
+        "Hikaru Yasui",
+        "Hiroaki Katagiri",
+        "Makoto Shimamura",
+        "Yukako Suzuki",
+        "Yasue Santo"
+      ],
+      "lines": [
+        "Kanji Uemura",
+        "Takeo Enomoto",
+        "Hikaru Yasui",
+        "Hiroaki Katagiri",
+        "Makoto",
+        "Shimamura",
+        "Yukako Suzuki",
+        "Yasue Santo"
+      ],
+      "original": [
+        "\u690d\u6751 \u5b8c\u53f8",
+        "\u698e\u672c \u5cb3\u592b",
+        "\u5b89\u4e95 \u5149",
+        "\u7247\u6850 \u6d69\u660e",
+        "\u5cf6\u6751 \u8aa0\u4eba",
+        "\u9234\u6728 \u7531\u4f73\u5b50",
+        "\u5c71\u85e4 \u9756\u6c5f"
+      ],
+      "role": "Special Thanks",
+      "line_owners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        4,
+        5,
+        6
+      ],
+      "pitch": 10,
+      "metrics": [
+        {
+          "text": "Kanji Uemura",
+          "width": 66,
+          "x": 15,
+          "y": 6,
+          "gap": 1,
+          "row": 0,
+          "person": 0
+        },
+        {
+          "text": "Takeo Enomoto",
+          "width": 84,
+          "x": 6,
+          "y": 16,
+          "gap": 1,
+          "row": 1,
+          "person": 1
+        },
+        {
+          "text": "Hikaru Yasui",
+          "width": 63,
+          "x": 16,
+          "y": 26,
+          "gap": 1,
+          "row": 2,
+          "person": 2
+        },
+        {
+          "text": "Hiroaki Katagiri",
+          "width": 78,
+          "x": 9,
+          "y": 36,
+          "gap": 1,
+          "row": 3,
+          "person": 3
+        },
+        {
+          "text": "Makoto",
+          "width": 40,
+          "x": 28,
+          "y": 46,
+          "gap": 1,
+          "row": 4,
+          "person": 4
+        },
+        {
+          "text": "Shimamura",
+          "width": 55,
+          "x": 20,
+          "y": 56,
+          "gap": 1,
+          "row": 5,
+          "person": 4
+        },
+        {
+          "text": "Yukako Suzuki",
+          "width": 77,
+          "x": 9,
+          "y": 66,
+          "gap": 1,
+          "row": 6,
+          "person": 5
+        },
+        {
+          "text": "Yasue Santo",
+          "width": 65,
+          "x": 15,
+          "y": 76,
+          "gap": 1,
+          "row": 7,
+          "person": 6
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "E",
+          "address": 5584260,
+          "raw_sha256": "8ea25b98c364d932f524b59905d454903c3b47cea1ac4e992c87acf2663089b7",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "H",
+          "address": 5584410,
+          "raw_sha256": "fb3fb4552cd18636c51ab89f148b12b3981e677d84b13a429d5ae597fcd96a50",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "M",
+          "address": 5584660,
+          "raw_sha256": "bed5a490412fa5d74cec74db26ff67c1db7e5e81cc5a2755e1e57588cdacd11d",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "S",
+          "address": 5584960,
+          "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "U",
+          "address": 5585060,
+          "raw_sha256": "b3dd4c83276be7e7abcd004ba4164f54e6afbcad892044fa109a83cd5a8d720b",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "g",
+          "address": 5585660,
+          "raw_sha256": "1d523a0fc405eb0939bacf64059611df04a0e47730f177d588572b9ba1a9c9da",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "j",
+          "address": 5585810,
+          "raw_sha256": "2f051c5ae25ba2af5aee2a9176b2bd9355699f1c505106966ed1f06c6a973c96",
+          "width": 2,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "m",
+          "address": 5585960,
+          "raw_sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "z",
+          "address": 5586610,
+          "raw_sha256": "dcfddb4474d23ce4bd65dd4b104a008bad7403a4816c7b3b238cc3b5c700854e",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "native_reference_sha256": "149cc312fe774672d5d7cbaaec0d7f08e54ec80dfc00e521b7cec330b8c212a4",
+      "preserved_japanese_rows": [],
+      "inherited": false,
+      "source": 8386993,
+      "length": 4608,
+      "sha256": "e5bafaa1780b0030db7adf4cc288d759921c259b2af5b69f049cbbc6a8c6c43e",
+      "compressed_length": 643,
+      "compressed_sha256": "d589de33f1f47b74f36927e0f3882d3231aed60ba373aff93adfe1984116e6a4",
+      "codec": "RLE_PACKED_1BPP_V1"
+    }
+  ],
+  "older_blocks": [
+    {
+      "id": "CREDIT-7A3A3C",
+      "page": 2,
+      "destination": 23008,
+      "height": 40,
+      "role": "Program",
+      "original": [
+        "\u6728\u6751 \u4fca\u7ae0",
+        "\u5e73 \u5065\u6b21\u90ce",
+        "\u77f3\u7530 \u667a\u53f2"
+      ],
+      "names": [
+        "Toshiaki Kimura",
+        "Kenjiro Hira",
+        "Tomofumi Ishida"
+      ],
+      "lines": [
+        "Toshiaki Kimura",
+        "Kenjiro Hira",
+        "Tomofumi Ishida"
+      ],
+      "metrics": [
+        {
+          "text": "Toshiaki Kimura",
+          "width": 82,
+          "x": 7,
+          "y": 6,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Kenjiro Hira",
+          "width": 59,
+          "x": 18,
+          "y": 18,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Tomofumi Ishida",
+          "width": 85,
+          "x": 5,
+          "y": 30,
+          "capital_i_extended": true
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "H",
+          "address": 5584410,
+          "raw_sha256": "fb3fb4552cd18636c51ab89f148b12b3981e677d84b13a429d5ae597fcd96a50",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "I",
+          "address": 5584460,
+          "raw_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "width": 3,
+          "height": 10,
+          "extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1",
+          "source_width": 1,
+          "source_glyph_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "font_data_changed": false
+        },
+        {
+          "character": "K",
+          "address": 5584560,
+          "raw_sha256": "be748cf3a586fdde36360bcfde67bfd4a62f4e097e92d1bae870c57adb5693f1",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "d",
+          "address": 5585510,
+          "raw_sha256": "5da53ebe84e307fb75166e1ef0fe144d92bdc8a4ab59b67e84621ce0f9f45946",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "e",
+          "address": 5585560,
+          "raw_sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "f",
+          "address": 5585610,
+          "raw_sha256": "b0ca4d53bfaa72481bacbc511f4cb116075dba87fe55414f5d9ddecd62e80f88",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "j",
+          "address": 5585810,
+          "raw_sha256": "2f051c5ae25ba2af5aee2a9176b2bd9355699f1c505106966ed1f06c6a973c96",
+          "width": 2,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "m",
+          "address": 5585960,
+          "raw_sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+          "width": 8,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "source": 8372480,
+      "length": 1920,
+      "sha256": "d5913d9a8250fbae471eede2902c45cf84382f81b500f2ff85c69da789cc95a9",
+      "capital_i_extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1"
+    },
+    {
+      "id": "CREDIT-7A3AF1",
+      "page": 4,
+      "destination": 23392,
+      "height": 32,
+      "role": "Character Design",
+      "original": [
+        "\u9ad8\u6d25 \u5e78\u592e",
+        "\u5ca9\u6c38 \u60a6\u5b9c"
+      ],
+      "names": [
+        "Yukio Takatsu",
+        "Yoshinori Iwanaga"
+      ],
+      "lines": [
+        "Yukio Takatsu",
+        "Yoshinori Iwanaga"
+      ],
+      "metrics": [
+        {
+          "text": "Yukio Takatsu",
+          "width": 76,
+          "x": 10,
+          "y": 6,
+          "capital_i_extended": false
+        },
+        {
+          "text": "Yoshinori Iwanaga",
+          "width": 94,
+          "x": 1,
+          "y": 18,
+          "capital_i_extended": true
+        }
+      ],
+      "glyphs": [
+        {
+          "character": "I",
+          "address": 5584460,
+          "raw_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "width": 3,
+          "height": 10,
+          "extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1",
+          "source_width": 1,
+          "source_glyph_sha256": "8ca1ac8443a83b2c6c6a9c8c2416ea3c5be51546b82379bf6739f70fc9e1e102",
+          "font_data_changed": false
+        },
+        {
+          "character": "T",
+          "address": 5585010,
+          "raw_sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "Y",
+          "address": 5585260,
+          "raw_sha256": "6c51412bad25a6b974f3ed9b5e20d9ea694bd0c76a41c7a7aa2574d1daa80f87",
+          "width": 7,
+          "height": 10
+        },
+        {
+          "character": "a",
+          "address": 5585360,
+          "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "g",
+          "address": 5585660,
+          "raw_sha256": "1d523a0fc405eb0939bacf64059611df04a0e47730f177d588572b9ba1a9c9da",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "h",
+          "address": 5585710,
+          "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "i",
+          "address": 5585760,
+          "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+          "width": 1,
+          "height": 10
+        },
+        {
+          "character": "k",
+          "address": 5585860,
+          "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "n",
+          "address": 5586010,
+          "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "o",
+          "address": 5586060,
+          "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+          "width": 6,
+          "height": 10
+        },
+        {
+          "character": "r",
+          "address": 5586210,
+          "raw_sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "s",
+          "address": 5586260,
+          "raw_sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "t",
+          "address": 5586310,
+          "raw_sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+          "width": 4,
+          "height": 10
+        },
+        {
+          "character": "u",
+          "address": 5586360,
+          "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+          "width": 5,
+          "height": 10
+        },
+        {
+          "character": "w",
+          "address": 5586460,
+          "raw_sha256": "ac97b554d8c603fb9d55c050299a07b8b64a5d669409e3eb32b979bd6ff26f38",
+          "width": 8,
+          "height": 10
+        }
+      ],
+      "kind": "native_glyph_graphic",
+      "source": 8377088,
+      "length": 1536,
+      "sha256": "27529ec586a79cbcbd66cd793f4b8c1db307868f02e8ba7961f5f6455e882a0d",
+      "capital_i_extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1"
+    }
+  ],
+  "changed_graphic_blocks": [
+    "CREDIT-7A399A",
+    "CREDIT-7A3A3C",
+    "CREDIT-7A3AF1",
+    "CREDIT-7A3B4E"
+  ],
+  "affected_names": [
+    "Takeo Isogai",
+    "Tomofumi Ishida",
+    "Yoshinori Iwanaga",
+    "Fumie Ishinaka"
+  ],
+  "capital_i_extension": "CAPITAL_I_SERIFS_NATIVE_STEM_V1",
+  "native_font_sha256": "56bbbae560868f39dcdc04f48023c829c8fad6e7f3d445154caff02daee84f19",
+  "font_data_changed": false,
+  "animation_tables_changed": false,
+  "global_final_approved": false,
+  "stub_hex": "9c5051535256571e0633c08ed833c08ed8803e121601751cb800f08ed833c08ec0fcbe80debfe059e84601be7ee1bf15d7e8220133c08ed8803e121604751cb800f08ed833c08ec0fcbeafdfbfe059e81f01bec8e1bf2dd7e8fb0033c08ed8803e121606751cb800f08ed833c08ec0fcbe2ce2bfe059e8f800be20e5bfa5d7e8d40033c08ed8803e1216077513b800f08ed833c08ec0fcbe3be5bfe059e8d10033c08ed8803e1216087525b800f08ed833c08ec0fcbed4e6bfe059e8b300be43e7bf6061e8aa00be2ee8bfe068e8a10033c08ed8803e1216097513b800f08ed833c08ec0fcbee0edbfe059e8e20033c08ed8803e12160a7513b800f08ed833c08ec0fcbeeaf4bf605be8c40033c08ed8803e12160b7513b800f08ed833c08ec0fcbe4fe9bf605be8a60033c08ed8803e12160c7513b800f08ed833c08ec0fcbeb1f9bf605be82900071f5f5e5a5b59589dea00c000f0ac84c0741588c130eda8807504f3a4ebef80e17f30c0f3aaebe6c3ac84c0743988c130eda8807526ac88c288c380e30f30ffd1e38b87f0ddab88d3d0ebd0ebd0ebd0ebd1e38b87f0ddabe2dcebcd80e17fd1e131c0f3abebc2c30000060060006600000606066006660600600660606066600066066660666666ac84c0743388c130eda8807522ac88c288c380e30f30ff8b8749deaa88d3d0ebd0ebd0ebd0eb8b8749deaae2e0ebd180e17f31c0f3abebc8c300020600202226206062666000020600",
+  "clean_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "upstream_sha256": "f88217b6a17aa7b708167ada7b6741f2d3262bce063829506bbbe1ac7d8ee5f7",
+  "upstream_pre_sanitization_sha256": "e62c5cf94102fb8880a3b627c3e0d8974c4d7c212aafdcfac4ecb71f6b42444e",
+  "upstream_truncated_rc4_package_sha256": "e6dbc4d4a40cfa0b8db4421f5cefa801d81b286256a9a07f1e31048501c098d3",
+  "upstream_complete_unsanitized_sha256": "5cfe3602abcd233156283652820b9c718e4d37500de639a8749e32408508c8b1",
+  "upstream_identity_note": "S461 replaces the truncated RC4 copy with a complete recursively sanitized S456 source archive, removes nested ROM/build/bytecode payloads, and propagates child archive identities.",
+  "max_stack_bytes": 20,
+  "native_font_changed": false,
+  "formal_scope": "B4_PARTIAL"
+}

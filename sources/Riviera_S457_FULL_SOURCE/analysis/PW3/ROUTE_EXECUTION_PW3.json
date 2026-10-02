@@ -1,0 +1,69 @@
+{
+  "stage": "PW3",
+  "budget": {
+    "route_families_max": 3,
+    "frames_per_route_max": 20000,
+    "retries_per_route_max": 2,
+    "new_selected_checkpoints_max": 12
+  },
+  "route_1": {
+    "purpose": "Arranque en frío y navegación hacia DATA:1",
+    "attempts": [
+      {
+        "path": "evidence/route_01_cold_data1",
+        "requested_frames": 2400,
+        "result": "SRAM_LOAD_EXACT_TITLE_NAV_OPENED_EXTRA"
+      },
+      {
+        "path": "evidence/route_01_retry_data1",
+        "requested_frames": 3000,
+        "result": "TITLE_NAV_OPENED_EXTRA"
+      },
+      {
+        "path": "evidence/route_01_retry2_title_nav",
+        "requested_frames": 960,
+        "result": "ONE_FRAME_DOWN_STILL_ADVANCED_TWO_MENU_ROWS"
+      }
+    ],
+    "sram_sha256_expected": "6c63b110e4b1c84dedc727f87971fa531bfd615307075e4c3e6891400774c1e0",
+    "sram_loaded_byte_exact": true,
+    "data1_ui_reacquired_in_pw3": false,
+    "interpretation": "Input polling repeats the title direction within one emulated frame. This is an automation synchronization issue, not a ROM defect. PW3 therefore continues from the previously validated natural DATA:1 descendant checkpoint."
+  },
+  "route_2": {
+    "purpose": "Progresión natural desde Start 1-1 hasta el primer combate y su salida",
+    "segments": [
+      {
+        "path": "evidence/route_02_area_progress",
+        "requested_frames": 5200
+      },
+      {
+        "path": "evidence/route_02_retry_finish_advance",
+        "requested_frames": 14800
+      }
+    ],
+    "requested_frames_total": 20000,
+    "result": "PASS_NATURAL_FIRST_BATTLE_AND_VICTORY_POSTDIALOGUE",
+    "cart_write_callbacks": 0,
+    "rom_mutated": false
+  },
+  "route_3": {
+    "purpose": "Progresión natural posterior al primer combate hacia el siguiente encuentro",
+    "attempts": [
+      {
+        "path": "evidence/route_03_sparse_progress",
+        "requested_frames": 20000,
+        "result": "SECOND_ENCOUNTER_ITEM_SELECT"
+      },
+      {
+        "path": "evidence/route_03_retry_fast",
+        "requested_frames": 20000,
+        "result": "SECOND_BATTLE_IN_PROGRESS"
+      }
+    ],
+    "furthest_natural_milestone": "Start 1-1, second encounter, battle in progress",
+    "team_edit_seen": false,
+    "rom_mutated": false
+  },
+  "limits_respected": true
+}

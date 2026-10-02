@@ -1,0 +1,1340 @@
+{
+  "program": "Riviera — auditoría integral por iteraciones",
+  "revision": 16,
+  "initial_baseline": "S447 v0.100",
+  "baseline_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+  "clean_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "rule_version": "1.5",
+  "state": "B4_ENTREGADO_PARCIAL_S457_PENDIENTES_GLOBALES_ABIERTOS",
+  "current_iteration": "B4",
+  "next_iteration": "B5",
+  "iteration_count": 26,
+  "global_final_approved": false,
+  "phases": [
+    "Base reproducible",
+    "Censo y residuos",
+    "Integridad técnica",
+    "Cobertura de traducción",
+    "Calidad lingüística",
+    "Tipografía e interfaz",
+    "Funcionamiento y persistencia",
+    "Contenido tardío",
+    "Regresión y entrega"
+  ],
+  "iterations": [
+    {
+      "id": "I01",
+      "phase": 0,
+      "title": "Identidad y congelación de la base",
+      "status": "COMPLETADA",
+      "scope": "Identificar ROM original, S447, BPS, fuentes y herramientas; registrar tamaños, hashes y checksum.",
+      "method": "Reutilizar manifiestos y contrastarlos con los archivos disponibles. Inventariar evidencia heredada sin extender su alcance.",
+      "closure_criterion": "Base inequívoca y registro de procedencia; cualquier discrepancia resuelta.",
+      "depends_on": [],
+      "input_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "output_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "findings": [],
+      "evidence": [
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/FROZEN_INPUTS.json",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/ROM_IDENTITIES.json",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/VERIFIED_PACKAGE_FILES.json",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/TOOLS_AND_RULES.json",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/INHERITED_EVIDENCE.json"
+      ],
+      "subiterations": [],
+      "completed_at": "2026-09-22T17:42:35.109708+00:00",
+      "result": "PASS",
+      "delivery_blocks": [
+        "B1"
+      ]
+    },
+    {
+      "id": "I02",
+      "phase": 0,
+      "title": "Reproducibilidad y mapa de modificaciones",
+      "status": "COMPLETADA",
+      "scope": "Reconstrucción desde fuentes acumulativas y aplicación del BPS a la ROM limpia; mapa de rangos modificados.",
+      "method": "Comprobar igualdad byte a byte y límites de 8 MiB/mapeador; reutilizar pruebas existentes solo si corresponden a los mismos archivos y entorno documentado.",
+      "closure_criterion": "Reconstrucción y parche idénticos; mapa de cambios y procedimiento reproducible.",
+      "depends_on": [
+        "I01"
+      ],
+      "input_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "output_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "findings": [],
+      "evidence": [
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/PHASE0_RESULT.json",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/REBUILD_CURRENT.json",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/JP_TO_S447_RANGES.jsonl",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/S446_TO_S447_RANGES.jsonl",
+        "Riviera_Auditoria_Fase0_Evidencias.zip/evidence/BANK_MAP_128.json"
+      ],
+      "subiterations": [],
+      "completed_at": "2026-09-22T17:42:35.109708+00:00",
+      "result": "PASS",
+      "delivery_blocks": [
+        "B1"
+      ]
+    },
+    {
+      "id": "I03",
+      "phase": 1,
+      "title": "Censo de recursos y consumidores",
+      "status": "COMPLETADA",
+      "scope": "Diálogos, UI, objetos, habilidades, tutoriales, gráficos con texto, rutas, finales y créditos.",
+      "method": "Cruzar extractores, tablas, bancos, recursos comprimidos y consumidores; asignar ID estable por recurso y por contexto de uso.",
+      "closure_criterion": "Censo inicial versionado con procedencia, familias y zonas sin resolver; sin declarar exhaustividad solo por resultados del extractor.",
+      "depends_on": [
+        "I02"
+      ],
+      "input_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "output_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "findings": [
+        "GAP-MAIN1436",
+        "GAP-BANK66-595",
+        "GAP-A364-ENVELOPE",
+        "GAP-DYNAMIC",
+        "GAP-ENDINGS",
+        "GAP-TEAM-NATURAL",
+        "GAP-RESIDUAL47",
+        "GAP-OTHER-GRAPHICS"
+      ],
+      "evidence": [
+        "Riviera_Auditoria_I03_Censo.zip/data/SUMMARY.json",
+        "Riviera_Auditoria_I03_Censo.zip/data/RESOURCES.json",
+        "Riviera_Auditoria_I03_Censo.zip/data/USES.json",
+        "Riviera_Auditoria_I03_Censo.zip/data/CONSUMERS.json",
+        "Riviera_Auditoria_I03_Censo.zip/data/CANDIDATES_17503.jsonl",
+        "Riviera_Auditoria_I03_Censo.zip/data/COVERAGE_GAPS.json",
+        "Riviera_Auditoria_I03_Censo.zip/data/HISTORICAL_RECONCILIATION.json"
+      ],
+      "subiterations": [],
+      "result": "PASS_CENSO_INICIAL; UNIVERSO_GLOBAL_ABIERTO",
+      "completed_at": "2026-09-22T17:58:26.337308+00:00",
+      "delivery_blocks": [
+        "B1"
+      ]
+    },
+    {
+      "id": "I04",
+      "phase": 1,
+      "title": "Clasificación de los 47 residuos",
+      "status": "EN_CURSO",
+      "scope": "Los 47 candidatos técnicos heredados, sin presuponer que sean texto pendiente.",
+      "method": "Confirmar lista y direcciones contra S447; agrupar por consumidor; rastrear referencias y ejecutar casos dirigidos. Clasificar texto activo, datos, no utilizado demostrado o indeterminado.",
+      "closure_criterion": "Cada candidato con diagnóstico y evidencia. Los indeterminados mantienen esta iteración abierta; no se borran para reducir el contador.",
+      "depends_on": [
+        "I03"
+      ],
+      "input_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "output_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "findings": [
+        "I04-CG-DMA",
+        "I04-BOUNDARY-STREAMS",
+        "I04-VM-EXTENDED",
+        "I04-OVERDRIVE",
+        "I04-MAP-SECOND-FAMILY",
+        "I04-OPEN-MAP-ICON8",
+        "I04-MAP-NATIVE-8-CONFIRMED",
+        "I04-PROBE-RETURN-FIX",
+        "I04-BIT8-NO-COPY"
+      ],
+      "evidence": [
+        "Riviera_Auditoria_I04_Evidencias.zip/data/CLASSIFICATION_47.json",
+        "Riviera_Auditoria_I04_Evidencias.zip/data/NATIVE_PROBE_VERIFICATION.json",
+        "Riviera_Auditoria_I04_Evidencias.zip/data/CG_DMA_PAGES.json",
+        "Riviera_Auditoria_I04_Evidencias.zip/data/EXPERIMENTAL_LIMITS.json",
+        "Riviera_Auditoria_I04_2_Evidencias.zip/data/CLASSIFICATION_47.json",
+        "Riviera_Auditoria_I04_2_Evidencias.zip/data/MAP_NATIVE_VERIFICATION.json",
+        "Riviera_Auditoria_I04_2_Evidencias.zip/data/BOUNDARY_VERIFICATION.json",
+        "Riviera_Auditoria_I04_2_Evidencias.zip/data/REFERENCE_SEARCH.json",
+        "Riviera_Auditoria_I04_2_Evidencias.zip/data/I04_2_SUMMARY.json"
+      ],
+      "subiterations": [
+        {
+          "id": "I04.1",
+          "status": "COMPLETADA",
+          "scope": "Reconciliación de los 47 candidatos y pruebas dirigidas de los consumidores encontrados.",
+          "result": "45 clasificados; 2 permanecen indeterminados. No cierra I04.",
+          "completed_at": "2026-09-22T18:34:19.246036+00:00"
+        },
+        {
+          "id": "I04.2",
+          "status": "COMPLETADA",
+          "scope": "Demostrar consumidor/uso del noveno icono hipotético 0x6CACBE..0x6CAEBE.",
+          "candidate_ids": [
+            "CP932-15939",
+            "CP932-15968"
+          ],
+          "completed_at": "2026-09-22T18:52:23.677607+00:00",
+          "result": "Investigación acotada ejecutada: 8 copias nativas y 1 prueba de límite. Objetivo de demostrar consumidor del noveno icono NOT_VALIDATED; I04 permanece abierta.",
+          "objective_result": "NOT_VALIDATED",
+          "consumer_demonstrated": false
+        }
+      ],
+      "result": "PARTIAL_45_CLASSIFIED_2_UNRESOLVED",
+      "delivery_blocks": [
+        "B2"
+      ]
+    },
+    {
+      "id": "I05",
+      "phase": 1,
+      "title": "Texto gráfico y japonés fuera del censo",
+      "status": "EN_CURSO",
+      "scope": "Bancos secundarios, codificaciones alternativas, imágenes, mensajes especiales, finales y créditos.",
+      "method": "Combinar búsquedas de bytes y referencias con decodificación gráfica y lectura directa. Registrar duplicados por separado de usos.",
+      "closure_criterion": "Censo ampliado con cobertura de búsqueda, candidatos y límites; las zonas no interpretadas quedan registradas.",
+      "depends_on": [
+        "I03"
+      ],
+      "input_rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+      "output_rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+      "findings": [
+        "I05-EXTEND-GRAPHICS-138",
+        "I05-CREDITS-JAPANESE-NAMES-18"
+      ],
+      "evidence": [
+        "Riviera_Auditoria_I05_1_Evidencias.zip/data/I05_1_SUMMARY.json",
+        "Riviera_Auditoria_I05_1_Evidencias.zip/data/GRAPHIC_RESOURCES.json",
+        "Riviera_Auditoria_I05_1_Evidencias.zip/data/GRAPHIC_USES.json",
+        "Riviera_Auditoria_I05_1_Evidencias.zip/data/NATIVE_GRAPHIC_VERIFICATION.json",
+        "Riviera_Auditoria_I05_1_Evidencias.zip/data/CREDITS_CENSUS.json",
+        "Riviera_Auditoria_I05_1_Evidencias.zip/data/CREDITS_RUNTIME_VERIFICATION.json",
+        "Riviera_Auditoria_I05_1_Evidencias.zip/visual/credits_runtime_contact.png",
+        "Riviera_S449_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S449.json",
+        "Riviera_S450_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S450.json",
+        "Riviera_S451_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S451.json",
+        "Riviera_S452_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S452.json",
+        "Riviera_S453_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S453.json",
+        "Riviera_S454_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S454.json",
+        "Riviera_S455_Fuentes_Completas_BPS_QA.zip/analysis/B2/STRUCTURAL_SUMMARY.json"
+      ],
+      "subiterations": [
+        {
+          "id": "I05.1",
+          "status": "COMPLETADA",
+          "scope": "Ampliar censo gráfico y localizar créditos fuera de I03 con evidencia nativa y límites claros.",
+          "result": "138 recursos gráficos nuevos; 38 cadenas únicas de créditos nuevas; 18 cadenas de nombres japoneses pendientes de localización. I05 permanece abierta.",
+          "completed_at": "2026-09-23T00:50:08.753056+00:00"
+        },
+        {
+          "id": "I05.2",
+          "status": "EN_CURSO",
+          "scope": "Tres nombres japoneses pendientes en tres entradas. I/l y recorrido natural abiertos; espaciado de dos nombres corregido en S455."
+        },
+        {
+          "id": "I05.2a",
+          "status": "COMPLETADA",
+          "scope": "Dos nombres de créditos; S448 v0.101",
+          "result": "PASS_SCOPED; no cierre de I05"
+        },
+        {
+          "id": "I05.2b",
+          "status": "COMPLETADA",
+          "scope": "Última página: tres rótulos y dos entidades; S449 v0.102",
+          "result": "PASS_SCOPED; no cierre de I05",
+          "completed_at": "2026-09-23T04:04:46.032600+00:00"
+        },
+        {
+          "id": "I05.2c",
+          "status": "EN_CURSO",
+          "scope": "Program/Script/Character Design/Event BG Design: ocho nombres",
+          "result": "Integración y QA técnico completados; cierre visual abierto por glifo nativo I/l idéntico.",
+          "delivered_at": "2026-09-23T04:20:54.261645+00:00"
+        },
+        {
+          "id": "I05.2d",
+          "status": "EN_CURSO",
+          "scope": "Siete nombres Produce/Scenario",
+          "result": "Integración y QA técnico completados; puerta visual I/l y natural pendientes.",
+          "delivered_at": "2026-09-23T11:29:28.791800+00:00"
+        },
+        {
+          "id": "I05.2e",
+          "status": "EN_CURSO",
+          "scope": "Graphic/Sound: once nombres japoneses, dos alias latinos; compresión local sin pérdida",
+          "result": "Integración y QA técnico completados; puerta visual I/l y recorrido natural pendientes.",
+          "delivered_at": "2026-09-23T13:17:32.883207+00:00"
+        },
+        {
+          "id": "I05.2f",
+          "status": "EN_CURSO",
+          "scope": "Seis nombres en Assist Work/Marketing/Sales",
+          "result": "Integración y QA técnico completados; 22/22 glifos aislados reconocidos. Cierre visual global y recorrido natural abiertos.",
+          "delivered_at": "2026-09-23T14:07:56.709633+00:00"
+        },
+        {
+          "id": "I05.2g",
+          "status": "INTEGRADA_CON_PENDIENTES",
+          "localized_people": 26,
+          "unverified_people": 5,
+          "japanese_display_groups_remaining": 3,
+          "next_delivery": "B2"
+        },
+        {
+          "id": "I05.2h/B2",
+          "status": "INTEGRADA_CON_PENDIENTES",
+          "localized_people": 2,
+          "readings_remaining": 3,
+          "spacing_corrected": 2
+        }
+      ],
+      "result": "PARTIAL_4_JP_CREDIT_ENTRIES_PENDING_GLOBAL_VISUAL_OPEN",
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "current_scope": "I05.2f: Assist Work/Marketing/Sales, seis nombres integrados; cuatro entradas y cierre visual global pendientes.",
+      "delivery_blocks": [
+        "B1",
+        "B2"
+      ],
+      "latest_scoped_evidence": "S455/B2: inventario 1766; 3325 usos directos; 662 LZ y 76 manuales comprobados por rutinas nativas. Cierre global no aprobado."
+    },
+    {
+      "id": "I06",
+      "phase": 2,
+      "title": "Punteros, bancos y límites",
+      "status": "EN_CURSO",
+      "scope": "Referencias, destinos, solapamientos, rangos reservados y recursos reubicados.",
+      "method": "Validar cada formato conocido y sus consumidores; contrastar las regiones modificadas con sus reservas y tamaño real.",
+      "closure_criterion": "Ningún defecto técnico abierto en los rangos auditados; cobertura de formatos explícita.",
+      "depends_on": [
+        "I03"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+      "findings": [],
+      "evidence": [
+        "Riviera_S454_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S454.json",
+        "Riviera_S455_Fuentes_Completas_BPS_QA.zip/analysis/B2/STRUCTURAL_SUMMARY.json"
+      ],
+      "subiterations": [],
+      "current_scope": "S453: 1590 recursos intactos; payload previo RLE idéntico y tres bloques añadidos; 1143 bytes antes del arranque intacto; global abierto.",
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "s449_evidence": "INFORME_S449_I05_2b.md: prueba acotada; no concede cierre de iteración.",
+      "s450_evidence": "INFORME_S450_I05_2c.md; alcance controlado, no cierre global.",
+      "s451_evidence": "INFORME_S451_I05_2d.md: comprobación acotada; no cierre global.",
+      "delivery_blocks": [
+        "B1",
+        "B2"
+      ],
+      "latest_scoped_evidence": "S455/B2: inventario 1766; 3325 usos directos; 662 LZ y 76 manuales comprobados por rutinas nativas. Cierre global no aprobado."
+    },
+    {
+      "id": "I07",
+      "phase": 2,
+      "title": "Terminadores y controles de texto",
+      "status": "EN_CURSO",
+      "scope": "Fin de cadena, saltos, esperas, nombres variables, números y códigos de presentación.",
+      "method": "Analizar flujos con sus reglas reales; comparar controles japoneses y traducidos; reproducir variantes de riesgo.",
+      "closure_criterion": "Cadenas del lote íntegramente parseables; controles y sustituciones funcionales, sin truncamientos detectados.",
+      "depends_on": [
+        "I06"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+      "findings": [],
+      "evidence": [
+        "Riviera_S455_Fuentes_Completas_BPS_QA.zip/analysis/B2/STRUCTURAL_SUMMARY.json"
+      ],
+      "subiterations": [],
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "s449_evidence": "INFORME_S449_I05_2b.md: prueba acotada; no concede cierre de iteración.",
+      "s450_evidence": "INFORME_S450_I05_2c.md; alcance controlado, no cierre global.",
+      "s451_evidence": "INFORME_S451_I05_2d.md: comprobación acotada; no cierre global.",
+      "delivery_blocks": [
+        "B2"
+      ],
+      "latest_scoped_evidence": "S455/B2: inventario 1766; 3325 usos directos; 662 LZ y 76 manuales comprobados por rutinas nativas. Cierre global no aprobado."
+    },
+    {
+      "id": "I08",
+      "phase": 2,
+      "title": "Descompresión y memoria gráfica",
+      "status": "EN_CURSO",
+      "scope": "Buffers, tiles, paletas, fuentes compartidas y limpieza entre pantallas.",
+      "method": "Instrumentar escrituras y límites; probar alternancia de cadenas largas/cortas y consumidores compartidos; incluir antecedentes OVER, RAGE, Attack y Magic.",
+      "closure_criterion": "Sin invasión ni residuos en los casos examinados; productores y consumidores afectados documentados.",
+      "depends_on": [
+        "I06",
+        "I07"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+      "findings": [],
+      "evidence": [
+        "Riviera_S454_Fuentes_Completas_BPS_QA.zip/analysis/VERIFICATION_S454.json",
+        "Riviera_S455_Fuentes_Completas_BPS_QA.zip/analysis/B2/STRUCTURAL_SUMMARY.json"
+      ],
+      "subiterations": [],
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "s449_evidence": "INFORME_S449_I05_2b.md: prueba acotada; no concede cierre de iteración.",
+      "s450_evidence": "INFORME_S450_I05_2c.md; alcance controlado, no cierre global.",
+      "s451_evidence": "INFORME_S451_I05_2d.md: comprobación acotada; no cierre global.",
+      "delivery_blocks": [
+        "B1",
+        "B2"
+      ],
+      "latest_scoped_evidence": "S455/B2: inventario 1766; 3325 usos directos; 662 LZ y 76 manuales comprobados por rutinas nativas. Cierre global no aprobado."
+    },
+    {
+      "id": "I09",
+      "phase": 3,
+      "title": "Correspondencia japonés–inglés–ROM",
+      "status": "EN_CURSO",
+      "scope": "Relacionar cada entrada original, su traducción y el recurso realmente integrado.",
+      "method": "Cruzar fuentes y compilación; detectar omisiones, versiones antiguas, traducciones no insertadas y usos sin referencia.",
+      "closure_criterion": "Matriz trazable para el censo vigente, con estados independientes y excepciones identificadas.",
+      "depends_on": [
+        "I04",
+        "I05",
+        "I07"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+      "findings": [
+        "S456: manual 147 entradas/736 filas, 212 cotejos terminológicos; dos errores Rapier corregidos. Alcance parcial, no cierre global."
+      ],
+      "evidence": [
+        "Riviera_S455_Fuentes_Completas_BPS_QA.zip/analysis/B2/STRUCTURAL_SUMMARY.json",
+        "Riviera_S456_Fuentes_Completas_BPS_QA.zip/analysis/B3"
+      ],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B2",
+        "B3"
+      ],
+      "latest_scoped_evidence": "S455/B2: inventario 1766; 3325 usos directos; 662 LZ y 76 manuales comprobados por rutinas nativas. Cierre global no aprobado."
+    },
+    {
+      "id": "I10",
+      "phase": 3,
+      "title": "Barrido residual y variantes",
+      "status": "EN_CURSO",
+      "scope": "Nuevas cadenas pendientes, alternativas, ayudas y recursos compartidos.",
+      "method": "Repetir búsquedas sobre la ROM construida; verificar candidatos en su consumidor y distinguir referencias japonesas legítimas.",
+      "closure_criterion": "Todo candidato nuevo resuelto o registrado; cobertura y traducción pendiente cuantificadas sin porcentaje global indefendible.",
+      "depends_on": [
+        "I09"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+      "findings": [],
+      "evidence": [
+        "Riviera_S455_Fuentes_Completas_BPS_QA.zip/analysis/B2/STRUCTURAL_SUMMARY.json"
+      ],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B2"
+      ],
+      "latest_scoped_evidence": "S455/B2: inventario 1766; 3325 usos directos; 662 LZ y 76 manuales comprobados por rutinas nativas. Cierre global no aprobado."
+    },
+    {
+      "id": "I11",
+      "phase": 4,
+      "title": "Glosario y textos de sistemas",
+      "status": "EN_CURSO",
+      "scope": "Personajes, lugares, objetos, habilidades, estadísticas, estados y comandos.",
+      "method": "Fijar glosario japonés–inglés; contrastar términos en todos sus usos y documentar abreviaturas justificadas.",
+      "closure_criterion": "Glosario versionado y coherencia del lote revisado; diferencias intencionales justificadas.",
+      "depends_on": [
+        "I09"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [
+        "S456: manual 147 entradas/736 filas, 212 cotejos terminológicos; dos errores Rapier corregidos. Alcance parcial, no cierre global."
+      ],
+      "evidence": [
+        "Riviera_S456_Fuentes_Completas_BPS_QA.zip/analysis/B3"
+      ],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B3"
+      ]
+    },
+    {
+      "id": "I12",
+      "phase": 4,
+      "title": "Narrativa inicial",
+      "status": "PENDIENTE",
+      "scope": "Prólogo y primer bloque narrativo definido por el censo, incluidos tutoriales y decisiones.",
+      "method": "Revisión contextual contra japonés: voz, intención, naturalidad, números y pistas. Subdividir por escena si hace falta.",
+      "closure_criterion": "Todas las entradas del bloque revisadas; ambigüedades NEEDS_CONTEXT resueltas para cerrarlo.",
+      "depends_on": [
+        "I11"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B3"
+      ]
+    },
+    {
+      "id": "I13",
+      "phase": 4,
+      "title": "Narrativa intermedia y alternativas",
+      "status": "PENDIENTE",
+      "scope": "Bloques narrativos intermedios y variantes asociadas que identifique el censo.",
+      "method": "Subiteraciones por capítulo/escena y ruta; comprobar continuidad terminológica, personajes y respuestas alternativas.",
+      "closure_criterion": "Cada bloque identificado cubierto o pendiente explícito; no extrapolar una muestra a todos los diálogos.",
+      "depends_on": [
+        "I12"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B3"
+      ]
+    },
+    {
+      "id": "I14",
+      "phase": 4,
+      "title": "Narrativa tardía y textos sensibles",
+      "status": "PENDIENTE",
+      "scope": "Escenas finales, desenlaces, créditos y descripciones con efectos/condiciones de juego.",
+      "method": "Preparar revisión lingüística con contexto; usar evidencia de I22–I24 si falta. Comparar números, restricciones y consecuencias.",
+      "closure_criterion": "Revisión lingüística completa del lote; sin dudas semánticas críticas. Si falta contexto, volver tras I22–I24.",
+      "depends_on": [
+        "I13"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B3"
+      ]
+    },
+    {
+      "id": "I15",
+      "phase": 5,
+      "title": "Fuentes, glifos y prólogo",
+      "status": "EN_CURSO",
+      "scope": "Familias tipográficas; prólogo S447 y extensiones aprobadas.",
+      "method": "Comparar glifos con referencias nativas; revisar escala nativa e íntegra, baseline, grosor y puntuación. Transcribir píxeles antes de cotejar el texto esperado cuando sea práctico.",
+      "closure_criterion": "Legibilidad y fidelidad aprobadas en cada familia modificada; evidencias separadas de intención y OCR.",
+      "depends_on": [
+        "I08",
+        "I11"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+      "findings": [
+        "S457: extensión I mayúscula con serifas, limitada a cuatro nombres; fuente ROM global intacta."
+      ],
+      "evidence": [
+        "Riviera_S457_Fuentes_Completas_BPS_QA.zip/analysis/B4"
+      ],
+      "subiterations": [],
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "s449_evidence": "INFORME_S449_I05_2b.md: prueba acotada; no concede cierre de iteración.",
+      "current_scope": "I/l corregida en cuatro gráficos compilados de créditos; 11/11 glifos aislados. Lectura ciega de palabras y revisión tipográfica global abiertas.",
+      "s450_evidence": "INFORME_S450_I05_2c.md; alcance controlado, no cierre global.",
+      "s451_evidence": "INFORME_S451_I05_2d.md: comprobación acotada; no cierre global.",
+      "delivery_blocks": [
+        "B4"
+      ],
+      "result": "PARTIAL_SCOPED_PASS_GLOBAL_OPEN"
+    },
+    {
+      "id": "I16",
+      "phase": 5,
+      "title": "Interfaz de batalla",
+      "status": "EN_CURSO",
+      "scope": "Comandos, objetos, objetivos, nombres de acciones, OVER/OverDrive, RAGE/MAX, Attack y Magic.",
+      "method": "Matriz de longitudes extremas, niveles y combinaciones válidas; observar entrada, actualización y salida de cada cuadro.",
+      "closure_criterion": "Sin recortes, colisiones o texto fantasma en la matriz; rótulos y condiciones funcionales confirmados.",
+      "depends_on": [
+        "I08",
+        "I11"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+      "findings": [
+        "S457: regresión acotada de prólogo y combate aprobada; no equivale a cobertura total de superficies."
+      ],
+      "evidence": [
+        "Riviera_S457_Fuentes_Completas_BPS_QA.zip/analysis/B4"
+      ],
+      "subiterations": [],
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "delivery_blocks": [
+        "B4"
+      ],
+      "result": "PARTIAL_SCOPED_PASS_GLOBAL_OPEN",
+      "current_scope": "Prólogo acotado 15/15 y combate 83/83 sin regresión; diálogos y tutoriales globales abiertos."
+    },
+    {
+      "id": "I17",
+      "phase": 5,
+      "title": "Menús, inventario y Team Edit",
+      "status": "EN_CURSO",
+      "scope": "Estados, equipamiento, inventario, ayudas y formaciones.",
+      "method": "Revisar todas las disposiciones identificadas, nombres largos y cambios de selección; incluir Team Edit en disposición natural con los miembros necesarios.",
+      "closure_criterion": "Matriz visual legible. El acceso sintético no cierra el pendiente de disposición natural.",
+      "depends_on": [
+        "I08",
+        "I11"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+      "findings": [
+        "S457: Team Edit validado en acceso controlado sin mutar ROM."
+      ],
+      "evidence": [
+        "Riviera_S457_Fuentes_Completas_BPS_QA.zip/analysis/B4"
+      ],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B4"
+      ],
+      "result": "PARTIAL_SCOPED_PASS_GLOBAL_OPEN",
+      "current_scope": "Team Edit legible por entrada nativa controlada; acceso por progresión natural y variantes pendientes."
+    },
+    {
+      "id": "I18",
+      "phase": 5,
+      "title": "Diálogos, tutoriales y gráficos",
+      "status": "EN_CURSO",
+      "scope": "Cajas narrativas, elecciones, mensajes ambientales, cartelas e imágenes con texto.",
+      "method": "Casos por consumidor y extremos de longitud; comprobar alineación nativa, saltos, tiempos y borrado.",
+      "closure_criterion": "Familias modificadas con evidencia visual/runtime y revisión directa; límites de muestreo declarados.",
+      "depends_on": [
+        "I10",
+        "I12",
+        "I15"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+      "findings": [
+        "S457: cuatro páginas de créditos cambian de forma contenida; nueve permanecen idénticas."
+      ],
+      "evidence": [
+        "Riviera_S457_Fuentes_Completas_BPS_QA.zip/analysis/B4"
+      ],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B4"
+      ],
+      "result": "PARTIAL_SCOPED_PASS_GLOBAL_OPEN",
+      "current_scope": "Créditos y muestras a escala nativa comprobados; matriz global de menús, tutoriales, diálogos y gráficos abierta."
+    },
+    {
+      "id": "I19",
+      "phase": 6,
+      "title": "Flujo funcional de combate",
+      "status": "PENDIENTE",
+      "scope": "Selecciones, habilidades, objetos, objetivos y transiciones de batalla.",
+      "method": "Ejecutar secuencias válidas y casos límite; contrastar texto con acción, valor y condición reales.",
+      "closure_criterion": "Sin desajustes texto–efecto ni bloqueos detectados en las rutas probadas.",
+      "depends_on": [
+        "I16"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B5"
+      ]
+    },
+    {
+      "id": "I20",
+      "phase": 6,
+      "title": "Flujo funcional de menús y equipo",
+      "status": "PENDIENTE",
+      "scope": "Equipo, inventario, miembros, formaciones y navegación entre pantallas.",
+      "method": "Validar cambios de estado, cancelar/confirmar, selecciones extremas y regreso a pantallas previas.",
+      "closure_criterion": "Estado del juego y etiquetas coherentes; comprobar el caso natural de Team Edit pendiente.",
+      "depends_on": [
+        "I17"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B5"
+      ]
+    },
+    {
+      "id": "I21",
+      "phase": 6,
+      "title": "Persistencia y sesiones",
+      "status": "PENDIENTE",
+      "scope": "Guardar/cargar, reinicio en frío, continuar y transiciones desde estados persistidos.",
+      "method": "Usar guardado nativo para demostrar persistencia; savestates solo como apoyo. Contrastar antes/después y probar recuperación de escenas.",
+      "closure_criterion": "Datos y textos correctos tras cold-Continue en los casos definidos; método de acceso registrado.",
+      "depends_on": [
+        "I19",
+        "I20"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B5"
+      ]
+    },
+    {
+      "id": "I22",
+      "phase": 7,
+      "title": "Acceso y cobertura de escenas tardías",
+      "status": "PENDIENTE",
+      "scope": "Localizar escenas y rutas finales identificadas por el censo.",
+      "method": "Intento natural acotado; después checkpoints, Lua, trazas o inyección mínima documentada. Mantener guardados de prueba separados.",
+      "closure_criterion": "Inventario de puntos de acceso y cobertura conseguida; lo no alcanzado permanece pendiente.",
+      "depends_on": [
+        "I03",
+        "I10"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B5"
+      ]
+    },
+    {
+      "id": "I23",
+      "phase": 7,
+      "title": "Finales, rutas y variantes",
+      "status": "PENDIENTE",
+      "scope": "Desenlaces y variantes identificados, con revisión lingüística, gráfica y de transición.",
+      "method": "Ejecutar cada variante censada; comprobar integridad, legibilidad y contexto; devolver hallazgos a I14/I18.",
+      "closure_criterion": "Evidencia por variante; sin sustituir finales no probados por un único final observado.",
+      "depends_on": [
+        "I22"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B5"
+      ]
+    },
+    {
+      "id": "I24",
+      "phase": 7,
+      "title": "Créditos y contenido desbloqueable",
+      "status": "PENDIENTE",
+      "scope": "Créditos completos, posjuego y opciones adicionales si existen.",
+      "method": "Recorrer inicio–fin del listado, entradas/salidas y desbloqueos identificados; justificar N/A solo con evidencia.",
+      "closure_criterion": "Recursos y comportamiento comprobados; nombres y roles legibles; contenido pendiente explícito.",
+      "depends_on": [
+        "I22"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "s449_evidence": "INFORME_S449_I05_2b.md: prueba acotada; no concede cierre de iteración.",
+      "current_scope": "13 páginas por acceso controlado; secuencia natural, transición final y desbloqueables pendientes.",
+      "s450_evidence": "INFORME_S450_I05_2c.md; alcance controlado, no cierre global.",
+      "s451_evidence": "INFORME_S451_I05_2d.md: comprobación acotada; no cierre global.",
+      "delivery_blocks": [
+        "B5"
+      ]
+    },
+    {
+      "id": "I25",
+      "phase": 8,
+      "title": "Regresión consolidada",
+      "status": "PENDIENTE",
+      "scope": "Todos los consumidores afectados por las correcciones y una muestra transversal del juego.",
+      "method": "Construcción candidata identificada por hash; repetir pruebas invalidadas y escenarios representativos. Comparar con la base apropiada.",
+      "closure_criterion": "Sin regresiones abiertas en la matriz; toda evidencia vinculada a una versión compatible.",
+      "depends_on": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I10",
+        "I11",
+        "I12",
+        "I13",
+        "I14",
+        "I15",
+        "I16",
+        "I17",
+        "I18",
+        "I19",
+        "I20",
+        "I21",
+        "I22",
+        "I23",
+        "I24"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "s448_evidence": "INFORME_S448_I05_2a.md; crédito controlado y regresión limitada, no cierre global.",
+      "s449_evidence": "INFORME_S449_I05_2b.md: prueba acotada; no concede cierre de iteración.",
+      "s450_evidence": "INFORME_S450_I05_2c.md; alcance controlado, no cierre global.",
+      "s451_evidence": "INFORME_S451_I05_2d.md: comprobación acotada; no cierre global.",
+      "delivery_blocks": [
+        "B6"
+      ]
+    },
+    {
+      "id": "I26",
+      "phase": 8,
+      "title": "Dictamen y paquete de entrega",
+      "status": "PENDIENTE",
+      "scope": "Decidir versión de pruebas, candidato a lanzamiento o continuidad de auditoría.",
+      "method": "Aplicar las puertas obligatorias del reglamento vigente; comprobar reconstrucción final, BPS acumulativo, fuentes completas y lista de incidencias.",
+      "closure_criterion": "Dictamen sustentado. RC solo si cumple requisitos aplicables; pendientes obligatorios impiden la aprobación, sin convertirlos artificialmente en N/A.",
+      "depends_on": [
+        "I25"
+      ],
+      "input_rom_sha256": null,
+      "output_rom_sha256": null,
+      "findings": [],
+      "evidence": [],
+      "subiterations": [],
+      "delivery_blocks": [
+        "B6"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-23T16:13:30.685166+00:00",
+  "phase0_result": {
+    "result": "PASS",
+    "evidence_archive": "Riviera_Auditoria_Fase0_Evidencias.zip",
+    "report": "Riviera_Auditoria_Fase0_Informe.md",
+    "rom_changed": false,
+    "base_frozen_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+    "pending_technical_candidates": 47,
+    "global_final_approved": false
+  },
+  "validation_limits": [
+    "Fase 0: identidad, integridad del paquete y reconstrucción binaria en Linux; no nueva aprobación lingüística/visual.",
+    "Windows/macOS y cartucho físico no ejecutados.",
+    "I03: censo estático inicial; 76 scripts delimitados solo por prefijo y 8 brechas explícitas. Sin pruebas runtime ni aprobación global nuevas.",
+    "I04.1: de los 47 residuos heredados, 45 tienen clasificación técnica y 2 permanecen abiertos. Seis casos del banco 6C tienen prueba estática, sin PASS runtime. No aprobación global nueva.",
+    "I04.2: ocho buffers de iconos del banco 6C coinciden con S447 en acceso controlado; seis intervalos refuerzan su clasificación. Dos intervalos conservan consumidor indeterminado; sin evidencia de progresión natural ni aprobación visual global.",
+    "I05.1: trece páginas de créditos identificadas; dieciocho cadenas distintas de nombres permanecen en glifos japoneses, con muestras sintéticas de la primera entrada por página. No se verificaron lecturas oficiales ni se reprodujeron créditos completos en progresión natural. I05 y aprobación global siguen abiertas.",
+    "S455/B2: 1766 recursos conocidos no son universo total. 662 descompresiones y 76 manuales en sondas; 931 límites FF no equivalen a controles/semántica aprobados. Tres lecturas, dos residuos, I/l, cobertura y reproducción natural permanecen abiertos.",
+    "S456/B3: dos identidades de habilidad corregidas y verificadas; transcripción JP completa de manual sigue borrador. Corpus narrativo, semántica global, reconocimiento sin contexto y progresión natural no aprobados. Contador 3/8.",
+    "S457/B4: I/l resuelta solo en cuatro gráficos compilados de créditos; fuente ROM global intacta. 13 páginas controladas, 83 cuadros de combate, 15 del prólogo y Team Edit por entrada controlada. Lectura ciega de palabras, matriz global de superficies y progresión natural no aprobadas. Contador 4/8."
+  ],
+  "census_i03": {
+    "resources": 1590,
+    "uses": 3418,
+    "candidates": 17503,
+    "technical_residues": 47,
+    "coverage_gaps": 8,
+    "full_game_universe_proven": false,
+    "rom_changed": false
+  },
+  "next_subiteration": "B4 — tipografía y superficies; resto lingüístico B3 abierto para contexto B5/R1",
+  "residues_i04": {
+    "iteration": "I04",
+    "subiteration": "I04.2",
+    "result": "PARTIAL_I04_REMAINS_OPEN",
+    "rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+    "rom_changed": false,
+    "total_inherited_candidates": 47,
+    "classified": 45,
+    "graphic_candidates": 41,
+    "vm_metadata_candidates": 4,
+    "unresolved": 2,
+    "unresolved_ids": [
+      "CP932-15939",
+      "CP932-15968"
+    ],
+    "new_untranslated_text_confirmed_in_this_batch": 0,
+    "claim_no_pending_translation_globally": false,
+    "global_final_approved": false,
+    "cg_pages_runtime_matched": 3,
+    "cg_native_dma_calls": 36,
+    "native_probe_cases_pass": 17,
+    "bank6c_runtime_accepted": true,
+    "next_subiteration": null,
+    "native_icon_copies_matched": 8,
+    "candidate_intervals_strengthened_by_runtime": 6,
+    "boundary_cases_pass": 1,
+    "next_iteration": "I05",
+    "report": "Riviera_Auditoria_I04_2_Informe.md",
+    "current_check": "S455 bytes unchanged; no new positive consumer proof for 6CACBE. I04 remains open."
+  },
+  "scheduling_note": "Ocho entregas máximo de planificación: tres consumidas, tres bloques y dos reservas disponibles. B2/B3 parciales conservan pendientes; no se reinicia el contador.",
+  "current_version": "S457 v0.110",
+  "current_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+  "i05_2a": {
+    "localized_streams": 2,
+    "prior_japanese_name_streams_remaining": 16,
+    "new_kana_streams": 4,
+    "confirmed_credit_japanese_pending": 20,
+    "native_full_pages": 13,
+    "native_width_calls": 578,
+    "battle_identical": 83,
+    "rom_sha256": "f0244270a03f139cb594023b37f5ea633d066afd24e94b24874819861eaaa1c8",
+    "natural_credit_playback": false,
+    "evidence": "Riviera_S448_Fuentes_Completas_BPS_QA.zip"
+  },
+  "census_i05_1_snapshot": {
+    "subiteration": "I05.1",
+    "rom_sha256": "334a1d68f277279b3b5772fc26aa6f82b33984fd23b78857006ea29a1f389076",
+    "rom_changed": false,
+    "graphic_resources_new_vs_i03": 138,
+    "credits_resources_new_vs_i03": 38,
+    "total_resources_new_vs_i03": 176,
+    "credits_name_streams_pending_verified_reading": 18,
+    "native_graphic_cases_identical": 131,
+    "credits_synthetic_page_samples": 13,
+    "literal_cp932_utf_queries": 56,
+    "literal_hits": 0,
+    "global_final_approved": false,
+    "report": "Riviera_Auditoria_I05_1_Informe.md"
+  },
+  "census_i05": {
+    "subiteration": "I05.2h/B2",
+    "rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage_groups": 1,
+    "localized_this_stage_people": 2,
+    "confirmed_japanese_credit_display_entries_pending": 3,
+    "japanese_people_pending": 3,
+    "japanese_source_streams_retained_for_native_layout_total": 20,
+    "original_japanese_streams_still_present": 20,
+    "fully_localized_overlay_groups": 17,
+    "partially_localized_overlay_groups": 3,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false
+  },
+  "i05_2b": {
+    "localized_fields": 5,
+    "confirmed_credit_display_entries_pending": 15,
+    "original_japanese_streams_retained_and_overlaid": 5,
+    "native_full_pages": 13,
+    "battle_identical": 83,
+    "hook_unexpected_writes": 0,
+    "hook_register_errors": 0,
+    "known_resources_unchanged": 1590,
+    "rom_sha256": "4cc9eb56a9658da02c6c0880be33d1f2de9e4a6468e9b108168d783d7b57a203",
+    "natural_credit_playback": false,
+    "evidence": "Riviera_S449_Fuentes_Completas_BPS_QA.zip",
+    "result": "PASS_SCOPED_I05_2B"
+  },
+  "census_i05_previous_s448": {
+    "subiteration": "I05.2a",
+    "rom_sha256": "f0244270a03f139cb594023b37f5ea633d066afd24e94b24874819861eaaa1c8",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage": 2,
+    "prior_18_name_streams_remaining": 16,
+    "kana_streams_newly_classified": 4,
+    "confirmed_japanese_credit_streams_pending": 20,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false
+  },
+  "i05_2c": {
+    "localized_people": 8,
+    "localized_stream_groups": 4,
+    "confirmed_credit_display_entries_pending": 11,
+    "original_japanese_streams_retained_and_overlaid_total": 9,
+    "native_full_pages": 13,
+    "battle_identical": 83,
+    "native_animation_reference_equal": true,
+    "glyph_occurrences_native_exact": 117,
+    "isolated_glyphs": 29,
+    "unambiguous_isolated": 28,
+    "open_visual_issue": "RIV-CREDIT-I-L",
+    "rom_sha256": "7b93fc2331cc2e6ca8a63613c75cc76fcdc0bb7c03616f044973004d4ee9f4da",
+    "natural_credit_playback": false,
+    "result": "INTEGRATED_RUNTIME_CONFIRMED_VISUAL_GATE_OPEN",
+    "evidence": "Riviera_S450_Fuentes_Completas_BPS_QA.zip"
+  },
+  "census_i05_previous_s449": {
+    "subiteration": "I05.2b",
+    "rom_sha256": "4cc9eb56a9658da02c6c0880be33d1f2de9e4a6468e9b108168d783d7b57a203",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage": 5,
+    "confirmed_japanese_credit_display_entries_pending": 15,
+    "japanese_source_streams_retained_for_native_layout": 5,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false
+  },
+  "i05_2d": {
+    "localized_people": 7,
+    "localized_stream_groups": 2,
+    "confirmed_credit_display_entries_pending": 9,
+    "original_japanese_streams_retained_and_overlaid_total": 11,
+    "native_full_pages": 13,
+    "battle_identical": 83,
+    "native_animation_reference_equal": true,
+    "glyph_occurrences_native_exact": 98,
+    "isolated_glyphs": 25,
+    "unambiguous_isolated": 24,
+    "open_visual_issue": "RIV-CREDIT-I-L",
+    "rom_sha256": "c013b5f010a43611896d8d87d0a3c2d4ff4f05e6e4b054cda7cbe06b1aec2fb5",
+    "natural_credit_playback": false,
+    "result": "INTEGRATED_RUNTIME_CONFIRMED_VISUAL_GATE_OPEN",
+    "evidence": "Riviera_S451_Fuentes_Completas_BPS_QA.zip"
+  },
+  "census_i05_previous_s450": {
+    "subiteration": "I05.2c",
+    "rom_sha256": "7b93fc2331cc2e6ca8a63613c75cc76fcdc0bb7c03616f044973004d4ee9f4da",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage_groups": 4,
+    "localized_this_stage_people": 8,
+    "confirmed_japanese_credit_display_entries_pending": 11,
+    "japanese_source_streams_retained_for_native_layout_total": 9,
+    "original_japanese_streams_still_present": 20,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false
+  },
+  "census_i05_previous_s451": {
+    "subiteration": "I05.2d",
+    "rom_sha256": "c013b5f010a43611896d8d87d0a3c2d4ff4f05e6e4b054cda7cbe06b1aec2fb5",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage_groups": 2,
+    "localized_this_stage_people": 7,
+    "confirmed_japanese_credit_display_entries_pending": 9,
+    "japanese_source_streams_retained_for_native_layout_total": 11,
+    "original_japanese_streams_still_present": 20,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false
+  },
+  "i05_2e": {
+    "localized_people": 11,
+    "preserved_latin_aliases": 2,
+    "localized_stream_groups": 2,
+    "confirmed_credit_display_entries_pending": 7,
+    "original_japanese_streams_retained_and_overlaid_total": 13,
+    "native_full_pages": 13,
+    "battle_identical": 83,
+    "native_animation_reference_equal": true,
+    "glyph_occurrences_native_exact": 134,
+    "isolated_glyphs": 28,
+    "unambiguous_isolated": 27,
+    "open_visual_issue": "RIV-CREDIT-I-L",
+    "rom_sha256": "e18f8ae6b0eea8dd291fa7e35b170e90eb5806e855415d37c41ca2a660e3ff7a",
+    "natural_credit_playback": false,
+    "result": "INTEGRATED_RUNTIME_CONFIRMED_VISUAL_GATE_OPEN",
+    "evidence": "Riviera_S452_Fuentes_Completas_BPS_QA.zip"
+  },
+  "census_i05_previous_s452": {
+    "subiteration": "I05.2e",
+    "rom_sha256": "e18f8ae6b0eea8dd291fa7e35b170e90eb5806e855415d37c41ca2a660e3ff7a",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage_groups": 2,
+    "localized_this_stage_people": 11,
+    "confirmed_japanese_credit_display_entries_pending": 7,
+    "japanese_source_streams_retained_for_native_layout_total": 13,
+    "original_japanese_streams_still_present": 20,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false,
+    "preserved_latin_aliases": 2
+  },
+  "i05_2f": {
+    "localized_people": 6,
+    "localized_stream_groups": 3,
+    "confirmed_credit_display_entries_pending": 4,
+    "original_japanese_streams_retained_and_overlaid_total": 16,
+    "native_full_pages": 13,
+    "battle_identical": 83,
+    "animation_tables_unchanged": true,
+    "glyph_occurrences_native_exact": 79,
+    "isolated_glyphs": 22,
+    "unambiguous_isolated": 22,
+    "context_free_glyph_recognition": "PASS_SCOPED_22_GLYPHS",
+    "word_level_blind_review": "NOT_VALIDATED",
+    "open_visual_issue_inherited": "RIV-CREDIT-I-L",
+    "rom_sha256": "8be1beaed6ffc5a93da32396a24882b223211e36bba8c64df6dac55dfee3fc3d",
+    "natural_credit_playback": false,
+    "result": "INTEGRATED_RUNTIME_CONFIRMED_GLOBAL_VISUAL_GATE_OPEN",
+    "evidence": "Riviera_S453_Fuentes_Completas_BPS_QA.zip"
+  },
+  "delivery_plan": {
+    "total_planned": 6,
+    "reserve": 2,
+    "maximum_planned": 8,
+    "consumed": 4,
+    "planned_remaining": 2,
+    "reserve_remaining": 2,
+    "maximum_remaining": 4,
+    "current": "B4",
+    "next": "B5",
+    "guaranteed_completion": false,
+    "blocks": [
+      {
+        "id": "B1",
+        "title": "Lote consolidado de créditos",
+        "stages": [
+          "I01",
+          "I02",
+          "I03",
+          "I05",
+          "I06",
+          "I08"
+        ],
+        "status": "ENTREGADO_CON_PENDIENTES_TRAZADOS",
+        "closure": "26 nombres integrados; 13 páginas y reconstrucción verificadas. Cinco lecturas y puertas visuales trasladadas con evidencia a B2/B4/B5."
+      },
+      {
+        "id": "B2",
+        "title": "Cobertura e integridad",
+        "stages": [
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08",
+          "I09",
+          "I10"
+        ],
+        "status": "ENTREGADO_PARCIAL_NO_CERRADO",
+        "closure": "Resolver cinco lecturas, CP932-15939/15968; cerrar inventario de recursos visibles, punteros, límites, controles, compresión y correspondencias. Investigar acceso a escenas tardías desde este bloque.",
+        "evidence": "S455",
+        "pending": [
+          "3 lecturas",
+          "2 candidatos I04",
+          "93 usos sin propietario directo en el inventario",
+          "8 brechas de cobertura heredadas"
+        ],
+        "carry_to": "B3/B4/B5; R1 para bloqueadores estructurales y lecturas"
+      },
+      {
+        "id": "B3",
+        "title": "Revisión lingüística integral",
+        "stages": [
+          "I09",
+          "I11",
+          "I12",
+          "I13",
+          "I14"
+        ],
+        "status": "ENTREGADO_PARCIAL_NO_CERRADO",
+        "closure": "Cotejar todo el corpus trazable, glosario y variantes iniciales, intermedias y finales; corregir e integrar por lotes.",
+        "evidence": "S456",
+        "pending": [
+          "Corpus narrativo contextual",
+          "Reconciliación 1436/595",
+          "Revisión lingüística fuera del manual",
+          "Abreviaturas y lectura sin contexto"
+        ],
+        "carry_to": "B4/B5 para contexto y legibilidad; R1 para resto lingüístico"
+      },
+      {
+        "id": "B4",
+        "title": "Tipografía y superficies",
+        "stages": [
+          "I15",
+          "I16",
+          "I17",
+          "I18"
+        ],
+        "status": "ENTREGADO_PARCIAL_NO_CERRADO",
+        "closure": "Resolver I/l y espaciado; revisar prólogo, combate, menús, Team Edit, diálogos, tutoriales y gráficos a escala nativa con lectura sin contexto.",
+        "evidence": "S457",
+        "pending": [
+          "Lectura ciega de palabras completas",
+          "Matriz global de diálogos/tutoriales/menús/gráficos",
+          "Team Edit por progresión natural"
+        ],
+        "carry_to": "B5 para contexto y rutas; R1 para puertas visuales restantes"
+      },
+      {
+        "id": "B5",
+        "title": "Recorridos funcionales y contenido tardío",
+        "stages": [
+          "I19",
+          "I20",
+          "I21",
+          "I22",
+          "I23",
+          "I24"
+        ],
+        "status": "SIGUIENTE",
+        "closure": "Validar combate, equipo, guardado/carga, sesiones, escenas tardías, rutas, finales, créditos naturales y desbloqueables; conservar accesos reproducibles."
+      },
+      {
+        "id": "B6",
+        "title": "Regresión y entrega final",
+        "stages": [
+          "I25",
+          "I26"
+        ],
+        "status": "PENDIENTE",
+        "closure": "Regresión sobre una sola ROM candidata, cero bloqueadores, dictamen conforme al reglamento, fuentes acumulativas y BPS desde JP limpios idénticos."
+      }
+    ]
+  },
+  "census_i05_previous_s453": {
+    "subiteration": "I05.2f",
+    "rom_sha256": "8be1beaed6ffc5a93da32396a24882b223211e36bba8c64df6dac55dfee3fc3d",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage_groups": 3,
+    "localized_this_stage_people": 6,
+    "confirmed_japanese_credit_display_entries_pending": 4,
+    "japanese_source_streams_retained_for_native_layout_total": 16,
+    "original_japanese_streams_still_present": 20,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false,
+    "preserved_latin_aliases": 0
+  },
+  "i05_2g": {
+    "localized_people": 26,
+    "partially_localized_groups": 3,
+    "fully_localized_new_groups": 1,
+    "unverified_readings": [
+      {
+        "page": 8,
+        "row": 3,
+        "japanese": "深尾 伸也",
+        "status": "READING_UNVERIFIED_ORIGINAL_PIXELS_PRESERVED"
+      },
+      {
+        "page": 9,
+        "row": 0,
+        "japanese": "柴崎 誠",
+        "status": "READING_UNVERIFIED_ORIGINAL_PIXELS_PRESERVED"
+      },
+      {
+        "page": 9,
+        "row": 3,
+        "japanese": "橋本 信之",
+        "status": "READING_UNVERIFIED_ORIGINAL_PIXELS_PRESERVED"
+      },
+      {
+        "page": 9,
+        "row": 4,
+        "japanese": "中村 卓司",
+        "status": "READING_UNVERIFIED_ORIGINAL_PIXELS_PRESERVED"
+      },
+      {
+        "page": 10,
+        "row": 1,
+        "japanese": "高津 利恵",
+        "status": "READING_UNVERIFIED_ORIGINAL_PIXELS_PRESERVED"
+      }
+    ],
+    "native_full_pages": 13,
+    "battle_identical": 83,
+    "animation_tables_unchanged": true,
+    "glyph_occurrences_native_exact": 331,
+    "isolated_glyphs": 29,
+    "unambiguous_isolated": 29,
+    "word_level_blind_review": "NOT_VALIDATED",
+    "open_visual_issues": [
+      "RIV-CREDIT-I-L",
+      "RIV-CREDIT-SPACING"
+    ],
+    "natural_credit_playback": false,
+    "rom_sha256": "ef6040283c17b53a49aa9ae927595191229d8bb055ff0815cf4afcf42e7491a6",
+    "result": "INTEGRATED_RUNTIME_CONFIRMED_GLOBAL_VISUAL_GATE_OPEN",
+    "evidence": "Riviera_S454_Fuentes_Completas_BPS_QA.zip"
+  },
+  "census_i05_previous_s454": {
+    "subiteration": "I05.2g/B1",
+    "rom_sha256": "ef6040283c17b53a49aa9ae927595191229d8bb055ff0815cf4afcf42e7491a6",
+    "unique_credit_streams": 38,
+    "credit_references": 40,
+    "localized_this_stage_groups": 4,
+    "localized_this_stage_people": 26,
+    "confirmed_japanese_credit_display_entries_pending": 3,
+    "japanese_people_pending": 5,
+    "japanese_source_streams_retained_for_native_layout_total": 20,
+    "original_japanese_streams_still_present": 20,
+    "fully_localized_overlay_groups": 17,
+    "partially_localized_overlay_groups": 3,
+    "synthetic_full_pages": 13,
+    "global_final_approved": false
+  },
+  "b2": {
+    "rom_sha256": "17de8dcdfcd8e7a834edfc7b1273682f52bd2cd884ecd947873f0ce238497d04",
+    "known_resource_records": 1766,
+    "known_lz_resources": 662,
+    "known_text_ff_boundaries": 931,
+    "manual_full_token_streams": 76,
+    "direct_pointer_uses_verified": 3325,
+    "uses_without_direct_owner_schema": 93,
+    "credit_streams": 38,
+    "credit_references": 40,
+    "historical_candidates": 17503,
+    "candidates_changed_since_s454": 0,
+    "technical_residues": 47,
+    "technical_residues_classified": 45,
+    "technical_residues_unresolved": 2,
+    "full_game_universe_proven": false,
+    "global_final_approved": false,
+    "native_lz_cases": 662,
+    "native_manual_cases": 76,
+    "new_credit_readings": 2,
+    "credit_readings_remaining": 3,
+    "spacing_cases_fixed": 2,
+    "result": "PARTIAL_GLOBAL_GATES_OPEN",
+    "evidence": "Riviera_S455_Fuentes_Completas_BPS_QA.zip"
+  },
+  "b3": {
+    "rom_sha256": "b6ae03cda1be9d1742ca7aae3cfc32fe389c3fd51e9e3bc5b4929ff3653dcdc1",
+    "manual_entries": 147,
+    "unique_manuals": 76,
+    "rows": 736,
+    "named_rows": 218,
+    "blank_rows": 518,
+    "historical_names_compared": 212,
+    "content_errors_fixed": 2,
+    "resource_records": 1766,
+    "resource_bytes_unchanged": 1765,
+    "native_cases_per_version": 76,
+    "ui_captures_per_version": 10,
+    "global_final_approved": false,
+    "result": "PARTIAL_GLOBAL_GATES_OPEN",
+    "evidence": "Riviera_S456_Fuentes_Completas_BPS_QA.zip"
+  },
+  "b4": {
+    "rom_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+    "changed_bytes": 7361,
+    "credit_pages_tested": 13,
+    "credit_pages_changed": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "runtime_guard_errors": 0,
+    "isolated_glyphs_correct": "11/11",
+    "battle_frames_exact": "83/83",
+    "prologue_frames_exact": "15/15",
+    "team_edit_access": "controlled_native_screen_entry",
+    "native_font_changed": false,
+    "word_level_blind_review": "NOT_VALIDATED",
+    "global_surface_matrix": "PARTIAL",
+    "global_final_approved": false,
+    "result": "PARTIAL_GLOBAL_GATES_OPEN",
+    "evidence": "Riviera_S457_Fuentes_Completas_BPS_QA.zip"
+  }
+}
