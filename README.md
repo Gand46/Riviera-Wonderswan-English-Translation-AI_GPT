@@ -1,60 +1,54 @@
-# Riviera WSC English — v0.114 S461 RC5
+# Riviera: The Promised Land — WonderSwan Color English v0.112 / S459 / RC3
 
-Repositorio fuente depurado para GitHub y parche acumulativo directo desde la ROM japonesa original. No incluye ROM comercial, BIOS, emuladores, SRAM ni ejecutables.
+This is the supplied S459 source and cumulative BPS prepared for GitHub. The patch targets the Japanese 8 MiB WonderSwan Color release. **Status: experimental manual-testing RC3; `FINAL_APPROVED=false`.** This packaging does not incorporate later checkpoints or fix remaining translation defects.
 
-## Estado
+| File | SHA-256 / provenance |
+|---|---|
+| Required clean Japanese ROM, 8,388,608 bytes | `62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921` (documented, not measured in this packaging run) |
+| English S459 output, 8,388,608 bytes | `c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd` (documented; WonderSwan checksum `BF7D`) |
+| Direct JP→S459 BPS | `0d90bce872e7383497b90ef6051bf197260eb2ddc1ea4dd9c2d63c36c0e40504` (measured from both supplied packages) |
 
-- Clasificación: `RELEASE_CANDIDATE_NOT_FINAL`
-- `FINAL_APPROVED=false`
-- ROM japonesa requerida, SHA-256: `62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921`
-- ROM RC5 esperada, SHA-256: `2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf`
-- Checksum WonderSwan RC5: `2750`
-- BPS acumulativo, SHA-256: `89e0ad8f6ccce32122e467be1211943b5641ad18ede44301fb1e4a6b1789eee4`
+## Patch your copy
 
-I04 continúa `NOT_VALIDATED`: no se identificó un consumidor auténtico del noveno recurso 6C ni se demostró desuso global. I05 continúa `NOT_VALIDATED`: `深尾伸也 → Shinya Fukao` está confirmado e integrado; `高津利恵` y `橋本信之` conservan sus píxeles japoneses al no existir lectura suficientemente respaldada.
+Provide your own clean Japanese ROM matching the size and SHA-256 above. Use a BPS patcher with it as the **source** and `patches/Riviera_EN_v0.112_S459_RC3_CUMULATIVE_FROM_JP.bps` as the patch. The bundled Python 3 patcher is also available:
 
-La aprobación visual/lingüística se limita a Hades, escena posterior al final, cinco ramas, 32 páginas de epílogo y la fila modificada de la página 8 de créditos. No es una aprobación global del proyecto.
-
-## Aplicar el BPS
-
-Windows, macOS y Linux con Python 3:
-
-```text
-python apply_patch.py Riviera_JP_LIMPIA.wsc Riviera_EN_v0.114_S461_RC5.wsc
+```sh
+python3 apply_patch.py path/to/clean-jp.wsc build/Riviera-English-RC3.wsc
 ```
 
-El aplicador rechaza una base incorrecta y verifica el SHA-256 de la salida.
+`APPLY_PATCH.bat` and `APPLY_PATCH.command` call that script on Windows and macOS. Verify the output SHA-256 above. Do not patch an earlier translated ROM or chain older BPS files. No ROM or BIOS is distributed.
 
-## Reconstruir desde fuentes
+## Build from the actual cumulative sources
 
-Windows:
-
-```text
-BUILD.bat Riviera_JP_LIMPIA.wsc build\Riviera_EN_v0.114_S461_RC5.wsc
+```sh
+python3 build.py path/to/clean-jp.wsc build/Riviera-English-RC3.wsc
 ```
 
-macOS o Linux:
+`BUILD.bat` and `BUILD.command` wrap the same Python builder. Its S459→S458→S457→S456→historical source chain rebuilds the translation from the user-provided original, without applying the included BPS as its build step. Python 3.9+ and approximately 1 GB temporary space are recommended by the supplied documentation. The sanitized nested archive still has four ordered chunks under `source/Riviera_S457_FULL_SOURCE/upstream/`; they are **required** build inputs. See [build and reproducibility](docs/BUILD_AND_REPRODUCIBILITY.md) for the precise validation boundary and a byte-comparison procedure.
 
-```text
-./BUILD.command Riviera_JP_LIMPIA.wsc build/Riviera_EN_v0.114_S461_RC5.wsc
-```
+## Technical architecture
 
-La cadena reconstruye `S441 → S456 → S457 → S458 → S459 → S460 → S461` sin usar parches intermedios. El archivo fuente acumulativo S456 está dividido en tres partes menores de 100 MiB para ser compatible con GitHub. El constructor lo reensambla dentro de un directorio temporal y exige SHA-256 `f88217b6a17aa7b708167ada7b6741f2d3262bce063829506bbbe1ac7d8ee5f7`.
+- The S455/S457 credit graphics run through a guarded hook at ROM `0x761124`, a dispatch stub at `0x7FDC40` and RLE/packed graphics beginning at `0x7FDE80`. The global native font remains unchanged; S457 extends the capital I in four compiled credit graphics.
+- S456 corrects two Rapier ability names in the item/manual integration. It retains a bounded inventory of 1,766 known resources and manual tables of 147 records and 76 unique texts.
+- S458 repairs LaLa termination and three owners, adds the first Fia Chapter 8 line, and fixes an epilogue spelling error. S459 redirects seven Hades dialogue owners to `0x7FFC34..0x7FFDFC` and rebalances four bank 0x66 epilogue streams by moving control bytes.
+- The current dialogue encoding uses two-byte `0xA2` glyph references, `0xA9` for line breaks, `0xFE00` for page breaks and `0xFF` for termination. S459 checks length and allocation bounds and recalculates the WonderSwan footer checksum.
 
-## Verificación del repositorio
+These are ROM **file offsets**, not CPU addresses. See [the findings register](docs/TECHNICAL_FINDINGS.md) for individual evidence, buffer/codec details, historical scope and unresolved cases. The [consumer table](docs/TEXT_CONSUMERS.csv) gives every S459 owner and stream offset while recording unknown CPU entries explicitly. Original reports and analyses remain in the source chain.
 
-```text
-python verify_package.py
-```
+## Validation and open issues
 
-Comprueba archivos prohibidos, límite por archivo de GitHub, BPS, partes del archivo fuente y estado RC5. Los informes autoritativos están en `validation/S461/` y la documentación de cierre en `docs/`.
+The supplied RC3 gate matrix has 11 PASS, six PASS_SYNTHETIC, two NOT_VALIDATED and one FAIL. Earlier source rebuild and BPS round-trip reports refer to the original supplied source archive; the cleaned source chain has passed structural/hash checks, but **a fresh clean-ROM build and source/BPS byte comparison were NOT_RUN** because no clean ROM was supplied for this packaging. The patch bytes and CRC are unchanged.
 
-## Contenido
+Japanese remains visible in a later ending scene (`FAIL` for global linguistic QA). The ninth icon consumer and three Japanese credit-name readings remain `NOT_VALIDATED`; an independent context-free review of all 32 fullscreen epilogue pages is also incomplete. Synthetic passes describe their tested screens and access method, not a natural full playthrough. See [status](docs/STATUS.md), [validation](docs/VALIDATION.md) and the [gate matrix](validation/RC3_GATE_MATRIX.json).
 
-- `sources/`: fuentes acumulativas y overlays hasta S461.
-- `patches/`: BPS acumulativo JP limpia → RC5.
-- `validation/`: evidencia vigente de S460 y S461.
-- `docs/`: cierre, alcance y pendientes.
-- `release/RELEASE.json`: identidad y estado de release.
-- `apply_patch.py`: aplicación verificada del BPS.
-- `build_rc5.py`, `BUILD.bat`, `BUILD.command`: reconstrucción desde fuentes.
+## Repository contents
+
+| Path | Purpose |
+|---|---|
+| `build.py`, `source/` | Guarded cumulative source builders and historical archive chain |
+| `patches/`, `apply_patch.py` | Direct BPS and local applicator |
+| `validation/`, `evidence/` | Supplied bounded reports and selected screen captures |
+| `docs/` | Technical findings, consumer offsets, build scope, status and organization decisions |
+| `scripts/verify_repository.py` | Package identity, file-limit and forbidden-extension checks |
+
+No project-wide license was supplied; preservation of existing credits and tool sources does not grant rights in the commercial game. See [NOTICE.md](NOTICE.md) and the historical reports for the credited evidence and tools. Contributors should consult [CONTRIBUTING.md](CONTRIBUTING.md). Original tool authorship/licensing should be confirmed before changing redistribution terms.

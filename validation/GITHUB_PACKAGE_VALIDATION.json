@@ -1,10 +1,37 @@
 {
   "result": "PASS",
-  "version": "v0.114 S461 RC5",
-  "final_approved": false,
-  "files_checked": 1393,
-  "largest_file_bytes": 50331648,
-  "cumulative_bps_sha256": "89e0ad8f6ccce32122e467be1211943b5641ad18ede44301fb1e4a6b1789eee4",
-  "assembled_s456_source_sha256": "f88217b6a17aa7b708167ada7b6741f2d3262bce063829506bbbe1ac7d8ee5f7",
-  "failures": []
+  "environment": {
+    "os": "Linux x86_64",
+    "python": "3.12.14"
+  },
+  "source_rom": {
+    "size": 8388608,
+    "sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921"
+  },
+  "cumulative_bps": {
+    "size": 284345,
+    "sha256": "0d90bce872e7383497b90ef6051bf197260eb2ddc1ea4dd9c2d63c36c0e40504",
+    "application_result": "PASS"
+  },
+  "cumulative_source_build": {
+    "path": "S442 -> S443 -> S444 -> S445 -> S446 -> S447 -> S448 -> S449 -> S450 -> S451 -> S452 -> S453 -> S454 -> S455 -> S456 -> S457 -> S458 -> S459",
+    "result": "PASS"
+  },
+  "result_rom": {
+    "size": 8388608,
+    "sha256": "c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd",
+    "wonderswan_checksum_stored": "BF7D",
+    "wonderswan_checksum_calculated": "BF7D"
+  },
+  "source_build_equals_bps_output": true,
+  "github_repository_checks": {
+    "commercial_rom_files": 0,
+    "bios_files": 0,
+    "save_or_savestate_files": 0,
+    "files_at_or_above_100000000_bytes": 0,
+    "s456_archive_chunks": 4,
+    "s456_reconstructed_archive_sha256": "e62c5cf94102fb8880a3b627c3e0d8974c4d7c212aafdcfac4ecb71f6b42444e",
+    "s456_zip_integrity": "PASS"
+  },
+  "final_approved": false
 }

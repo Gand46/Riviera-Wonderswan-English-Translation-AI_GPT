@@ -1,0 +1,1957 @@
+{
+  "project": "Riviera WonderSwan Color English v0.112-S459-RC3",
+  "source_inputs": [
+    "Riviera-WSC-English-v0.112-S459-RC3-GitHub-Source.zip",
+    "Riviera-WSC-English-v0.112-S459-RC3-Release.zip"
+  ],
+  "actions": [
+    {
+      "original": "GitHub-Source/.gitattributes",
+      "final": ".gitattributes",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/.github/workflows/verify.yml",
+      "final": ".github/workflows/verify.yml",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/.gitignore",
+      "final": ".gitignore",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/APPLY_PATCH.bat",
+      "final": "APPLY_PATCH.bat",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/APPLY_PATCH.command",
+      "final": "APPLY_PATCH.command",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/BUILD.bat",
+      "final": "BUILD.bat",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/BUILD.command",
+      "final": "BUILD.command",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/CHANGELOG.md",
+      "final": "CHANGELOG.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/CONTRIBUTING.md",
+      "final": "CONTRIBUTING.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/NOTICE.md",
+      "final": "NOTICE.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/README.md",
+      "final": "README.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/SHA256SUMS.txt",
+      "final": "SHA256SUMS.txt",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/apply_patch.py",
+      "final": "apply_patch.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/build.py",
+      "final": "build.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/docs/BUILDING.md",
+      "final": "docs/BUILDING.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/docs/RELEASE_NOTES.md",
+      "final": "docs/RELEASE_NOTES.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/docs/ROADMAP.md",
+      "final": "docs/ROADMAP.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/docs/STATUS.md",
+      "final": "docs/STATUS.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/docs/TESTING.md",
+      "final": "docs/TESTING.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/docs/VALIDATION.md",
+      "final": "docs/VALIDATION.md",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/chapter8/f02080.png",
+      "final": "evidence/chapter8/f02080.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/chapter8/f02680.png",
+      "final": "evidence/chapter8/f02680.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/chapter8/f03280.png",
+      "final": "evidence/chapter8/f03280.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/chapter8/f03900.png",
+      "final": "evidence/chapter8/f03900.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/chapter8/f04500.png",
+      "final": "evidence/chapter8/f04500.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/chapter8/f05100.png",
+      "final": "evidence/chapter8/f05100.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/chapter8/f05700.png",
+      "final": "evidence/chapter8/f05700.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/epilogue/epilogue_000_final.png",
+      "final": "evidence/epilogue/epilogue_000_final.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/epilogue/epilogue_003_final.png",
+      "final": "evidence/epilogue/epilogue_003_final.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/epilogue/epilogue_009_final.png",
+      "final": "evidence/epilogue/epilogue_009_final.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/evidence/epilogue/epilogue_011_final.png",
+      "final": "evidence/epilogue/epilogue_011_final.png",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/patches/Riviera_EN_v0.112_S459_RC3_CUMULATIVE_FROM_JP.bps",
+      "final": "patches/Riviera_EN_v0.112_S459_RC3_CUMULATIVE_FROM_JP.bps",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/release/RELEASE.json",
+      "final": "release/RELEASE.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/scripts/verify_repository.py",
+      "final": "scripts/verify_repository.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/build_s457.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/build_s457.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/rebuild_s457.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/rebuild_s457.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/__init__.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/__init__.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/bps.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/bps.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/cli.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/cli.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/ips.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/ips.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/util.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/util.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/xdelta.py",
+      "final": "source/Riviera_S457_FULL_SOURCE/scripts/vendor/ws_patch_tools/xdelta.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/source/CREDIT_GLYPH_EXTENSION.json",
+      "final": "source/Riviera_S457_FULL_SOURCE/source/CREDIT_GLYPH_EXTENSION.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/source/CREDIT_LAYOUT.json",
+      "final": "source/Riviera_S457_FULL_SOURCE/source/CREDIT_LAYOUT.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/source/PACKED2_DECODER.hex",
+      "final": "source/Riviera_S457_FULL_SOURCE/source/PACKED2_DECODER.hex",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/source/PACKED_DECODER.hex",
+      "final": "source/Riviera_S457_FULL_SOURCE/source/PACKED_DECODER.hex",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/source/RELEASE.json",
+      "final": "source/Riviera_S457_FULL_SOURCE/source/RELEASE.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/source/S450_RELEASE.json",
+      "final": "source/Riviera_S457_FULL_SOURCE/source/S450_RELEASE.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/source/S455_RELEASE.json",
+      "final": "source/Riviera_S457_FULL_SOURCE/source/S455_RELEASE.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part000",
+      "final": "source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part000",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part001",
+      "final": "source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part001",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part002",
+      "final": "source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part002",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part003",
+      "final": "source/Riviera_S457_FULL_SOURCE/upstream/Riviera_S456_Full_Source_BPS_QA.zip.part003",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S458_OVERLAY/build_s458.py",
+      "final": "source/Riviera_S458_OVERLAY/build_s458.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S458_OVERLAY/rebuild.py",
+      "final": "source/Riviera_S458_OVERLAY/rebuild.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S459_OVERLAY/build_s459.py",
+      "final": "source/Riviera_S459_OVERLAY/build_s459.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S459_OVERLAY/rebuild.py",
+      "final": "source/Riviera_S459_OVERLAY/rebuild.py",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/GITHUB_PACKAGE_VALIDATION.json",
+      "final": "validation/GITHUB_PACKAGE_VALIDATION.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/RC3_GATE_MATRIX.json",
+      "final": "validation/RC3_GATE_MATRIX.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/BPS_ROUNDTRIP.json",
+      "final": "validation/S459/BPS_ROUNDTRIP.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/BUILD.json",
+      "final": "validation/S459/BUILD.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/CH8_RENDER.json",
+      "final": "validation/S459/CH8_RENDER.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/EPILOGUE_LAYOUT.json",
+      "final": "validation/S459/EPILOGUE_LAYOUT.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/NATIVE_REGRESSION.json",
+      "final": "validation/S459/NATIVE_REGRESSION.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/PACKAGE_VALIDATION.json",
+      "final": "validation/S459/PACKAGE_VALIDATION.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/REGRESSION.json",
+      "final": "validation/S459/REGRESSION.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "GitHub-Source/validation/S459/SOURCE_REBUILD.json",
+      "final": "validation/S459/SOURCE_REBUILD.json",
+      "decision": "retained or revised for source/release documentation"
+    },
+    {
+      "original": "Release/Riviera_EN_v0.112_S459_RC3_CUMULATIVE_FROM_JP.bps",
+      "final": "standalone BPS and release ZIP",
+      "decision": "byte-identical copy; public patch"
+    },
+    {
+      "original": "Release/vendor/ws_patch_tools/*",
+      "final": "release ZIP/vendor/ws_patch_tools/*",
+      "decision": "retained patch applicator source"
+    },
+    {
+      "original": "GitHub-Source/source/Riviera_S457_FULL_SOURCE/upstream/*.part*",
+      "final": "same paths, resplit from sanitized S456 archive",
+      "decision": "removed historical savestates and generated bytecode; maintained source-chain filenames"
+    },
+    {
+      "original": "GitHub-Source/patches/*.bps",
+      "final": "same",
+      "decision": "unchanged public cumulative BPS"
+    },
+    {
+      "original": "created for GitHub preparation",
+      "final": "docs/BUILD_AND_REPRODUCIBILITY.md",
+      "decision": "new English documentation or generated hash manifest"
+    },
+    {
+      "original": "created for GitHub preparation",
+      "final": "docs/ORGANIZATION_MANIFEST.json",
+      "decision": "new English documentation or generated hash manifest"
+    },
+    {
+      "original": "created for GitHub preparation",
+      "final": "docs/TECHNICAL_FINDINGS.md",
+      "decision": "new English documentation or generated hash manifest"
+    },
+    {
+      "original": "created for GitHub preparation",
+      "final": "docs/TEXT_CONSUMERS.csv",
+      "decision": "new English documentation or generated hash manifest"
+    }
+  ],
+  "historical_archive": {
+    "original_sha256": "e62c5cf94102fb8880a3b627c3e0d8974c4d7c212aafdcfac4ecb71f6b42444e",
+    "sanitized_sha256": "1e2f381ef0186d5763dc762047db1978f8eff520351f3cdd70db5eb3d78db9b7",
+    "original_bytes": 154937827,
+    "sanitized_bytes": 145694256,
+    "levels": 17,
+    "removed_members": [
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/evidence/checkpoints/S440_01_POTION_TUTORIAL_RESOLVED.mss",
+        "bytes": 38362,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/evidence/checkpoints/S440_00_SECOND_ITEMSELECT_START.mss",
+        "bytes": 25621,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/evidence/checkpoints/S440_05_SKYWALK_SAVAGE_DEMON_ENCOUNTER.mss",
+        "bytes": 34613,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/evidence/checkpoints/S440_02_TRIUMPH_POSTRESULT_DIALOG.mss",
+        "bytes": 36275,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/evidence/checkpoints/S440_03_POSTBATTLE_QUEST_FIELD.mss",
+        "bytes": 36141,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/evidence/checkpoints/S440_04_STAGE1_2_SKYWALK.mss",
+        "bytes": 36811,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/evidence/checkpoints/S438_V093_SECOND_ITEMSELECT_NATURAL.mss",
+        "bytes": 25621,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/scripts/__pycache__/build_s435.cpython-313.pyc",
+        "bytes": 2660,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/evidence/checkpoints/S430_SECOND_BATTLE_TURN5480.mss",
+        "bytes": 33854,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/scripts/__pycache__/build_s434.cpython-313.pyc",
+        "bytes": 3746,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/scripts/__pycache__/build_s433.cpython-313.pyc",
+        "bytes": 6108,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 663,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4465,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7618,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 269,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/evidence/checkpoints/S422_FIELD26600_CHECKPOINT.mss",
+        "bytes": 36425,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/evidence/checkpoints/S427_SECOND_ITEMSELECT_CHECKPOINT.mss",
+        "bytes": 25595,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/evidence/checkpoints/S430_SECOND_BATTLE_TURN5480.mss",
+        "bytes": 33854,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/evidence/runtime/S427_SECOND_ITEMSELECT_CHECKPOINT.mss",
+        "bytes": 25595,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/evidence/field26600_checkpoint.mss",
+        "bytes": 36425,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/scripts/vendor/ws_patch_tools/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-313.pyc",
+        "bytes": 630,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/scripts/vendor/ws_patch_tools/__pycache__/ips.cpython-313.pyc",
+        "bytes": 4432,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-313.pyc",
+        "bytes": 7585,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-313.pyc",
+        "bytes": 236,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/scripts/__pycache__/build_s408.cpython-313.pyc",
+        "bytes": 5048,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S405/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S405/scripts/__pycache__/build_s405.cpython-313.pyc",
+        "bytes": 21941,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S406/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S406/scripts/__pycache__/build_s406.cpython-313.pyc",
+        "bytes": 17733,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S400/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S400/scripts/__pycache__/build_s400.cpython-313.pyc",
+        "bytes": 7021,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S401/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S401/scripts/__pycache__/build_s401.cpython-313.pyc",
+        "bytes": 6270,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S407/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S407/scripts/__pycache__/build_s407.cpython-313.pyc",
+        "bytes": 19430,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S399/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S399/scripts/__pycache__/build_s399.cpython-313.pyc",
+        "bytes": 4434,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S403/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S403/scripts/__pycache__/build_s403.cpython-313.pyc",
+        "bytes": 6588,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S402/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S402/scripts/__pycache__/build_s402.cpython-313.pyc",
+        "bytes": 10492,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S404/scripts/__pycache__/",
+        "bytes": 0,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 16,
+        "path": "Riviera_S440_PHASEC_TRIUMPH_SKYWALK_NATURAL_ROUTE_CHECKPOINT_FULL_SOURCE_2026-09-19/FULL_SOURCE/upstream_S438/FULL_SOURCE/upstream_S437R1/FULL_SOURCE/upstream_S437/FULL_SOURCE/upstream_S436/FULL_SOURCE/upstream_S435/FULL_SOURCE/upstream_S434/FULL_SOURCE/upstream_S433/FULL_SOURCE/upstream_S432/FULL_SOURCE/upstream_S431/FULL_SOURCE/upstream_S430/FULL_SOURCE/upstream_S429/FULL_SOURCE/upstream_S428/FULL_SOURCE/upstream_S427/FULL_SOURCE/upstream_S426/FULL_SOURCE/upstream_S425/FULL_SOURCE/upstream_S424/FULL_SOURCE/upstream_S423/FULL_SOURCE/upstream_S422/FULL_SOURCE/upstream_S421/FULL_SOURCE/upstream_S420/FULL_SOURCE/upstream_S419/FULL_SOURCE/upstream_S418/FULL_SOURCE/upstream_S417/FULL_SOURCE/upstream_S416/FULL_SOURCE/upstream_S415/FULL_SOURCE/upstream_S414/FULL_SOURCE/upstream_S413/FULL_SOURCE/upstream_S412/FULL_SOURCE/upstream_S411/FULL_SOURCE/upstream_S410/FULL_SOURCE/upstream_S409/FULL_SOURCE/upstream_S408/FULL_SOURCE/stages/S404/scripts/__pycache__/build_s404.cpython-313.pyc",
+        "bytes": 14466,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36401,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/checkpoints/ITEMSELECT_PRE_DRAW.mss",
+        "bytes": 22863,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/checkpoints/S430_SECOND_BATTLE_TURN5480.mss",
+        "bytes": 33854,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/checkpoints/TARGET_PRE_DRAW.mss",
+        "bytes": 30590,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/evidence/checkpoint_route/ACTION_PRE_DRAW.mss",
+        "bytes": 36401,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/evidence/checkpoint_route/TARGET_PRE_DRAW.mss",
+        "bytes": 30590,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 13,
+        "path": "Riviera_S443_FULL_SOURCE/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36401,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 13,
+        "path": "Riviera_S443_FULL_SOURCE/checkpoints/ITEMSELECT_PRE_DRAW.mss",
+        "bytes": 22863,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 13,
+        "path": "Riviera_S443_FULL_SOURCE/checkpoints/S430_SECOND_BATTLE_TURN5480.mss",
+        "bytes": 33854,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 13,
+        "path": "Riviera_S443_FULL_SOURCE/checkpoints/S440_04_STAGE1_2_SKYWALK.mss",
+        "bytes": 36811,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 13,
+        "path": "Riviera_S443_FULL_SOURCE/checkpoints/TARGET_PRE_DRAW.mss",
+        "bytes": 30590,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36401,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/checkpoints/ITEMSELECT_PRE_DRAW.mss",
+        "bytes": 22863,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/checkpoints/MENU_PRE_DRAW.mss",
+        "bytes": 36125,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/checkpoints/S430_SECOND_BATTLE_TURN5480.mss",
+        "bytes": 33854,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/checkpoints/S440_04_STAGE1_2_SKYWALK.mss",
+        "bytes": 36811,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/checkpoints/TARGET_PRE_DRAW.mss",
+        "bytes": 30590,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/evidence/regression/battle/capture/ACTION_PRE_DRAW.mss",
+        "bytes": 36409,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/evidence/regression/battle/capture/TARGET_PRE_DRAW.mss",
+        "bytes": 30832,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36401,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/checkpoints/ITEMSELECT_PRE_DRAW.mss",
+        "bytes": 22863,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/checkpoints/MENU_PRE_DRAW.mss",
+        "bytes": 36125,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/checkpoints/S430_SECOND_BATTLE_TURN5480.mss",
+        "bytes": 33854,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/checkpoints/S440_04_STAGE1_2_SKYWALK.mss",
+        "bytes": 36811,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/checkpoints/TARGET_PRE_DRAW.mss",
+        "bytes": 30590,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/evidence/battle_jp_rage60/ACTION_PRE_DRAW.mss",
+        "bytes": 37007,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/evidence/battle_s445/ACTION_PRE_DRAW.mss",
+        "bytes": 37053,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/evidence/rage100_jp/ACTION_PRE_DRAW.mss",
+        "bytes": 37031,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/evidence/rage100_s445/ACTION_PRE_DRAW.mss",
+        "bytes": 37033,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/evidence/rage59_jp/ACTION_PRE_DRAW.mss",
+        "bytes": 36815,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/evidence/rage59_s445/ACTION_PRE_DRAW.mss",
+        "bytes": 36850,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36401,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/checkpoints/S440_05_SKYWALK_SAVAGE_DEMON_ENCOUNTER.mss",
+        "bytes": 34613,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/checkpoints/S446_CONTROLLED_FORMATION.mss",
+        "bytes": 26270,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/checkpoints/S446_CONTROLLED_MEMBERS.mss",
+        "bytes": 26609,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/checkpoints/S446_CONTROLLED_TEAM_HEADER.mss",
+        "bytes": 24828,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/checkpoints/S446_NATURAL_SKYWALK_EINHERJAR_SELECTED.mss",
+        "bytes": 29645,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/01_start/END.mss",
+        "bytes": 34412,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/02_encounter/END.mss",
+        "bytes": 24803,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/03_select/END.mss",
+        "bytes": 24967,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/04_enter_battle/END.mss",
+        "bytes": 33120,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/05_battle/END.mss",
+        "bytes": 33347,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/06_battle/END.mss",
+        "bytes": 34043,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/07_tutorial_menu/END.mss",
+        "bytes": 29518,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/07_tutorial_menu/ITEM_MENU.mss",
+        "bytes": 27875,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/08_choose_einherjar/END.mss",
+        "bytes": 29645,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/09_overskill/END.mss",
+        "bytes": 29516,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/10_skill_options/END.mss",
+        "bytes": 34297,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/11_tutorial_continue/END.mss",
+        "bytes": 33962,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/baseline_battle/ACTION_PRE_DRAW.mss",
+        "bytes": 36841,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/baseline_members/END.mss",
+        "bytes": 26751,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/final_battle/ACTION_PRE_DRAW.mss",
+        "bytes": 36841,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/final_consumers/END.mss",
+        "bytes": 26270,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/final_formation/END.mss",
+        "bytes": 26270,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/final_formation_down/END.mss",
+        "bytes": 26120,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/final_members/END.mss",
+        "bytes": 26609,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/team_S445_down/END.mss",
+        "bytes": 26342,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/team_prefetch/END.mss",
+        "bytes": 24828,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/team_prefetch/PRE_HEADER.mss",
+        "bytes": 23456,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/team_prefetch/PRE_TEAM.mss",
+        "bytes": 23444,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/evidence/team_screen/END.mss",
+        "bytes": 26491,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/scripts/vendor/ws_patch_tools/__pycache__/__init__.cpython-312.pyc",
+        "bytes": 234,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/scripts/vendor/ws_patch_tools/__pycache__/bps.cpython-312.pyc",
+        "bytes": 7610,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/scripts/vendor/ws_patch_tools/__pycache__/util.cpython-312.pyc",
+        "bytes": 624,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 9,
+        "path": "Riviera_S447_FULL_SOURCE/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36401,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 9,
+        "path": "Riviera_S447_FULL_SOURCE/evidence/battle/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 8,
+        "path": "Riviera_S448_FULL_SOURCE/evidence/battle/S447/ACTION_PRE_DRAW.mss",
+        "bytes": 37197,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 8,
+        "path": "Riviera_S448_FULL_SOURCE/evidence/battle/S448/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 7,
+        "path": "Riviera_S449_FULL_SOURCE/evidence/battle/S448/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 7,
+        "path": "Riviera_S449_FULL_SOURCE/evidence/battle/S449/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 7,
+        "path": "Riviera_S449_FULL_SOURCE/qa/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 6,
+        "path": "Riviera_S450_FULL_SOURCE/evidence/battle/S449/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 6,
+        "path": "Riviera_S450_FULL_SOURCE/evidence/battle/S450/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 6,
+        "path": "Riviera_S450_FULL_SOURCE/qa/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 5,
+        "path": "Riviera_S451_FULL_SOURCE/evidence/battle/S450/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 5,
+        "path": "Riviera_S451_FULL_SOURCE/evidence/battle/S451/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 5,
+        "path": "Riviera_S451_FULL_SOURCE/qa/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 4,
+        "path": "Riviera_S452_FULL_SOURCE/evidence/battle/S451/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 4,
+        "path": "Riviera_S452_FULL_SOURCE/evidence/battle/S452/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 4,
+        "path": "Riviera_S452_FULL_SOURCE/qa/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 3,
+        "path": "Riviera_S453_FULL_SOURCE/evidence/battle/S452/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 3,
+        "path": "Riviera_S453_FULL_SOURCE/evidence/battle/S453/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 3,
+        "path": "Riviera_S453_FULL_SOURCE/qa/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 2,
+        "path": "Riviera_S454_FULL_SOURCE/evidence/battle/S453/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 2,
+        "path": "Riviera_S454_FULL_SOURCE/evidence/battle/S454/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 2,
+        "path": "Riviera_S454_FULL_SOURCE/qa/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 1,
+        "path": "Riviera_S455_FULL_SOURCE/evidence/battle/S454/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 1,
+        "path": "Riviera_S455_FULL_SOURCE/evidence/battle/S455/ACTION_PRE_DRAW.mss",
+        "bytes": 37199,
+        "reason": "savestate/save or generated bytecode"
+      },
+      {
+        "level": 1,
+        "path": "Riviera_S455_FULL_SOURCE/qa/checkpoints/ACTION_PRE_DRAW.mss",
+        "bytes": 36842,
+        "reason": "savestate/save or generated bytecode"
+      }
+    ],
+    "updated_digest_references": [
+      {
+        "level": 15,
+        "path": "Riviera_S441_Font_Overflow_Validation_FULL_SOURCE/SHA256SUMS.txt",
+        "type": "upstream_sha256",
+        "old": "a4389c502beedbdf747bd908ebc69bde959b3ea8c12577687b796e2d6ab7ac7e",
+        "new": "d1c6bd68ab31b9184f20066bbf617a7ff244f327f189c1f479f4b9d06176dfdb"
+      },
+      {
+        "level": 15,
+        "path": "Riviera_S441_Font_Overflow_Validation_FULL_SOURCE/source/UPSTREAM.json",
+        "type": "upstream_sha256",
+        "old": "a4389c502beedbdf747bd908ebc69bde959b3ea8c12577687b796e2d6ab7ac7e",
+        "new": "d1c6bd68ab31b9184f20066bbf617a7ff244f327f189c1f479f4b9d06176dfdb"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/source/UPSTREAM.json",
+        "type": "upstream_sha256",
+        "old": "284be1e3c5864880dc7a22c03d3b18c68f628b5db1918f118de7a33c3eb21761",
+        "new": "b43c343ec2601bf687e60848f81f7811ae896119ddbf39ce346081af0adc8788"
+      },
+      {
+        "level": 14,
+        "path": "Riviera_S442_Correcciones_UI_FULL_SOURCE/SHA256SUMS.txt",
+        "type": "upstream_sha256",
+        "old": "284be1e3c5864880dc7a22c03d3b18c68f628b5db1918f118de7a33c3eb21761",
+        "new": "b43c343ec2601bf687e60848f81f7811ae896119ddbf39ce346081af0adc8788"
+      },
+      {
+        "level": 13,
+        "path": "Riviera_S443_FULL_SOURCE/source/UPSTREAM.json",
+        "type": "upstream_sha256",
+        "old": "475b62c9ee76f3f5e6be275d5d4afc7c9b8344f64f51047edebd3cfa1926b8cd",
+        "new": "18ec676997565937993a687082d615de2c8138eb91776bc74e82f46ab9335b69"
+      },
+      {
+        "level": 13,
+        "path": "Riviera_S443_FULL_SOURCE/SHA256SUMS.txt",
+        "type": "upstream_sha256",
+        "old": "475b62c9ee76f3f5e6be275d5d4afc7c9b8344f64f51047edebd3cfa1926b8cd",
+        "new": "18ec676997565937993a687082d615de2c8138eb91776bc74e82f46ab9335b69"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/source/UPSTREAM.json",
+        "type": "upstream_sha256",
+        "old": "7538d3eaf4386e0a64957510772b7e60eb657049c86d4d924bb41863171d94c8",
+        "new": "12ca0d0f5a4220c3bd949e3c995ffa53015dc33c1f2dc9ccaa4f773fc9cef0d7"
+      },
+      {
+        "level": 12,
+        "path": "Riviera_S444_FULL_SOURCE/MANIFEST.json",
+        "type": "upstream_sha256",
+        "old": "7538d3eaf4386e0a64957510772b7e60eb657049c86d4d924bb41863171d94c8",
+        "new": "12ca0d0f5a4220c3bd949e3c995ffa53015dc33c1f2dc9ccaa4f773fc9cef0d7"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/SHA256SUMS.txt",
+        "type": "upstream_sha256",
+        "old": "7818b1b4c790ddd0c33a5e77c4268e31d438a95dc29fd8d578c816eda607bd7b",
+        "new": "2826a1c930d0630c3b22b5dc64bfc32127355e39a683dc23898269f6387e7dbf"
+      },
+      {
+        "level": 11,
+        "path": "Riviera_S445_FULL_SOURCE/source/UPSTREAM.json",
+        "type": "upstream_sha256",
+        "old": "7818b1b4c790ddd0c33a5e77c4268e31d438a95dc29fd8d578c816eda607bd7b",
+        "new": "2826a1c930d0630c3b22b5dc64bfc32127355e39a683dc23898269f6387e7dbf"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/SHA256SUMS.txt",
+        "type": "upstream_sha256",
+        "old": "8d47a3253d98d340d4ab1356660e8d550cf3861ee11fe7910f9027824836cada",
+        "new": "acbdd027125ad196415b67f51d9ad99a03428535722db71295154fd60c1989b7"
+      },
+      {
+        "level": 10,
+        "path": "Riviera_S446_FULL_SOURCE/source/UPSTREAM.json",
+        "type": "upstream_sha256",
+        "old": "8d47a3253d98d340d4ab1356660e8d550cf3861ee11fe7910f9027824836cada",
+        "new": "acbdd027125ad196415b67f51d9ad99a03428535722db71295154fd60c1989b7"
+      },
+      {
+        "level": 9,
+        "path": "Riviera_S447_FULL_SOURCE/SHA256SUMS.txt",
+        "type": "upstream_sha256",
+        "old": "55faa73f7c3c39c569f1509a5c06abca2b5e4a093bb2d7d22167556914b0cdfc",
+        "new": "f95082bedf3add5d4304b5ae68482eef52f277578a47934c577d976ca5109049"
+      },
+      {
+        "level": 9,
+        "path": "Riviera_S447_FULL_SOURCE/source/UPSTREAM.json",
+        "type": "upstream_sha256",
+        "old": "55faa73f7c3c39c569f1509a5c06abca2b5e4a093bb2d7d22167556914b0cdfc",
+        "new": "f95082bedf3add5d4304b5ae68482eef52f277578a47934c577d976ca5109049"
+      },
+      {
+        "level": 8,
+        "path": "Riviera_S448_FULL_SOURCE/SHA256SUMS.txt",
+        "type": "upstream_sha256",
+        "old": "0b89047c7ab4c4094737540777f157a4608c4e126b80154dd3024db4f5cbfe9e",
+        "new": "d2dc28ada26418d9a859351e3872a9063da352273f6bfd83ea1f9c6740b5c106"
+      },
+      {
+        "level": 8,
+        "path": "Riviera_S448_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "0b89047c7ab4c4094737540777f157a4608c4e126b80154dd3024db4f5cbfe9e",
+        "new": "d2dc28ada26418d9a859351e3872a9063da352273f6bfd83ea1f9c6740b5c106"
+      },
+      {
+        "level": 7,
+        "path": "Riviera_S449_FULL_SOURCE/MANIFEST.json",
+        "type": "upstream_sha256",
+        "old": "1404c2c75e6310f384ad3095f606e6695ae3cfa349c4fa8b3e28c582dde2b924",
+        "new": "c799dfdc24d87b0ca5a19bec8d866a1d26dc54d1b738d15ea90f6e3a531f3cf8"
+      },
+      {
+        "level": 7,
+        "path": "Riviera_S449_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "1404c2c75e6310f384ad3095f606e6695ae3cfa349c4fa8b3e28c582dde2b924",
+        "new": "c799dfdc24d87b0ca5a19bec8d866a1d26dc54d1b738d15ea90f6e3a531f3cf8"
+      },
+      {
+        "level": 6,
+        "path": "Riviera_S450_FULL_SOURCE/MANIFEST.json",
+        "type": "upstream_sha256",
+        "old": "e6c3e394f91f4f67c4c50e3ac4338e27c4cc6e3a01e634ee78514e0c1154cfba",
+        "new": "bc7953438025e171df7797933658399649d5ee0f2a93a00f06c49c4104f2dd6b"
+      },
+      {
+        "level": 6,
+        "path": "Riviera_S450_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "e6c3e394f91f4f67c4c50e3ac4338e27c4cc6e3a01e634ee78514e0c1154cfba",
+        "new": "bc7953438025e171df7797933658399649d5ee0f2a93a00f06c49c4104f2dd6b"
+      },
+      {
+        "level": 5,
+        "path": "Riviera_S451_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "332e67445045ae6567e27d19ca3913f9d9a917d9193a3460568728e610177408",
+        "new": "1599684d069158f9155c94dfc2b60cdfc1fedd379eae455b2fe91036bf2e801f"
+      },
+      {
+        "level": 5,
+        "path": "Riviera_S451_FULL_SOURCE/MANIFEST_SHA256.json",
+        "type": "upstream_sha256",
+        "old": "332e67445045ae6567e27d19ca3913f9d9a917d9193a3460568728e610177408",
+        "new": "1599684d069158f9155c94dfc2b60cdfc1fedd379eae455b2fe91036bf2e801f"
+      },
+      {
+        "level": 4,
+        "path": "Riviera_S452_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "2c9c806940f9c46bd2c2444f8c62c35fb24318cadb52fbe6b985d490dfa39bda",
+        "new": "3821f44b0651c5d5ac89bd28cefbae37c7fe193f3a5465b0dc8248108088e3de"
+      },
+      {
+        "level": 4,
+        "path": "Riviera_S452_FULL_SOURCE/MANIFEST_SHA256.json",
+        "type": "upstream_sha256",
+        "old": "2c9c806940f9c46bd2c2444f8c62c35fb24318cadb52fbe6b985d490dfa39bda",
+        "new": "3821f44b0651c5d5ac89bd28cefbae37c7fe193f3a5465b0dc8248108088e3de"
+      },
+      {
+        "level": 3,
+        "path": "Riviera_S453_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "53249b7a7900022fe8afce1d74553a0323c04120b772ec439ee380c82601119a",
+        "new": "8e1a04762d9264f36ee4cb90b938b47d5080b8e9e00e8f49fa84dd566e797c73"
+      },
+      {
+        "level": 3,
+        "path": "Riviera_S453_FULL_SOURCE/MANIFEST_SHA256.json",
+        "type": "upstream_sha256",
+        "old": "53249b7a7900022fe8afce1d74553a0323c04120b772ec439ee380c82601119a",
+        "new": "8e1a04762d9264f36ee4cb90b938b47d5080b8e9e00e8f49fa84dd566e797c73"
+      },
+      {
+        "level": 2,
+        "path": "Riviera_S454_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "4906f2971636a303871dfbb5d65850ff86ba7e75b26b0bea471150ba83443771",
+        "new": "fc34d8b42e01cdd3fc75ce39f360d609f6bac250111a1039a369dff6e1e05fcd"
+      },
+      {
+        "level": 2,
+        "path": "Riviera_S454_FULL_SOURCE/MANIFEST_SHA256.json",
+        "type": "upstream_sha256",
+        "old": "4906f2971636a303871dfbb5d65850ff86ba7e75b26b0bea471150ba83443771",
+        "new": "fc34d8b42e01cdd3fc75ce39f360d609f6bac250111a1039a369dff6e1e05fcd"
+      },
+      {
+        "level": 1,
+        "path": "Riviera_S455_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "531bd74df671c2d53f1fdc3f427a20e0648c51dddc107f889c7aa29c243528eb",
+        "new": "cfc6b92fcbe9bc270aaf127cf1830da5b3ad2027f87f397ec8fa2bce1b9063ef"
+      },
+      {
+        "level": 1,
+        "path": "Riviera_S455_FULL_SOURCE/MANIFEST_SHA256.json",
+        "type": "upstream_sha256",
+        "old": "531bd74df671c2d53f1fdc3f427a20e0648c51dddc107f889c7aa29c243528eb",
+        "new": "cfc6b92fcbe9bc270aaf127cf1830da5b3ad2027f87f397ec8fa2bce1b9063ef"
+      },
+      {
+        "level": 0,
+        "path": "Riviera_S456_FULL_SOURCE/source/RELEASE.json",
+        "type": "upstream_sha256",
+        "old": "6fbc067dbd4c24ea298c26225928a29ed6a66b041753a3c3fdc2928c1a0ed717",
+        "new": "67f5853c65a37a6c13f2ccbc1b830fa750f1b32dddcac35d58db945c008bcb3a"
+      },
+      {
+        "level": 0,
+        "path": "Riviera_S456_FULL_SOURCE/MANIFEST.json",
+        "type": "upstream_sha256",
+        "old": "6fbc067dbd4c24ea298c26225928a29ed6a66b041753a3c3fdc2928c1a0ed717",
+        "new": "67f5853c65a37a6c13f2ccbc1b830fa750f1b32dddcac35d58db945c008bcb3a"
+      }
+    ]
+  }
+}

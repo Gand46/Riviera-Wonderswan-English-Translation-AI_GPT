@@ -1,0 +1,41 @@
+{
+  "result": "PASS_SYNTHETIC",
+  "cases": {
+    "s459_full0": {
+      "native_return": true,
+      "last_exit_code": 0,
+      "credits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    "s459_native1": {
+      "native_return": true,
+      "last_exit_code": 0,
+      "credits": []
+    },
+    "s459_native2": {
+      "native_return": true,
+      "last_exit_code": 0,
+      "credits": []
+    },
+    "s459_native4": {
+      "native_return": true,
+      "last_exit_code": 0,
+      "credits": []
+    }
+  },
+  "jp_control": "S458 matched in prior validation; native control code unchanged",
+  "limits": "Routes1,2,4 use late subset; natural reachability not proved"
+}
