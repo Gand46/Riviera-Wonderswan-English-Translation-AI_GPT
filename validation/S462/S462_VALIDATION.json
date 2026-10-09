@@ -1,0 +1,318 @@
+{
+  "stage": "S462",
+  "version": "v0.115 RC6",
+  "result": "PASS",
+  "final_approved": false,
+  "scope": "R01_COMPACT_SELECTOR_PARENT_RANGE_LOSS_ONLY",
+  "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "checksum": "289A",
+  "classification": "RELEASE_CANDIDATE_NOT_FINAL",
+  "rom_changed": true,
+  "binary_diff": {
+    "changed_bytes_from_rc5": 12,
+    "allowed": "selector 0x75EAF1..0x75EAFA plus checksum",
+    "unexpected_changed_bytes": 0
+  },
+  "affected": {
+    "ranges": [
+      [
+        "0x7cb227",
+        "0x7cb529"
+      ],
+      [
+        "0x7cdbe1",
+        "0x7cdc00"
+      ]
+    ],
+    "extent_bytes": 801,
+    "stream_count": 22,
+    "streams": [
+      {
+        "rom_start": "0x7cb227",
+        "bytes": 25,
+        "sha256": "c14bfc15e8a4ee916c132623d7698af5eb0ec60702bfd8ef76ef0e2aa9b316bf",
+        "compact_english": "Use selected\nitems only.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": true
+      },
+      {
+        "rom_start": "0x7cb240",
+        "bytes": 28,
+        "sha256": "5d0c278346ed2457d7fd4fcfa6134daac3d52bc29074e3c21a9828a673b2cb11",
+        "compact_english": "Got it. I'll\nchoose wisely.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb266",
+        "bytes": 19,
+        "sha256": "8cc4488f9969918d3240afc7d410f655f976efed32bd69c8ceaddeeab71f5fd1",
+        "compact_english": "Keep up.\nLet's go.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb27b",
+        "bytes": 54,
+        "sha256": "fb37a73533dd8ee6debcbb9323fa0c64dc4a10dc739bbe32d9ca2e328a209ba7",
+        "compact_english": "An ally fell\nThey rage.\n[PAGE]\nThey are weak\nStay on guard!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb2b2",
+        "bytes": 5,
+        "sha256": "95dc413439d4e5a5dea089e5563874bf7c98a55a00ff40d1f4e952623bd98db7",
+        "compact_english": "Okay",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb2b7",
+        "bytes": 15,
+        "sha256": "f2e9109f6f7dfc09e8006e64ef6f1ec90e1cc767fc3f3ade6e66a650f676fc29",
+        "compact_english": "Here they come",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb2c6",
+        "bytes": 23,
+        "sha256": "a5119ec49b3f59062ad638f07394e3b2255aa2cd6d680c1b008fec01bc87a385",
+        "compact_english": "Einherjar...\nLet's go!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb2de",
+        "bytes": 88,
+        "sha256": "e1061dc426aceef80df7853bc4104b985fd0933191a1ca36a472a63e8fa0559c",
+        "compact_english": "Wait!\n[PAGE]\nDon't just attack.\n[PAGE]\nThink how to win.\n[PAGE]\nHeal first.\nStay alive.\n[PAGE]\nFinish the task.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb336",
+        "bytes": 25,
+        "sha256": "3f2f05f7cbdbc8707a24627d742b5c204802ed92f82ad90ffe34577b2873ddea",
+        "compact_english": "Ein! Heal with\na Potion!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb353",
+        "bytes": 23,
+        "sha256": "e4bb4fcbaaeda883f3855d9d97aee0602a920180f5dc24019af8b62a76f1afbd",
+        "compact_english": "Potion...\nIt heals HP.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb36f",
+        "bytes": 27,
+        "sha256": "186b175603c92e47e303dc171396cf9c6b1adb3a06e4420d47a14a18331dc499",
+        "compact_english": "I can't lose!\nUse Lorelei!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb390",
+        "bytes": 56,
+        "sha256": "faed2cf39f09b1f7ca33140439f3c1b9f4a5dd9fecd2b8577e6192272272f6cb",
+        "compact_english": "Wait!\n[PAGE]\nYou can't use\nthat weapon.\n[PAGE]\nHeal yourself\nfirst.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb3d0",
+        "bytes": 25,
+        "sha256": "3f2f05f7cbdbc8707a24627d742b5c204802ed92f82ad90ffe34577b2873ddea",
+        "compact_english": "Ein! Heal with\na Potion!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb3ed",
+        "bytes": 23,
+        "sha256": "e4bb4fcbaaeda883f3855d9d97aee0602a920180f5dc24019af8b62a76f1afbd",
+        "compact_english": "Potion...\nIt heals HP.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb409",
+        "bytes": 17,
+        "sha256": "280a9f5fa87cb03afc1dbf4ce7c7f270efef6b9a8505bc2bec3a7d2b8d38db3e",
+        "compact_english": "Ugh!\nTough foes!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb41b",
+        "bytes": 14,
+        "sha256": "e3e5e354a7774fbd6e140ebb3dd00e9324bc3cb5468780f02fa62e1c93774db2",
+        "compact_english": "Are you okay?",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb42a",
+        "bytes": 28,
+        "sha256": "1749840aac4a7150952025bdfb065c17eb49fb1f530ae2335e051f3876732982",
+        "compact_english": "Amazing...\nOne blow did it!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb44e",
+        "bytes": 62,
+        "sha256": "7c580cfe80ba57daba564fb26d8eb73efa8e7e875a85b836e799f93a5e698bc8",
+        "compact_english": "Of course!\n[PAGE]\nEinherjar is\nyour Diviner.\n[PAGE]\nIt's a sacred\nweapon.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb49f",
+        "bytes": 29,
+        "sha256": "efedc26aa676a5a17e7d951d1ae1d033a1a3c018b47043e29d84855efc6d1b35",
+        "compact_english": "Diviner?\nYou mean Einherjar?",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb4bc",
+        "bytes": 63,
+        "sha256": "9cb02effa325399961eff77250b4516551c5c9545ff409f0e32aae74eb3dc8c6",
+        "compact_english": "Right.\n[PAGE]\nMighty weapons\ncan break.\n[PAGE]\nWatch their uses\ncarefully!",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cb507",
+        "bytes": 29,
+        "sha256": "adca9aa5014b789bcc8865747f034a0e1e3410a9145f3e3e8d97de7007afe627",
+        "compact_english": "Both Diviners\nhave no limit.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": false
+      },
+      {
+        "rom_start": "0x7cdbe1",
+        "bytes": 31,
+        "sha256": "f7ac2838d65c2a3150e63b5006c14817dae017ece68be837363a40b69e41dffb",
+        "compact_english": "We wasted time.\nWe must hurry.",
+        "result": "PASS",
+        "access_method": "STATIC_STREAM_IDENTITY_AND_SELECTOR_RANGE_PROOF",
+        "visual_approved_in_s462": true
+      }
+    ]
+  },
+  "selector_validation": {
+    "result": "PASS",
+    "access_method": "STATIC_DISASSEMBLY_AND_BOUNDED_OPCODE_INTERPRETER",
+    "boundary_cases": 18,
+    "all_801_lost_range_offsets_restored_by_interval_equivalence": true,
+    "s460_tail_preserved": true
+  },
+  "runtime_validation": {
+    "result": "PASS",
+    "access_method": "SAVESTATE_REPLAY_WITH_SCRIPTED_INPUT",
+    "emulator": "Mesen 2.1.1",
+    "emulator_sha256": "ae43f1438282aaaff90a009aa8ada648bc5d631b070656285d7de9cbff513b41",
+    "rom_writes": 0,
+    "rc5_control_first_path": "NATIVE",
+    "rc6_range1_first_path": "COMPACT",
+    "rc6_range2_first_path": "COMPACT",
+    "representative_streams": [
+      "0x7CB227",
+      "0x7CDBE1"
+    ],
+    "representative_coverage": "one naturally reached stream from each lost range",
+    "pixel_checks": [
+      {
+        "text": "Use selected",
+        "x": 74,
+        "y": 116,
+        "expected_foreground_pixels": 147,
+        "actual_foreground_pixels": 147,
+        "mismatches": 0,
+        "result": "PASS"
+      },
+      {
+        "text": "items only.",
+        "x": 74,
+        "y": 129,
+        "expected_foreground_pixels": 110,
+        "actual_foreground_pixels": 110,
+        "mismatches": 0,
+        "result": "PASS"
+      },
+      {
+        "text": "We wasted time.",
+        "x": 74,
+        "y": 116,
+        "expected_foreground_pixels": 177,
+        "actual_foreground_pixels": 177,
+        "mismatches": 0,
+        "result": "PASS"
+      },
+      {
+        "text": "We must hurry.",
+        "x": 74,
+        "y": 129,
+        "expected_foreground_pixels": 147,
+        "actual_foreground_pixels": 147,
+        "mismatches": 0,
+        "result": "PASS"
+      }
+    ],
+    "native_font_fidelity": "PASS_BYTE_AND_PIXEL_EXACT",
+    "glyph_integrity": "PASS",
+    "recognition_independent_of_context": "PASS_PIXEL_EXACT_EXPECTED_TEXT",
+    "legibility": "PASS_DIRECT_VISUAL_REVIEW",
+    "layout": "PASS_NO_CLIPPING",
+    "regression": "PASS_RC5_FAIL_RC6_PASS_AB"
+  },
+  "approval_limits": {
+    "individual_visual_revalidation": "2/22 representative; remaining 20 have structural integration proof, not individual new visual PASS",
+    "global_visual_or_linguistic_approval": false
+  },
+  "inherited_unchanged_evidence": [
+    "102/102 post-final owners",
+    "32/32 epilogue pages",
+    "S461 credit page 8",
+    "prior package integrity within its tested scope"
+  ],
+  "open_items": {
+    "I04": "NOT_VALIDATED",
+    "I05": {
+      "Shinya Fukao": "PASS",
+      "高津利恵": "NOT_VALIDATED",
+      "橋本信之": "NOT_VALIDATED"
+    }
+  },
+  "new_release_blockers_after_fix": [
+    "I04-6C-TECH",
+    "I05-READINGS"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "project": "Riviera Work Pt1.5",
+  "version": "v0.115 S462 RC6",
+  "date_utc": "2026-10-02",
+  "classification": "RELEASE_CANDIDATE_NOT_FINAL",
+  "final_approved": false,
+  "manual_test_ready": true,
+  "rom_included": false,
+  "source_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "base_rc5_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "target_rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "target_size": 8388608,
+  "target_checksum": "289A",
+  "cumulative_bps": "patches/Riviera_EN_v0.115_S462_RC6_CUMULATIVE_FROM_JP.bps",
+  "cumulative_bps_sha256": "2a36c3ada7d4448fc629957854b3c8885ac7e58a0979fd64d52940bff15f2b4f",
+  "rom_changed_from_rc5": true,
+  "rom_change_scope": "Restore compact selector parent ranges at 0x75EAF1..0x75EAFA; checksum.",
+  "regression_fix": {
+    "id": "R01_COMPACT_SELECTOR_PARENT_RANGE_LOSS",
+    "result": "PASS",
+    "affected_streams": 22,
+    "affected_data_changed": false,
+    "selector_changed_bytes": 10,
+    "runtime_access_method": "SAVESTATE_REPLAY_WITH_SCRIPTED_INPUT",
+    "renderer_representatives": [
+      "0x7CB227",
+      "0x7CDBE1"
+    ],
+    "representative_visual_result": "PASS"
+  },
+  "quality": {
+    "post_final_streams": "102/102 PASS (inherited byte-identical)",
+    "epilogue_blind_pages": "32/32 PASS (inherited byte-identical)",
+    "credits_page_08": "PASS (inherited byte-identical)",
+    "i05_individual": "1 PASS, 2 NOT_VALIDATED",
+    "approved_scope": "Previously approved Hades, post-final scene, five ending branches, 32 epilogue pages and modified credits page-08 row; plus representative S462 streams 0x7CB227 and 0x7CDBE1.",
+    "project_wide_approval": false
+  },
+  "source_rebuild_full": "PASS_BYTE_EXACT",
+  "bps_roundtrip": "PASS_BYTE_EXACT",
+  "open_release_blockers": 2,
+  "pending_validation_items": [
+    "I04-6C-TECH",
+    "I05-READINGS"
+  ],
+  "separate_follow_up": [
+    "High Score",
+    "second independent human review"
+  ],
+  "created_utc": "2026-10-02T00:00:00Z",
+  "package_revision": "2026-10-07 Astra reconciliation; ROM unchanged",
+  "current_qa_report": "docs/09_ASTRA_RECONCILIATION_2026-10-07.md"
+}

@@ -1,0 +1,32 @@
+{
+  "late_route5": {
+    "compact_glyph_events": 239,
+    "native_space_events": 27,
+    "all_native_events_are_space_8A": true
+  },
+  "ending_route0": {
+    "compact_glyph_events": 371,
+    "native_space_events": 40,
+    "all_native_events_are_space_8A": true
+  },
+  "late_route1": {
+    "compact_glyph_events": 160,
+    "native_space_events": 19,
+    "all_native_events_are_space_8A": true
+  },
+  "late_route4": {
+    "compact_glyph_events": 239,
+    "native_space_events": 27,
+    "all_native_events_are_space_8A": true
+  },
+  "late_route2": {
+    "compact_glyph_events": 90,
+    "native_space_events": 9,
+    "all_native_events_are_space_8A": true
+  },
+  "late_route3": {
+    "compact_glyph_events": 231,
+    "native_space_events": 26,
+    "all_native_events_are_space_8A": true
+  }
+}

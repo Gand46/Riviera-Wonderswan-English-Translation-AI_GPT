@@ -1,0 +1,16 @@
+{
+  "rom_sha256": "3da1410dd870b281ace86d5d923e5138ac3ed3061e2720a358517257269ec936",
+  "source_rc4_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "emulator_sha256": "ae43f1438282aaaff90a009aa8ada648bc5d631b070656285d7de9cbff513b41",
+  "route": 0,
+  "chunks": [
+    {
+      "index": 0,
+      "returncode": 0,
+      "complete": false
+    }
+  ],
+  "complete": false,
+  "expected_completion": false,
+  "purpose": "renderer-only capture stopped after both target messages"
+}

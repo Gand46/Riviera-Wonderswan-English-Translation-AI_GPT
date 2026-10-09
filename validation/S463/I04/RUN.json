@@ -1,0 +1,15 @@
+{
+  "exit": 0,
+  "seconds": 0.5654034789999969,
+  "command": [
+    "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+    "--testRunner",
+    "--timeout=15",
+    "--enableStdout",
+    "--doNotSaveSettings",
+    "--debug.scriptWindow.allowIoOsAccess=true",
+    "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/icon_astra/probe.lua",
+    "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+  ],
+  "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204"
+}

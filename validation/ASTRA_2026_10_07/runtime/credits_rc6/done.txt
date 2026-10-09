@@ -1,0 +1,1 @@
+S459 savestate replay; screenshots only; input A every 8 frames

@@ -1,0 +1,45 @@
+{
+  "images_compared": 4,
+  "all_images_identical": true,
+  "end_wram_identical": false,
+  "end_wram_sha256_rc3": "a4a4bc97fdeb0e8e6e8fe232545968e0ee52940d0b64d53123780830c75fbf69",
+  "end_wram_sha256_rc6": "c9eebc1b0f415a8fd477e6f230db85d7b4bbe997411e3b15725ab6be3c7d5d03",
+  "frames": 1200,
+  "access_method": "SAVESTATE",
+  "rows": [
+    {
+      "image": "frame_0300.png",
+      "identical_pixels": true
+    },
+    {
+      "image": "frame_0600.png",
+      "identical_pixels": true
+    },
+    {
+      "image": "frame_0900.png",
+      "identical_pixels": true
+    },
+    {
+      "image": "frame_1200.png",
+      "identical_pixels": true
+    }
+  ],
+  "skipped": [
+    {
+      "image": "frame_0001.png",
+      "reason": "No framebuffer on first tick after load"
+    }
+  ],
+  "wram_difference": {
+    "offset": "0x02E4",
+    "rc3_word": "0xC61C",
+    "rc6_word": "0xC60A",
+    "classification": "engine counter; counter update code unchanged",
+    "static_counter_increment_rom": "0x720312",
+    "instruction_bytes": "FF06E402",
+    "instruction": "inc word [0x02E4]",
+    "cause_of_counter_offset": "NOT_DETERMINED",
+    "full_wram_identity": "FAIL",
+    "does_not_grant_global_gameplay_approval": true
+  }
+}

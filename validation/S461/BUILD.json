@@ -1,0 +1,117 @@
+{
+  "stage": "S461",
+  "version": "v0.114 RC5",
+  "base_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "rom_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "rom_size": 8388608,
+  "checksum": "2750",
+  "changed_bytes": 1249,
+  "unexpected_changed_offsets": 0,
+  "allowed_ranges": [
+    {
+      "start": "0x7fede0",
+      "exclusive_end": "0x7ff4ea"
+    },
+    {
+      "start": "0x7ffffe",
+      "exclusive_end": "0x800000"
+    }
+  ],
+  "credit_change": {
+    "page": 8,
+    "role": "Tuning",
+    "block_id": "CREDIT-7A3C8D",
+    "destination_wram": "0x59e0",
+    "original": "深尾伸也",
+    "reading": "Shinya Fukao",
+    "row_y": 36,
+    "row_height": 10,
+    "width": 68,
+    "x": 14,
+    "old_raw_sha256": "1a580dc716f3ddd24959ff67b9fca8082130029d551f25a086450e0895dc4f4d",
+    "new_raw_sha256": "1a1fb7f045f8379007e2e8c220085fe7edce722942fdd619cd496a6ad1cc7850",
+    "old_compressed_length": 1802,
+    "new_compressed_length": 1777,
+    "old_compressed_sha256": "bf49c532eca027d0c6396a5fe4cbe5b13513da52f80828e4d07ac4b31f223047",
+    "new_compressed_sha256": "0dc251756cee2591af16731260673b38cbb19d3c83a24a2e378a7e9c5336d02d",
+    "glyphs": [
+      {
+        "character": "F",
+        "address": "0x5535b6",
+        "raw_sha256": "2c02773b9601fcf0dd331597788131b3058ff93d821585bde50a2b38a840d018",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "S",
+        "address": "0x553840",
+        "raw_sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "a",
+        "address": "0x5539d0",
+        "raw_sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "h",
+        "address": "0x553b2e",
+        "raw_sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "i",
+        "address": "0x553b60",
+        "raw_sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+        "width": 1,
+        "height": 10
+      },
+      {
+        "character": "k",
+        "address": "0x553bc4",
+        "raw_sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "n",
+        "address": "0x553c5a",
+        "raw_sha256": "0478a0767dee5450adb43316cc3b20f5e427d0ad911cd77e14212979cbf8bd64",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "o",
+        "address": "0x553c8c",
+        "raw_sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "u",
+        "address": "0x553db8",
+        "raw_sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "y",
+        "address": "0x553e80",
+        "raw_sha256": "ec4420397c7d9c7a14bb6879b9252efc3c4444b9d5eabf496172079057aa3079",
+        "width": 5,
+        "height": 10
+      }
+    ]
+  },
+  "native_font_sha256": "56bbbae560868f39dcdc04f48023c829c8fad6e7f3d445154caff02daee84f19",
+  "native_font_changed": false,
+  "credit_renderer_changed": false,
+  "credit_hooks_changed": false,
+  "animation_tables_changed": false,
+  "other_credit_pages_changed": false,
+  "final_approved": false
+}

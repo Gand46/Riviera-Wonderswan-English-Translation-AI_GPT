@@ -1,0 +1,278 @@
+{
+  "stage": "S463",
+  "version": "v0.116 RC7",
+  "base_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "rom_sha256": "933cfcd5ea40f0f1d960338e78dc60ead6d8e5c280ea28bc69007f55ed2cc7aa",
+  "rom_size": 8388608,
+  "checksum": "2564",
+  "changed_bytes": 1128,
+  "unexpected_changed_offsets": 0,
+  "allowed_ranges": [
+    [
+      "0x7ff4ea",
+      "0x7ff9b1"
+    ],
+    [
+      "0x7ffffe",
+      "0x800000"
+    ]
+  ],
+  "credit": {
+    "page": 9,
+    "block": "CREDIT-7A3D29",
+    "original": "橋本信之",
+    "reading": "Nobuyuki Hashimoto",
+    "destination_wram": "0x5b60",
+    "old_compressed_length": 1223,
+    "new_compressed_length": 1180,
+    "old_compressed_sha256": "e082fe4259bd0e87c1f6d89d12727399f7ce4e26744556e22ea407b06684fa4e",
+    "new_compressed_sha256": "56c78c29f02876c310667b99a314ae96b9a60f397756f13819102efcf66041c7",
+    "old_raw_sha256": "a433dcc69f4495bed9ec45764be73b6dd66c200e7cacd075cb7f91b3163da948",
+    "new_raw_sha256": "1152478efc058eb34972e1f273906e07d16debf7df519643806bb2a162dc0af2",
+    "height": 96,
+    "line_pitch": 10,
+    "metrics": [
+      {
+        "text": "Makoto Shibasaki",
+        "x": 2,
+        "y": 6,
+        "width": 91,
+        "height": 10,
+        "line_owner": 0,
+        "gap": 1
+      },
+      {
+        "text": "Satoshi Oshita",
+        "x": 11,
+        "y": 16,
+        "width": 74,
+        "height": 10,
+        "line_owner": 1,
+        "gap": 1
+      },
+      {
+        "text": "Takashi Shoji",
+        "x": 14,
+        "y": 26,
+        "width": 68,
+        "height": 10,
+        "line_owner": 2,
+        "gap": 1
+      },
+      {
+        "text": "Nobuyuki",
+        "x": 25,
+        "y": 36,
+        "width": 46,
+        "height": 10,
+        "line_owner": 3,
+        "gap": 1
+      },
+      {
+        "text": "Hashimoto",
+        "x": 21,
+        "y": 46,
+        "width": 54,
+        "height": 10,
+        "line_owner": 3,
+        "gap": 1
+      },
+      {
+        "text": "Takuji Nakamura",
+        "x": 5,
+        "y": 56,
+        "width": 86,
+        "height": 10,
+        "line_owner": 4,
+        "gap": 1
+      },
+      {
+        "text": "Masashi Umeda",
+        "x": 9,
+        "y": 66,
+        "width": 77,
+        "height": 10,
+        "line_owner": 5,
+        "gap": 1
+      },
+      {
+        "text": "Toshimitsu Sakairi",
+        "x": 1,
+        "y": 76,
+        "width": 94,
+        "height": 10,
+        "line_owner": 6,
+        "gap": 1
+      }
+    ],
+    "glyphs": [
+      {
+        "character": "H",
+        "address": "0x55361a",
+        "sha256": "fb3fb4552cd18636c51ab89f148b12b3981e677d84b13a429d5ae597fcd96a50",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "M",
+        "address": "0x553714",
+        "sha256": "bed5a490412fa5d74cec74db26ff67c1db7e5e81cc5a2755e1e57588cdacd11d",
+        "width": 8,
+        "height": 10
+      },
+      {
+        "character": "N",
+        "address": "0x553746",
+        "sha256": "bfd4b5ee4fe3b2d445c684b34d8174abab10bc24a5f90f0e5ab8c2905adc68da",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "O",
+        "address": "0x553778",
+        "sha256": "f9bef4c37647eb75cdb90d2ef4197c5d97d92c915110f8e57f7d22ee9f41adbc",
+        "width": 7,
+        "height": 10
+      },
+      {
+        "character": "S",
+        "address": "0x553840",
+        "sha256": "2d26388bd4ad127aa17ccca56ee14aab7bf4893a2e9d3572d6bd790d2b0d9450",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "T",
+        "address": "0x553872",
+        "sha256": "fa15a0ae60dc4db18517c5511c9298fd186ea90c5e536f95a8768cd10e5b3c00",
+        "width": 7,
+        "height": 10
+      },
+      {
+        "character": "U",
+        "address": "0x5538a4",
+        "sha256": "b3dd4c83276be7e7abcd004ba4164f54e6afbcad892044fa109a83cd5a8d720b",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "a",
+        "address": "0x5539d0",
+        "sha256": "913a4e873eb1e225638d1aaff53f66238c68641574616013e2512ab646bb8f8d",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "b",
+        "address": "0x553a02",
+        "sha256": "6f421058bf3f6f63aa92f3f9af32cbae7c14713d4ae625ab09a593abac91bf3f",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "d",
+        "address": "0x553a66",
+        "sha256": "5da53ebe84e307fb75166e1ef0fe144d92bdc8a4ab59b67e84621ce0f9f45946",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "e",
+        "address": "0x553a98",
+        "sha256": "5d0e5632653956004fa0735b2ed0bb66bc424f7d57206be8355108a5e0b69a56",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "h",
+        "address": "0x553b2e",
+        "sha256": "4cc4aa3e92f8718608f5cc020aa5406beec5bceccb9f3ff2a040464e9a00a722",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "i",
+        "address": "0x553b60",
+        "sha256": "58c7a1d99a9a3dc92a71e0f861416c80e960002d5da1d52266ca2283194b8b9c",
+        "width": 1,
+        "height": 10
+      },
+      {
+        "character": "j",
+        "address": "0x553b92",
+        "sha256": "2f051c5ae25ba2af5aee2a9176b2bd9355699f1c505106966ed1f06c6a973c96",
+        "width": 2,
+        "height": 10
+      },
+      {
+        "character": "k",
+        "address": "0x553bc4",
+        "sha256": "2bb0e3681a1e8a5028a020f1aa7304600339ff90e273d5ccba670af38945675c",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "m",
+        "address": "0x553c28",
+        "sha256": "1922a744fe842a22b6b5e270e68e7cb5e03af67b85cc3927be22eb15aaa109ce",
+        "width": 8,
+        "height": 10
+      },
+      {
+        "character": "o",
+        "address": "0x553c8c",
+        "sha256": "1a90f7814e50a6b9bdb68f9cb9bff6f0b46e82bf9f94a4882c8af32022ccf84d",
+        "width": 6,
+        "height": 10
+      },
+      {
+        "character": "r",
+        "address": "0x553d22",
+        "sha256": "59e538c1dc32e6083260d42c31fc748160ac6182e6b960116870df9e3b8d23d3",
+        "width": 4,
+        "height": 10
+      },
+      {
+        "character": "s",
+        "address": "0x553d54",
+        "sha256": "4b918d9c03d2b7cd3c16df07dca364c8ee6959d9d8e7410280ee8da9cc48247d",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "t",
+        "address": "0x553d86",
+        "sha256": "d76521fa4a7217458890eb57e5f6179e723e60af32a338a614bafe391a54976f",
+        "width": 4,
+        "height": 10
+      },
+      {
+        "character": "u",
+        "address": "0x553db8",
+        "sha256": "008c51f23fa5ecd4abab338fde779e5073562dbbb337740cdf43b5319508b170",
+        "width": 5,
+        "height": 10
+      },
+      {
+        "character": "y",
+        "address": "0x553e80",
+        "sha256": "ec4420397c7d9c7a14bb6879b9252efc3c4444b9d5eabf496172079057aa3079",
+        "width": 5,
+        "height": 10
+      }
+    ]
+  },
+  "font_changed": false,
+  "decoder_changed": false,
+  "hooks_changed": false,
+  "animation_tables_changed": false,
+  "page_duration_changed": false,
+  "other_credit_pages_changed": false,
+  "gameplay_code_changed": false,
+  "remaining_name": "高津利恵",
+  "final_approved": false,
+  "source_chain": "Clean JP -> S441 -> cumulative S462 sources -> S463",
+  "bps_used": false,
+  "result": "PASS",
+  "source_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921"
+}

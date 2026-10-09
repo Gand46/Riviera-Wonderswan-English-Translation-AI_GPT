@@ -1,0 +1,15 @@
+{
+  "stage": "v0.115-S462-RC6",
+  "classification": "RELEASE_CANDIDATE_NOT_FINAL",
+  "final_approved": false,
+  "gates": [
+    {"gate": "S462-IDENTITY", "result": "PASS", "evidence": "BUILD.json"},
+    {"gate": "S462-BOUNDED-DIFF", "result": "PASS", "evidence": "BUILD.json"},
+    {"gate": "COMPACT-SELECTOR", "result": "PASS", "evidence": "SELECTOR_REGRESSION.json"},
+    {"gate": "RUNTIME-REPRESENTATIVE-BOTH-RANGES", "result": "PASS", "access_method": "SAVESTATE_REPLAY_WITH_SCRIPTED_INPUT", "evidence": "S462_VALIDATION.json"},
+    {"gate": "SOURCE-REBUILD-FULL", "result": "PASS_BYTE_EXACT", "evidence": "SOURCE_REBUILD_FULL.json"},
+    {"gate": "BPS-ROUNDTRIP", "result": "PASS_BYTE_EXACT", "evidence": "BPS_ROUNDTRIP_RC6.json"},
+    {"gate": "I04-6C-TECH", "result": "NOT_VALIDATED"},
+    {"gate": "I05-READINGS", "result": "NOT_VALIDATED", "detail": "1 PASS, 2 NOT_VALIDATED"}
+  ]
+}

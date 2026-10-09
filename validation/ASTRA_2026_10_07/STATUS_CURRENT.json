@@ -1,0 +1,31 @@
+{
+  "date_utc": "2026-10-07",
+  "date_bogota": "2026-10-06",
+  "version": "v0.115 S462 RC6",
+  "package_revision": "Astra reconciliation and bounded QA",
+  "target_rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "target_checksum": "289A",
+  "cumulative_bps_sha256": "2a36c3ada7d4448fc629957854b3c8885ac7e58a0979fd64d52940bff15f2b4f",
+  "new_rom_changes": 0,
+  "new_bps_created": false,
+  "previous_audit_build": "S459 RC3",
+  "confirmed94_dialogues_in_existing_rc6": "PASS",
+  "credit_shinya_fukao": "PASS_SCOPED_RENDER",
+  "credits_remaining": [
+    "高津利恵",
+    "橋本信之"
+  ],
+  "I04": "NOT_VALIDATED; two graphic intervals not confirmed as text",
+  "I05": "1/3 verified readings;2 remain NOT_VALIDATED",
+  "DISCOVERED": "PASS",
+  "TRANSLATED": "PASS_FOR_94_ENDING_STREAMS_AND_SHINYA;FAIL_FOR_TWO_UNRESOLVED_CREDIT_READINGS",
+  "INTEGRATED": "PASS_FOR_SAME_BOUNDED_SCOPE",
+  "RUNTIME_CONFIRMED": "PASS_SCOPED",
+  "VISUAL_APPROVED": "PASS_FOR_44_NEW_LAST_PAGE_SAMPLES_ONLY",
+  "LINGUISTIC_APPROVED": "INHERITED_EXISTING_SCOPE;NO_NEW_GLOBAL_APPROVAL",
+  "FUNCTIONAL_APPROVED": "NOT_VALIDATED_GLOBALLY",
+  "FINAL_APPROVED": false,
+  "token_savings": "NOT_MEASURED",
+  "rom_and_bios_included": false,
+  "savestates_included": true
+}

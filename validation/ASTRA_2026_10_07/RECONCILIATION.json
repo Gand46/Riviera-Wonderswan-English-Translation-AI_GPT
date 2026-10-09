@@ -1,0 +1,23 @@
+{
+  "baseline": "S459 RC3 audited in preceding turn",
+  "selected_output": "S462 RC6 existing corrected build",
+  "reason": "The later cumulative sources already contain all 94 confirmed ending translations plus the verified Shinya Fukao reading and the compact selector regression fix.",
+  "baseline_sha256": "c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd",
+  "output_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "bps_sha256": "2a36c3ada7d4448fc629957854b3c8885ac7e58a0979fd64d52940bff15f2b4f",
+  "size": 8388608,
+  "checksum": "289A",
+  "source_build_equals_bps": true,
+  "changed_bytes_vs_rc3": 4243,
+  "unexpected_changed_offsets": [],
+  "new_rom_changes_this_iteration": 0,
+  "audit97_reconciled": 97,
+  "confirmed94_english_integrated": 94,
+  "full_existing_ending_inventory": 102,
+  "negative_bps_tests": {
+    "wrong_source": "PASS_REJECTED: ValueError",
+    "truncated_patch": "PASS_REJECTED: ValueError",
+    "corrupt_patch": "PASS_REJECTED: ValueError"
+  },
+  "final_approved": false
+}

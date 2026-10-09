@@ -1,0 +1,10 @@
+{
+  "method": "visual transcription of randomized screenshots before mapping reveal",
+  "page_count": 32,
+  "transcription_file": "BLIND_TRANSCRIPTION_LOCKED.json",
+  "transcription_sha256": "7bc585cf9e46b47834ebfc267f1561009601e751bdda4ab3fe9fa67e97f23c02",
+  "mapping_file": "MAPPING_SEALED.json",
+  "mapping_sha256_at_lock": "1c210d520086d3e83dbcf0af3ae372df6258b5aae8c207d6780ef84cace05254",
+  "locked_utc": "2026-09-30T14:31:02.721484+00:00",
+  "mapping_not_read_by_this_locking_script": true
+}

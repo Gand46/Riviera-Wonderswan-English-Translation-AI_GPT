@@ -1,0 +1,448 @@
+{
+  "reviewer": "Astra independent visual reader",
+  "date": "2026-10-07",
+  "result": "PASS_FOR_SAMPLED_LAST_VISIBLE_PAGES",
+  "independence_disclosure": "Did not consult BLIND_MAP or expected strings for this task. Reviewer had earlier read build_s460.py during separate static coverage subtask, so reviewer was not fully blind to source text historically.",
+  "protocol": "First reread stable blind sheets, then consulted ID-to-image BLIND_MAP only. No expected-text table used for transcription. Native frames 39/41 inspected to confirm two terminal hyphens and three terminal dots.",
+  "capture_protocol_reported_by_parent": "FF+6, A paused 8 frames, exact 2x sheet scale from 237x144 Mesen image; same ROM.",
+  "inputs": [
+    "work/qa_current/stable/blind_03.png",
+    "work/qa_current/stable/blind_04.png"
+  ],
+  "scope": "20 sampled last-visible-page captures, IDs 25..44. No approval of earlier pages, all streams, complete playthrough, translation fidelity, or global absence of Japanese.",
+  "rows": [
+    {
+      "id": 25,
+      "owner": "793B1E",
+      "native_image": "work/qa_current/stable/late_route1/owner_793B1E.png",
+      "native_sha256": "2b50941895049819af6bf2f3f4465abb64884416ec5c656ff42c225514e94438",
+      "speaker": "Serene",
+      "visible_lines": [
+        "Darn right!",
+        "We sure will!"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Darn right!",
+        "We sure will"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 26,
+      "owner": "79394F",
+      "native_image": "work/qa_current/stable/late_route2/owner_79394F.png",
+      "native_sha256": "6ec3b19c07cafcbf475ee70c1db736d4d589368494c86f5894c8377723978c79",
+      "speaker": "Lina",
+      "visible_lines": [
+        "The treasure is",
+        "this way!"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "The treasure is",
+        "this way"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 27,
+      "owner": "79395D",
+      "native_image": "work/qa_current/stable/late_route2/owner_79395D.png",
+      "native_sha256": "8602243fa3734b44f523176ac8d92fc5582db12c978326b20b6d540ea0cf3ebf",
+      "speaker": "Ein",
+      "visible_lines": [
+        "Careful, Lina!"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "Careful, Lina!"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 28,
+      "owner": "793966",
+      "native_image": "work/qa_current/stable/late_route2/owner_793966.png",
+      "native_sha256": "9aa9ec9384defc5c193ffd9e2145824130ffe36eb834b031aca62b42a31ff6dd",
+      "speaker": "Lina",
+      "visible_lines": [
+        "Stop worrying!"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Stop worrying"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 29,
+      "owner": "79398B",
+      "native_image": "work/qa_current/stable/late_route2/owner_79398B.png",
+      "native_sha256": "2c25dead3b279b2bcd183146674039cb799480f6db036de5dd999ccd30bd481e",
+      "speaker": "Ein",
+      "visible_lines": [
+        "Lina!"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Lina"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 30,
+      "owner": "7939A3",
+      "native_image": "work/qa_current/stable/late_route2/owner_7939A3.png",
+      "native_sha256": "d5fb00cc7a0c016d0b738ca491a9178fdd0b68a12d27f19902a828cc7e5ebac3",
+      "speaker": "Lina",
+      "visible_lines": [
+        "Hee hee...",
+        "Oopsie ♪"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Hee hee...",
+        "Oopsie"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 31,
+      "owner": "7939CC",
+      "native_image": "work/qa_current/stable/late_route3/owner_7939CC.png",
+      "native_sha256": "1113af56475d29a7689887b6dc425856a7a8733d77636be52f901f60620144a3",
+      "speaker": "Fia",
+      "visible_lines": [
+        "guard our land."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "guard our land."
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 32,
+      "owner": "7939E2",
+      "native_image": "work/qa_current/stable/late_route3/owner_7939E2.png",
+      "native_sha256": "2a32e20feb7d14c1d4799222566331aaaef99e5f4b45a02baed804145ddb957e",
+      "speaker": "Fia",
+      "visible_lines": [
+        "Ein!"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Ein"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 33,
+      "owner": "7939E7",
+      "native_image": "work/qa_current/stable/late_route3/owner_7939E7.png",
+      "native_sha256": "43df5996d62f27c5cffa45e2b07a3c1c06e94d346003826d5d68b9f81b0b6884",
+      "speaker": "Ein",
+      "visible_lines": [
+        "No demons have",
+        "appeared here."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "No demons have",
+        "appeared here."
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 34,
+      "owner": "7939F0",
+      "native_image": "work/qa_current/stable/late_route3/owner_7939F0.png",
+      "native_sha256": "9251c46a5a81415f801dab522842571074e5c339029ccefd8f8951c3fa8fa2f6",
+      "speaker": "Fia",
+      "visible_lines": [
+        "No..."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "No..."
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 35,
+      "owner": "7939F4",
+      "native_image": "work/qa_current/stable/late_route3/owner_7939F4.png",
+      "native_sha256": "ac31a3987e44b15dc4f097bb8b05107e9456a709503118ee32b4f3c278e21b60",
+      "speaker": "Fia",
+      "visible_lines": [
+        "Thanks to you,",
+        "Ein."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "Thanks to you,",
+        "Ein."
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 36,
+      "owner": "7939FD",
+      "native_image": "work/qa_current/stable/late_route3/owner_7939FD.png",
+      "native_sha256": "20654c5e9857a9f3e67e47d0d67d71ad2e6f5823628b51c08fe598ba80041ad9",
+      "speaker": "Ein",
+      "visible_lines": [
+        "You are strong,",
+        "Fia."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "You are strong,",
+        "Fia"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 37,
+      "owner": "793A04",
+      "native_image": "work/qa_current/stable/late_route3/owner_793A04.png",
+      "native_sha256": "67d9b2881e838fe7262edc1ad8dfe9e8714dd4d0412f93a508bf6a42fc138799",
+      "speaker": "Fia",
+      "visible_lines": [
+        "May this peace",
+        "last forever."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "May this peace",
+        "last forever."
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 38,
+      "owner": "793B3F",
+      "native_image": "work/qa_current/stable/late_route4/owner_793B3F.png",
+      "native_sha256": "bca418086281edb82014fd60b074b765899f51e9ae5112a9cec92d79a033f7e3",
+      "speaker": "Rose",
+      "visible_lines": [
+        "sighting in",
+        "Riviera."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "sighting in",
+        "Riviera."
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 39,
+      "owner": "793B50",
+      "native_image": "work/qa_current/stable/late_route4/owner_793B50.png",
+      "native_sha256": "cf95c91f79958facc79585a712bc915b6ba94d048f8b9428fcb33559d81cb1cd",
+      "speaker": "Ein",
+      "visible_lines": [
+        "Time to use my",
+        "Einherjar--"
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Time to use my",
+        "Einherjar-"
+      ],
+      "native_viewed_separately": true
+    },
+    {
+      "id": 40,
+      "owner": "793B54",
+      "native_image": "work/qa_current/stable/late_route4/owner_793B54.png",
+      "native_sha256": "bf4f01fcea94daa1a347afc797caa7be9ca565ec1ac580d6e328dd7e35bf97eb",
+      "speaker": "Rose",
+      "visible_lines": [
+        "Let the Sprites",
+        "handle it."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "Let the Sprites",
+        "handle it."
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 41,
+      "owner": "793B58",
+      "native_image": "work/qa_current/stable/late_route4/owner_793B58.png",
+      "native_sha256": "63352bae26080fda0cdb6868d5e460192e2c862ed93a1606a66676be19b00158",
+      "speaker": "Ein",
+      "visible_lines": [
+        "Oh, r-right..."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Oh, r-right.."
+      ],
+      "native_viewed_separately": true
+    },
+    {
+      "id": 42,
+      "owner": "793B5C",
+      "native_image": "work/qa_current/stable/late_route4/owner_793B5C.png",
+      "native_sha256": "e8fcb0e2fa22d571a20c702cfea7d5b6c25c1cb98b26c2cce56b1711c843001c",
+      "speaker": "Rose",
+      "visible_lines": [
+        "Your report is",
+        "due today."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Your report is",
+        "due today"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 43,
+      "owner": "793B60",
+      "native_image": "work/qa_current/stable/late_route4/owner_793B60.png",
+      "native_sha256": "8b0c367648c73d75e557ccf2fdbed6c059db72b043145fed7859d10962156208",
+      "speaker": "Ein",
+      "visible_lines": [
+        "Okay. We should",
+        "do what we can."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": true,
+      "initial_visible_lines": [
+        "Okay. We should",
+        "do what we can"
+      ],
+      "native_viewed_separately": false
+    },
+    {
+      "id": 44,
+      "owner": "793B64",
+      "native_image": "work/qa_current/stable/late_route4/owner_793B64.png",
+      "native_sha256": "f94f4d4f1fc52498c7543fa0cd69677234e3a4cc328037a73cfe86a9c6dc9d79",
+      "speaker": "Rose",
+      "visible_lines": [
+        "Riviera belongs",
+        "to the Sprites."
+      ],
+      "japanese_visible": false,
+      "doubtful_glyphs": [],
+      "box_edge_clipping_observed": false,
+      "visible_last_page_truncation_observed": false,
+      "changed_from_initial_read": false,
+      "initial_visible_lines": [
+        "Riviera belongs",
+        "to the Sprites."
+      ],
+      "native_viewed_separately": false
+    }
+  ],
+  "resolved_initial_doubts": {
+    "ids": [
+      25,
+      26,
+      28,
+      29,
+      30,
+      32,
+      36,
+      39,
+      41,
+      42,
+      43
+    ],
+    "finding": "All initially missing/uncertain final marks now visibly present; Oopsie musical note clear. Observed differences support capture timing artifact, not demonstrated ROM truncation.",
+    "rom_modified_by_reviewer": false
+  },
+  "credit_spot_check": {
+    "image": "work/qa_current/credits_rc6/credit_09_f2100.png",
+    "sha256": "5d8561ee7c0d45c68724bfe7d577c53e023846a58d253981e71325cb5c0e3129",
+    "section_visible": "Tuning",
+    "target_name_visible": "Shinya Fukao",
+    "target_name_legible": true,
+    "target_clipping_observed": false,
+    "scope": "Presence and legibility of this one credit in this frame only; identity reading was assessed separately."
+  },
+  "global_approval": false
+}

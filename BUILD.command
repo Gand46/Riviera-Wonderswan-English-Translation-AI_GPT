@@ -2,7 +2,8 @@
 set -eu
 cd "$(dirname "$0")"
 if [ "$#" -lt 1 ]; then
-  echo "Usage: ./BUILD.command CLEAN_JP_ROM [OUTPUT_ROM]"
+  echo "Uso: ./BUILD.command ROM_JP_LIMPIA.wsc [SALIDA_RC7.wsc]"
   exit 2
 fi
-python3 build.py "$@"
+output="${2:-build/Riviera_EN_v0.116_S463_RC7.wsc}"
+exec python3 build_rc7.py "$1" --out "$output"

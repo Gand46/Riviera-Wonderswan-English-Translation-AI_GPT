@@ -1,0 +1,103 @@
+{
+  "access_method": "SCRIPTED_NATURAL",
+  "frames_compared": 16,
+  "all_identical": true,
+  "rows": [
+    {
+      "frame": "final",
+      "identical_pixels": true,
+      "rc3_sha256": "b7b4dcf9efefd8b669ba03cc6c6c95d02e724e6ac70dbf2b373328c2ea821369",
+      "rc6_sha256": "b7b4dcf9efefd8b669ba03cc6c6c95d02e724e6ac70dbf2b373328c2ea821369"
+    },
+    {
+      "frame": "frame_1200",
+      "identical_pixels": true,
+      "rc3_sha256": "ff4795ad13a7bbfa3eb233772c8aeeb4713bc69865aec19c5eea93a213af4451",
+      "rc6_sha256": "ff4795ad13a7bbfa3eb233772c8aeeb4713bc69865aec19c5eea93a213af4451"
+    },
+    {
+      "frame": "frame_1450",
+      "identical_pixels": true,
+      "rc3_sha256": "5a7cf91ac08ee7707e2579be93e2921669028644cd9c03142e37df7be9489480",
+      "rc6_sha256": "5a7cf91ac08ee7707e2579be93e2921669028644cd9c03142e37df7be9489480"
+    },
+    {
+      "frame": "frame_1700",
+      "identical_pixels": true,
+      "rc3_sha256": "3814e105ea1a8bb4b7611f916a9e205e8f3cc9f8ba39824fa6a621447857d41c",
+      "rc6_sha256": "3814e105ea1a8bb4b7611f916a9e205e8f3cc9f8ba39824fa6a621447857d41c"
+    },
+    {
+      "frame": "frame_1950",
+      "identical_pixels": true,
+      "rc3_sha256": "1f042c3bd3c4164e9e3dc9b452f4f194ece5ce6fc28a7ea4e1372ae2850214ec",
+      "rc6_sha256": "1f042c3bd3c4164e9e3dc9b452f4f194ece5ce6fc28a7ea4e1372ae2850214ec"
+    },
+    {
+      "frame": "frame_2200",
+      "identical_pixels": true,
+      "rc3_sha256": "1c413ad71e4790fb05d622ab7d1527cd652cd08812851ee1104fa1796827e4a9",
+      "rc6_sha256": "1c413ad71e4790fb05d622ab7d1527cd652cd08812851ee1104fa1796827e4a9"
+    },
+    {
+      "frame": "frame_2450",
+      "identical_pixels": true,
+      "rc3_sha256": "552c4283cc321a6ddbba92711d767ee15cf740ca2023024f6f94cabe3439bd44",
+      "rc6_sha256": "552c4283cc321a6ddbba92711d767ee15cf740ca2023024f6f94cabe3439bd44"
+    },
+    {
+      "frame": "frame_2700",
+      "identical_pixels": true,
+      "rc3_sha256": "7584791210472471e91445fdd1ee871961f2fcf20398a9a92c4629dcd03bd73e",
+      "rc6_sha256": "7584791210472471e91445fdd1ee871961f2fcf20398a9a92c4629dcd03bd73e"
+    },
+    {
+      "frame": "frame_2950",
+      "identical_pixels": true,
+      "rc3_sha256": "a2b96802190562b5e85ecac9c0c45f6815c61a85b0f2e9b3317890f9b36d6672",
+      "rc6_sha256": "a2b96802190562b5e85ecac9c0c45f6815c61a85b0f2e9b3317890f9b36d6672"
+    },
+    {
+      "frame": "frame_3200",
+      "identical_pixels": true,
+      "rc3_sha256": "a2b96802190562b5e85ecac9c0c45f6815c61a85b0f2e9b3317890f9b36d6672",
+      "rc6_sha256": "a2b96802190562b5e85ecac9c0c45f6815c61a85b0f2e9b3317890f9b36d6672"
+    },
+    {
+      "frame": "frame_3450",
+      "identical_pixels": true,
+      "rc3_sha256": "792687a576e10ac4447390b1de0a8bc841ad4a13d076d79d1c59e723499a9e17",
+      "rc6_sha256": "792687a576e10ac4447390b1de0a8bc841ad4a13d076d79d1c59e723499a9e17"
+    },
+    {
+      "frame": "frame_3700",
+      "identical_pixels": true,
+      "rc3_sha256": "2d2558b9e2a95e7634c505882363abf7b8c5365a1edcc7c7ed99061798bd19a0",
+      "rc6_sha256": "2d2558b9e2a95e7634c505882363abf7b8c5365a1edcc7c7ed99061798bd19a0"
+    },
+    {
+      "frame": "frame_3950",
+      "identical_pixels": true,
+      "rc3_sha256": "d0914d577c79fbda6fb4f884e1a01fdbd794cded2ae77ba242ad967f76fb1a28",
+      "rc6_sha256": "d0914d577c79fbda6fb4f884e1a01fdbd794cded2ae77ba242ad967f76fb1a28"
+    },
+    {
+      "frame": "frame_4200",
+      "identical_pixels": true,
+      "rc3_sha256": "d1bb6f14b0cea34c99eea6bb9dac5ee3388c1994dd6ef2a1a4da79d0cc9c301c",
+      "rc6_sha256": "d1bb6f14b0cea34c99eea6bb9dac5ee3388c1994dd6ef2a1a4da79d0cc9c301c"
+    },
+    {
+      "frame": "frame_4450",
+      "identical_pixels": true,
+      "rc3_sha256": "72f41b7168d26cf9c63a92ace0c2f32f0e1ade1dfd7d636658184a5927b9e2e6",
+      "rc6_sha256": "72f41b7168d26cf9c63a92ace0c2f32f0e1ade1dfd7d636658184a5927b9e2e6"
+    },
+    {
+      "frame": "frame_4700",
+      "identical_pixels": true,
+      "rc3_sha256": "06bc75b8f1c39838e2233eebb08229084265fb35919653f1dfa73ab3c83ee13d",
+      "rc6_sha256": "06bc75b8f1c39838e2233eebb08229084265fb35919653f1dfa73ab3c83ee13d"
+    }
+  ]
+}

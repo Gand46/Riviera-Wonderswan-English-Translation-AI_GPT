@@ -1,0 +1,115 @@
+{
+  "stage": "v0.113-S460-RC4",
+  "date_utc": "2026-09-30",
+  "rom_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "manual_testing_approved": true,
+  "final_approved": false,
+  "release_classification": "RELEASE_CANDIDATE_MANUAL_TEST",
+  "summary": {
+    "PASS": 12,
+    "NOT_VALIDATED": 2,
+    "FAIL": 0,
+    "N/A": 0
+  },
+  "gates": [
+    {
+      "gate": "S460-IDENTITY",
+      "result": "PASS",
+      "reason": "8 MiB, checksum 22D1 and exact final SHA-256.",
+      "evidence": "Riviera_EN_v0.113_S460_RC4.build.json"
+    },
+    {
+      "gate": "SOURCE-REBUILD-FAST",
+      "result": "PASS",
+      "reason": "Clean JP -> packaged RC3 BPS -> S460 source equals RC4 byte-for-byte.",
+      "evidence": "SOURCE_REBUILD_FAST.json"
+    },
+    {
+      "gate": "SOURCE-REBUILD-FULL",
+      "result": "PASS",
+      "reason": "Full S441..S460 source chain rebuilt the exact RC4 without BPS intermediates.",
+      "evidence": "SOURCE_REBUILD_FULL.json"
+    },
+    {
+      "gate": "BPS-ROUNDTRIP",
+      "result": "PASS",
+      "reason": "JP->RC4 BPS byte-exact; wrong source and corrupt patch rejected.",
+      "evidence": "BPS_ROUNDTRIP_S460.json"
+    },
+    {
+      "gate": "MAPPER-SIZE-CHECKSUM",
+      "result": "PASS",
+      "reason": "Bandai 2001/KARNAK-compatible 8 MiB image; checksum valid."
+    },
+    {
+      "gate": "S460-BOUNDED-DIFF",
+      "result": "PASS",
+      "reason": "2,996 controlled changed bytes; zero overlaps with 1,766 historical resource intervals.",
+      "evidence": "S460_REGRESSION.json"
+    },
+    {
+      "gate": "FINAL-ROUTES",
+      "result": "PASS",
+      "reason": "Five native ending event branches executed after controlled CPU/WRAM state injection and returned; route 0 includes common credits. Natural reachability is not claimed.",
+      "evidence": "final_routes/*/RUN.json",
+      "access_method": "SYNTHETIC_STATE",
+      "secondary_label": "PASS_SYNTHETIC"
+    },
+    {
+      "gate": "FINAL-DIALOG-COVERAGE",
+      "result": "PASS",
+      "reason": "102/102 streams: 94 through controlled state injection and 8 condition-gated pointer-injection renderer checks.",
+      "evidence": "FINAL_DIALOG_COVERAGE.json",
+      "access_method": [
+        "SYNTHETIC_STATE",
+        "POINTER_INJECTION"
+      ],
+      "secondary_label": "PASS_SYNTHETIC"
+    },
+    {
+      "gate": "EPILOGUE-32-BLIND-READ",
+      "result": "PASS",
+      "reason": "32/32 randomized pages matched after transcription lock; zero clipping or visible Japanese.",
+      "evidence": "blind_epilogue_review/EPILOGUE_32_SECOND_READING.json"
+    },
+    {
+      "gate": "VISUAL-QA",
+      "result": "PASS",
+      "reason": "167 controlled capture frames, 12 pointer-injection pages and 32 fullscreen pages reviewed; zero findings within the defined S460 final-scene scope.",
+      "evidence": "DIALOG_VISUAL_REVIEW.json"
+    },
+    {
+      "gate": "LINGUISTIC-QA",
+      "result": "PASS",
+      "reason": "102 final streams and 32 fullscreen pages reviewed; final punctuation defect corrected.",
+      "evidence": "LINGUISTIC_REVIEW.json"
+    },
+    {
+      "gate": "S460-FINAL-SCOPE-VISUAL-LINGUISTIC-QA",
+      "result": "PASS",
+      "reason": "PASS only for Hades, the post-final scene, five ending branches and 32 fullscreen epilogue pages; not a project-wide approval.",
+      "evidence": "GLOBAL_VISUAL_LINGUISTIC_APPROVAL.json"
+    },
+    {
+      "gate": "I04-6C-TECH",
+      "result": "NOT_VALIDATED",
+      "reason": "The known selector excludes the ninth 6C resource; neither an authentic consumer nor global disuse has been proven.",
+      "evidence": "../RC3/four_gates/I04/I04_RC2_REPORT.md"
+    },
+    {
+      "gate": "I05-READINGS",
+      "result": "NOT_VALIDATED",
+      "reason": "No primary source yet links 高津利恵, 深尾伸也 or 橋本信之 to verified readings/romanizations.",
+      "evidence": "../RC3/four_gates/I05_READINGS_REFRESH.md"
+    }
+  ],
+  "open_release_blockers": 2,
+  "pending_validation_items": [
+    "I04-6C-TECH",
+    "I05-READINGS"
+  ],
+  "archival_note": "RC3 evidence remains historical and current. I04 and I05 are restored as mandatory unresolved gates; they cannot be removed merely by narrowing the release matrix.",
+  "approved_scope": "Hades, post-final scene, five ending branches and 32 fullscreen epilogue pages",
+  "project_wide_visual_linguistic_approval": false,
+  "high_score_followup": "Excluded from this closeout by user instruction; historical evidence remains archived."
+}

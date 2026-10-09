@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "bytes_equal": 4608,
+  "native_wram_range": [
+    "0x5B60",
+    "0x6D60"
+  ],
+  "expected_raw_sha256": "1152478efc058eb34972e1f273906e07d16debf7df519643806bb2a162dc0af2",
+  "actual_raw_sha256": "1152478efc058eb34972e1f273906e07d16debf7df519643806bb2a162dc0af2",
+  "rom_sha256": "933cfcd5ea40f0f1d960338e78dc60ead6d8e5c280ea28bc69007f55ed2cc7aa",
+  "access_method": "SAVESTATE",
+  "runtime": "Mesen 2.1.1 credits S463 frame 3300 from S460 checkpoint",
+  "font_bytes_equal_RC6": true,
+  "diagnostic_correction": "Initial dump used page08 address0x59E0; corrected to page09 address0x5B60 from RELEASE.json and recaptured. No ROM change."
+}

@@ -1,0 +1,290 @@
+{
+  "gate": "I04-6C-TECH",
+  "result": "PASS",
+  "scope": "Classification of the two CP932 candidates as non-text pixel data, using documented synthetic native consumer execution",
+  "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "resource": {
+    "start": "0x6cacbe",
+    "end_exclusive": "0x6caebe",
+    "length": 512,
+    "sha256": "ab6b92afc2155e6d77d40a9d3977aa490a4e121df797b7f78dbf1ae222a50379",
+    "format": "16 tiles arranged 4x4; 8x8 pixels per tile; packed 4bpp, high nibble first",
+    "size_pixels": [
+      32,
+      32
+    ],
+    "palette_range": [
+      "0x6caebe",
+      "0x6caede"
+    ],
+    "native_destination": "0x4000..0x4200",
+    "native_descriptor_hex": "0400beac00300040000000020000"
+  },
+  "validation": {
+    "dma_bytes_equal": 512,
+    "dma_bytes_total": 512,
+    "ppu_pixels_equal": 1024,
+    "ppu_pixels_total": 1024,
+    "runtime_stage": 3,
+    "source_mapping": {
+      "cpu_start": 240830,
+      "cpu_end_inclusive": 241341,
+      "rom_start": 7122110,
+      "rom_end_inclusive": 7122621
+    },
+    "callback_reads": 0,
+    "callback_limitation": "Mesen GDMA did not emit wsPrgRom read callbacks; consumption is proven by pre-DMA hardware registers, active source mapping and exact destination equality, not callback counts"
+  },
+  "cases": [
+    {
+      "id": "CP932-15939",
+      "start": "0x6cae90",
+      "end_exclusive": "0x6cae99",
+      "bytes": 9,
+      "pixels": 18,
+      "raw_cp932": "ｽｹ剱ﾝﾛｻｽｻ",
+      "dma_exact_bytes": 9,
+      "pixel_mapping": [
+        {
+          "rom_offset": "0x6CAE90",
+          "dma_wram_offset": "0x41D2",
+          "tile": 14,
+          "pixel_x": 20,
+          "pixel_y": 28,
+          "source": "BD",
+          "destination": "BD",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE91",
+          "dma_wram_offset": "0x41D3",
+          "tile": 14,
+          "pixel_x": 22,
+          "pixel_y": 28,
+          "source": "B9",
+          "destination": "B9",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE92",
+          "dma_wram_offset": "0x41D4",
+          "tile": 14,
+          "pixel_x": 16,
+          "pixel_y": 29,
+          "source": "99",
+          "destination": "99",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE93",
+          "dma_wram_offset": "0x41D5",
+          "tile": 14,
+          "pixel_x": 18,
+          "pixel_y": 29,
+          "source": "9B",
+          "destination": "9B",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE94",
+          "dma_wram_offset": "0x41D6",
+          "tile": 14,
+          "pixel_x": 20,
+          "pixel_y": 29,
+          "source": "DD",
+          "destination": "DD",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE95",
+          "dma_wram_offset": "0x41D7",
+          "tile": 14,
+          "pixel_x": 22,
+          "pixel_y": 29,
+          "source": "DB",
+          "destination": "DB",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE96",
+          "dma_wram_offset": "0x41D8",
+          "tile": 14,
+          "pixel_x": 16,
+          "pixel_y": 30,
+          "source": "BB",
+          "destination": "BB",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE97",
+          "dma_wram_offset": "0x41D9",
+          "tile": 14,
+          "pixel_x": 18,
+          "pixel_y": 30,
+          "source": "BD",
+          "destination": "BD",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAE98",
+          "dma_wram_offset": "0x41DA",
+          "tile": 14,
+          "pixel_x": 20,
+          "pixel_y": 30,
+          "source": "BB",
+          "destination": "BB",
+          "equal": true
+        }
+      ],
+      "classification": "CONFIRMED_GRAPHIC_NON_TEXT",
+      "structural": "PASS",
+      "native_consumer_synthetic": "PASS",
+      "runtime_ppu": "PASS",
+      "natural_reachability": "NOT_VALIDATED",
+      "unused_proven": false
+    },
+    {
+      "id": "CP932-15968",
+      "start": "0x6cad76",
+      "end_exclusive": "0x6cad81",
+      "bytes": 11,
+      "pixels": 22,
+      "raw_cp932": "ｽﾍﾋﾋ尠末峪a",
+      "dma_exact_bytes": 11,
+      "pixel_mapping": [
+        {
+          "rom_offset": "0x6CAD76",
+          "dma_wram_offset": "0x40B8",
+          "tile": 5,
+          "pixel_x": 8,
+          "pixel_y": 14,
+          "source": "BD",
+          "destination": "BD",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD77",
+          "dma_wram_offset": "0x40B9",
+          "tile": 5,
+          "pixel_x": 10,
+          "pixel_y": 14,
+          "source": "CD",
+          "destination": "CD",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD78",
+          "dma_wram_offset": "0x40BA",
+          "tile": 5,
+          "pixel_x": 12,
+          "pixel_y": 14,
+          "source": "CB",
+          "destination": "CB",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD79",
+          "dma_wram_offset": "0x40BB",
+          "tile": 5,
+          "pixel_x": 14,
+          "pixel_y": 14,
+          "source": "CB",
+          "destination": "CB",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD7A",
+          "dma_wram_offset": "0x40BC",
+          "tile": 5,
+          "pixel_x": 8,
+          "pixel_y": 15,
+          "source": "9B",
+          "destination": "9B",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD7B",
+          "dma_wram_offset": "0x40BD",
+          "tile": 5,
+          "pixel_x": 10,
+          "pixel_y": 15,
+          "source": "96",
+          "destination": "96",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD7C",
+          "dma_wram_offset": "0x40BE",
+          "tile": 5,
+          "pixel_x": 12,
+          "pixel_y": 15,
+          "source": "96",
+          "destination": "96",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD7D",
+          "dma_wram_offset": "0x40BF",
+          "tile": 5,
+          "pixel_x": 14,
+          "pixel_y": 15,
+          "source": "96",
+          "destination": "96",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD7E",
+          "dma_wram_offset": "0x40C0",
+          "tile": 6,
+          "pixel_x": 16,
+          "pixel_y": 8,
+          "source": "9B",
+          "destination": "9B",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD7F",
+          "dma_wram_offset": "0x40C1",
+          "tile": 6,
+          "pixel_x": 18,
+          "pixel_y": 8,
+          "source": "B9",
+          "destination": "B9",
+          "equal": true
+        },
+        {
+          "rom_offset": "0x6CAD80",
+          "dma_wram_offset": "0x40C2",
+          "tile": 6,
+          "pixel_x": 20,
+          "pixel_y": 8,
+          "source": "61",
+          "destination": "61",
+          "equal": true
+        }
+      ],
+      "classification": "CONFIRMED_GRAPHIC_NON_TEXT",
+      "structural": "PASS",
+      "native_consumer_synthetic": "PASS",
+      "runtime_ppu": "PASS",
+      "natural_reachability": "NOT_VALIDATED",
+      "unused_proven": false
+    }
+  ],
+  "visual_observation": "Complete pixel-art building/tower with roof, openings and side structures; neither candidate is a string or lettering.",
+  "access_method": "SYNTHETIC_NATIVE_DESCRIPTOR_DMA_PPU",
+  "synthetic_controls": [
+    "BP=0xACBE, SI=0x1000, destination field=0x4000",
+    "Selected banks C0=0x0F, C2=0x72, C3=0x6C",
+    "Native descriptor construction at 5000:4A54..4A74 and native dispatcher 2000:37AF through GDMA 2000:3878",
+    "Synthetic BG1 tile map, packed4bpp mode and palette loaded from adjacent ROM palette; transferred pixel bytes never rewritten"
+  ],
+  "natural_reachability": false,
+  "natural_scene_identified": false,
+  "unused_proven": false,
+  "rom_modified": false,
+  "translation_required": "N/A: graphic pixels, not Japanese text",
+  "historical_status": "UNRESOLVED_TECHNICAL_NOT_CONFIRMED_TEXT / S461 NOT_VALIDATED",
+  "new_status": "CONFIRMED_GRAPHIC_NON_TEXT / synthetic classification PASS",
+  "unchanged_scope": "No renewed validation of the eight already closed sibling icons; no release-wide approval inferred"
+}

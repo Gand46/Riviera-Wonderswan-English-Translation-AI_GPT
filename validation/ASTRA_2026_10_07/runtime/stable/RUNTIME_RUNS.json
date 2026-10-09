@@ -1,0 +1,128 @@
+[
+  {
+    "exit": 0,
+    "elapsed_seconds": 17.71,
+    "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+    "command": [
+      "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+      "--testRunner",
+      "--timeout=40",
+      "--enableStdout",
+      "--doNotSaveSettings",
+      "--debug.scriptWindow.allowIoOsAccess=true",
+      "/workspace/scratch/f08b2bc0a289/work/qa_current/stable/ending_bind.lua",
+      "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+    ],
+    "access_method": "SYNTHETIC_STATE",
+    "route": 0,
+    "late_subset": false,
+    "rom_writes": 0,
+    "images": 32,
+    "owner_captures": 18
+  },
+  {
+    "exit": 0,
+    "elapsed_seconds": 16.53,
+    "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+    "command": [
+      "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+      "--testRunner",
+      "--timeout=40",
+      "--enableStdout",
+      "--doNotSaveSettings",
+      "--debug.scriptWindow.allowIoOsAccess=true",
+      "/workspace/scratch/f08b2bc0a289/work/qa_current/stable/ending_bind.lua",
+      "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+    ],
+    "access_method": "SYNTHETIC_STATE",
+    "route": 1,
+    "late_subset": true,
+    "rom_writes": 0,
+    "images": 26,
+    "owner_captures": 8
+  },
+  {
+    "exit": 0,
+    "elapsed_seconds": 17.36,
+    "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+    "command": [
+      "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+      "--testRunner",
+      "--timeout=40",
+      "--enableStdout",
+      "--doNotSaveSettings",
+      "--debug.scriptWindow.allowIoOsAccess=true",
+      "/workspace/scratch/f08b2bc0a289/work/qa_current/stable/ending_bind.lua",
+      "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+    ],
+    "access_method": "SYNTHETIC_STATE",
+    "route": 2,
+    "late_subset": true,
+    "rom_writes": 0,
+    "images": 26,
+    "owner_captures": 5
+  },
+  {
+    "exit": 0,
+    "elapsed_seconds": 18.11,
+    "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+    "command": [
+      "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+      "--testRunner",
+      "--timeout=40",
+      "--enableStdout",
+      "--doNotSaveSettings",
+      "--debug.scriptWindow.allowIoOsAccess=true",
+      "/workspace/scratch/f08b2bc0a289/work/qa_current/stable/ending_bind.lua",
+      "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+    ],
+    "access_method": "SYNTHETIC_STATE",
+    "route": 3,
+    "late_subset": true,
+    "rom_writes": 0,
+    "images": 27,
+    "owner_captures": 9
+  },
+  {
+    "exit": 0,
+    "elapsed_seconds": 17.1,
+    "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+    "command": [
+      "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+      "--testRunner",
+      "--timeout=40",
+      "--enableStdout",
+      "--doNotSaveSettings",
+      "--debug.scriptWindow.allowIoOsAccess=true",
+      "/workspace/scratch/f08b2bc0a289/work/qa_current/stable/ending_bind.lua",
+      "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+    ],
+    "access_method": "SYNTHETIC_STATE",
+    "route": 4,
+    "late_subset": true,
+    "rom_writes": 0,
+    "images": 25,
+    "owner_captures": 7
+  },
+  {
+    "exit": 0,
+    "elapsed_seconds": 16.85,
+    "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+    "command": [
+      "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+      "--testRunner",
+      "--timeout=40",
+      "--enableStdout",
+      "--doNotSaveSettings",
+      "--debug.scriptWindow.allowIoOsAccess=true",
+      "/workspace/scratch/f08b2bc0a289/work/qa_current/stable/ending_bind.lua",
+      "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+    ],
+    "access_method": "SYNTHETIC_STATE",
+    "route": 5,
+    "late_subset": true,
+    "rom_writes": 0,
+    "images": 25,
+    "owner_captures": 7
+  }
+]

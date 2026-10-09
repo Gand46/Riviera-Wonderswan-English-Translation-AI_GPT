@@ -1,0 +1,8 @@
+{
+  "source_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "patch": "patches/Riviera_EN_v0.115_S462_RC6_CUMULATIVE_FROM_JP.bps",
+  "patch_sha256": "2a36c3ada7d4448fc629957854b3c8885ac7e58a0979fd64d52940bff15f2b4f",
+  "expected_target_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "actual_target_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "result": "PASS_BYTE_EXACT"
+}

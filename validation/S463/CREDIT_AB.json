@@ -1,0 +1,508 @@
+{
+  "pairs": 100,
+  "same": 93,
+  "affected_page_pairs": 24,
+  "unchanged_other_pages": true,
+  "rows": [
+    {
+      "file": "credit_07_f0060.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0120.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0180.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0240.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0300.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0360.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0420.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0480.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0540.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0600.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0660.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0720.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0780.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0840.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0900.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f0960.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1020.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1080.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1140.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1200.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1260.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1320.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1380.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1440.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1500.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1560.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_08_f1620.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f1680.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f1740.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f1800.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f1860.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f1920.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f1980.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2040.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2100.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2160.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2220.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2280.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2340.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2400.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2460.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2520.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2580.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2640.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2700.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2760.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2820.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_09_f2880.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_10_f2940.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3000.png",
+      "same": false,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3060.png",
+      "same": false,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3120.png",
+      "same": false,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3180.png",
+      "same": false,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3240.png",
+      "same": false,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3300.png",
+      "same": false,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3360.png",
+      "same": false,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3420.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3480.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3540.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3600.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3660.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3720.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3780.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3840.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3900.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f3960.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f4020.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f4080.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f4140.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f4200.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f4260.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_10_f4320.png",
+      "same": true,
+      "affected_page": true
+    },
+    {
+      "file": "credit_11_f4380.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4440.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4500.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4560.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4620.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4680.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4740.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4800.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4860.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4920.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f4980.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5040.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5100.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5160.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5220.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5280.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5340.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5400.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5460.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5520.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5580.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5640.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5700.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5760.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5820.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5880.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f5940.png",
+      "same": true,
+      "affected_page": false
+    },
+    {
+      "file": "credit_11_f6000.png",
+      "same": true,
+      "affected_page": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "stage": "B4",
+  "release": "S457 v0.110",
+  "result": "PARTIAL_GLOBAL_GATES_OPEN",
+  "surfaces": [
+    {
+      "surface": "Créditos, 13 páginas",
+      "access": "sonda controlada por página",
+      "result": "PASS_SCOPED",
+      "evidence": "13/13 guardas limpias; páginas cambiadas 0,2,4,5; I mayúscula distinguible en cuatro nombres"
+    },
+    {
+      "surface": "Glifos aislados",
+      "access": "hoja ciega sin palabra esperada",
+      "result": "PASS_SCOPED",
+      "evidence": "11/11 transcritos correctamente; cuatro muestras I de ejecución"
+    },
+    {
+      "surface": "Combate",
+      "access": "checkpoint ACTION_PRE_DRAW, 2500 cuadros",
+      "result": "PASS_REGRESSION",
+      "evidence": "83/83 capturas idénticas a S455"
+    },
+    {
+      "surface": "Prólogo",
+      "access": "ruta acotada desde título, 4800 cuadros",
+      "result": "PASS_REGRESSION",
+      "evidence": "15/15 capturas idénticas S456/S457"
+    },
+    {
+      "surface": "Team Edit",
+      "access": "entrada nativa controlada desde checkpoint S446",
+      "result": "PASS_SCOPED",
+      "evidence": "pantalla, instrucciones y formaciones legibles; ROM no mutada"
+    },
+    {
+      "surface": "Diálogos y tutoriales globales",
+      "access": "evidencia heredada y muestras acotadas",
+      "result": "NOT_VALIDATED",
+      "evidence": "no existe todavía matriz contextual exhaustiva"
+    },
+    {
+      "surface": "Créditos naturales",
+      "access": "no ejecutado en progresión natural",
+      "result": "NOT_VALIDATED",
+      "evidence": "se conserva para B5/I24"
+    },
+    {
+      "surface": "Team Edit por progresión natural",
+      "access": "no alcanzado",
+      "result": "NOT_VALIDATED",
+      "evidence": "se conserva para B5"
+    },
+    {
+      "surface": "Lectura ciega de palabras completas",
+      "access": "no ejecutada",
+      "result": "NOT_VALIDATED",
+      "evidence": "el PASS aislado no se extiende a palabras"
+    }
+  ],
+  "global_visual_approved": false,
+  "global_final_approved": false
+}

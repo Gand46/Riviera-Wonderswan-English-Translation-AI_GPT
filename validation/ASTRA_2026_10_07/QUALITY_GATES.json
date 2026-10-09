@@ -1,0 +1,22 @@
+{
+  "DISCOVERED": "PASS",
+  "TRANSLATED": "FAIL",
+  "TRANSLATED_scope": "94 audited ending streams and Shinya PASS; two mandatory credit-name readings unresolved",
+  "INTEGRATED": "PASS",
+  "INTEGRATED_scope": "Existing RC6 English ending resources and verified credit only",
+  "RUNTIME_CONFIRMED": "PASS",
+  "RUNTIME_CONFIRMED_scope": "New bounded native-renderer samples reached by documented methods",
+  "LINGUISTIC_APPROVED": "NOT_VALIDATED",
+  "LINGUISTIC_APPROVED_scope": "No new global review; prior scope retained",
+  "TYPOGRAPHY_APPROVED": "PASS",
+  "TYPOGRAPHY_APPROVED_scope": "44 last-page samples and Shinya credit only; native font bytes unchanged",
+  "LEGIBILITY_APPROVED": "PASS",
+  "LEGIBILITY_APPROVED_scope": "same bounded samples",
+  "DESIGN_APPROVED": "PASS",
+  "DESIGN_APPROVED_scope": "same bounded samples",
+  "VISUAL_APPROVED": "PASS",
+  "VISUAL_APPROVED_scope": "same bounded samples",
+  "FUNCTIONAL_APPROVED": "NOT_VALIDATED",
+  "FUNCTIONAL_APPROVED_scope": "Global gameplay unproven; opening/battle screenshot comparisons pass; one counter byte differs",
+  "FINAL_APPROVED": false
+}

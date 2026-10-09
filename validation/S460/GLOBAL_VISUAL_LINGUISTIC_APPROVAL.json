@@ -1,0 +1,45 @@
+{
+  "stage": "v0.113-S460-RC4",
+  "rom_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+  "approved_utc": "2026-09-30T14:43:06.106199+00:00",
+  "final_approved": false,
+  "gate": "S460-FINAL-SCOPE-VISUAL-LINGUISTIC-QA",
+  "result": "PASS",
+  "defined_scope": "Hades, complete post-final dialogue owner set, all five ending branches, and all 32 fullscreen epilogue pages",
+  "post_final_coverage": {
+    "total": 102,
+    "pass_synthetic_state": 94,
+    "pass_pointer_injection": 8,
+    "not_validated_within_scope": 0,
+    "natural_reachability": "NOT_VALIDATED"
+  },
+  "epilogue_second_reading": {
+    "pages": 32,
+    "pass": 32,
+    "mismatches": 0,
+    "visible_japanese": 0
+  },
+  "visual_review": {
+    "controlled_capture_frames": 167,
+    "contact_sheets": 10,
+    "pointer_injection_pages": 12,
+    "issues_within_scope": 0
+  },
+  "regression": "PASS",
+  "open_release_blockers": 2,
+  "pending_validation_items": [
+    "I04-6C-TECH",
+    "I05-READINGS"
+  ],
+  "separate_nonblocking_history": "High Score green-artifact investigation remains documented as emulator/initialization behavior; it is outside this final-dialogue quality gate.",
+  "evidence": [
+    "FINAL_DIALOG_COVERAGE.json",
+    "DIALOG_VISUAL_REVIEW.json",
+    "LINGUISTIC_REVIEW.json",
+    "blind_epilogue_review/EPILOGUE_32_SECOND_READING.json",
+    "S460_REGRESSION.json"
+  ],
+  "scope_approved": true,
+  "project_wide_approval": false,
+  "scope_limitation": "This PASS does not extend to the complete project universe and does not override I04/I05."
+}

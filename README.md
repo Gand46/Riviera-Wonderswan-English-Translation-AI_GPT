@@ -1,54 +1,45 @@
-# Riviera: The Promised Land — WonderSwan Color English v0.112 / S459 / RC3
+# Riviera WSC English — v0.116 S463 RC7
 
-This is the supplied S459 source and cumulative BPS prepared for GitHub. The patch targets the Japanese 8 MiB WonderSwan Color release. **Status: experimental manual-testing RC3; `FINAL_APPROVED=false`.** This packaging does not incorporate later checkpoints or fix remaining translation defects.
+This test build adds **Nobuyuki Hashimoto** to the native Special Thanks credit page and closes the two I04 Japanese-text candidates as **non-text pixels in a building graphic**, with documented synthetic native DMA/PPU evidence reviewed by Astra.
 
-| File | SHA-256 / provenance |
-|---|---|
-| Required clean Japanese ROM, 8,388,608 bytes | `62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921` (documented, not measured in this packaging run) |
-| English S459 output, 8,388,608 bytes | `c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd` (documented; WonderSwan checksum `BF7D`) |
-| Direct JP→S459 BPS | `0d90bce872e7383497b90ef6051bf197260eb2ddc1ea4dd9c2d63c36c0e40504` (measured from both supplied packages) |
+**高津利恵 remains Japanese: its reading has not been established for this person.** This is `INTERNAL_TEST_NOT_FINAL`; `FINAL_APPROVED=false`. The full game is not globally approved. See [the current report](docs/10_S463_ASTRA_I04_I05.md) and [the roadmap](docs/04_HOJA_DE_RUTA_Y_PENDIENTES.md).
 
-## Patch your copy
+## What changed
 
-Provide your own clean Japanese ROM matching the size and SHA-256 above. Use a BPS patcher with it as the **source** and `patches/Riviera_EN_v0.112_S459_RC3_CUMULATIVE_FROM_JP.bps` as the patch. The bundled Python 3 patcher is also available:
+Only the compressed page-09 credit graphic and checksum differ from RC6. The full name uses two lines of unchanged native glyphs. An improved lossless encoder fits the graphic into the existing allocation; runtime font, decoder, hooks, animation and gameplay code are unchanged. RC6's compact-selector regression fix and all earlier translations are retained.
 
-```sh
-python3 apply_patch.py path/to/clean-jp.wsc build/Riviera-English-RC3.wsc
+Sources, the cumulative BPS, hashes, documentation, native screenshots and versioned savestates are included. No commercial ROM or BIOS is included. Historical stage reports retain their original scope; S463 is the current report.
+
+## Apply the patch
+
+Use the clean Japanese original, not a previously patched ROM:
+
+```text
+python apply_patch.py Riviera_JP_CLEAN.wsc Riviera_EN_v0.116_S463_RC7.wsc
 ```
 
-`APPLY_PATCH.bat` and `APPLY_PATCH.command` call that script on Windows and macOS. Verify the output SHA-256 above. Do not patch an earlier translated ROM or chain older BPS files. No ROM or BIOS is distributed.
+## Rebuild from cumulative sources
 
-## Build from the actual cumulative sources
+Windows:
 
-```sh
-python3 build.py path/to/clean-jp.wsc build/Riviera-English-RC3.wsc
+```text
+BUILD.bat Riviera_JP_CLEAN.wsc build\Riviera_EN_v0.116_S463_RC7.wsc
 ```
 
-`BUILD.bat` and `BUILD.command` wrap the same Python builder. Its S459→S458→S457→S456→historical source chain rebuilds the translation from the user-provided original, without applying the included BPS as its build step. Python 3.9+ and approximately 1 GB temporary space are recommended by the supplied documentation. The sanitized nested archive still has four ordered chunks under `source/Riviera_S457_FULL_SOURCE/upstream/`; they are **required** build inputs. See [build and reproducibility](docs/BUILD_AND_REPRODUCIBILITY.md) for the precise validation boundary and a byte-comparison procedure.
+macOS/Linux:
 
-## Technical architecture
+```text
+./BUILD.command Riviera_JP_CLEAN.wsc build/Riviera_EN_v0.116_S463_RC7.wsc
+```
 
-- The S455/S457 credit graphics run through a guarded hook at ROM `0x761124`, a dispatch stub at `0x7FDC40` and RLE/packed graphics beginning at `0x7FDE80`. The global native font remains unchanged; S457 extends the capital I in four compiled credit graphics.
-- S456 corrects two Rapier ability names in the item/manual integration. It retains a bounded inventory of 1,766 known resources and manual tables of 147 records and 76 unique texts.
-- S458 repairs LaLa termination and three owners, adds the first Fia Chapter 8 line, and fixes an epilogue spelling error. S459 redirects seven Hades dialogue owners to `0x7FFC34..0x7FFDFC` and rebalances four bank 0x66 epilogue streams by moving control bytes.
-- The current dialogue encoding uses two-byte `0xA2` glyph references, `0xA9` for line breaks, `0xFE00` for page breaks and `0xFF` for termination. S459 checks length and allocation bounds and recalculates the WonderSwan footer checksum.
+The Python build chain runs from clean JP through S441–S463; no patch chain is required. The current source rebuild and BPS produce exactly the same ROM. The Windows launcher is provided; Windows execution was not available in this Linux validation environment.
 
-These are ROM **file offsets**, not CPU addresses. See [the findings register](docs/TECHNICAL_FINDINGS.md) for individual evidence, buffer/codec details, historical scope and unresolved cases. The [consumer table](docs/TEXT_CONSUMERS.csv) gives every S459 owner and stream offset while recording unknown CPU entries explicitly. Original reports and analyses remain in the source chain.
+## Identity and verification
 
-## Validation and open issues
+- Original SHA-256: `62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921`
+- RC7 SHA-256: `933cfcd5ea40f0f1d960338e78dc60ead6d8e5c280ea28bc69007f55ed2cc7aa`
+- RC7 checksum: `2564`
+- BPS SHA-256: `c70c704ddd0f9e67646ea4bcb67c38be725648b1893b55b540ff07f0f37ade0f`
+- Package: `python verify_package.py`
 
-The supplied RC3 gate matrix has 11 PASS, six PASS_SYNTHETIC, two NOT_VALIDATED and one FAIL. Earlier source rebuild and BPS round-trip reports refer to the original supplied source archive; the cleaned source chain has passed structural/hash checks, but **a fresh clean-ROM build and source/BPS byte comparison were NOT_RUN** because no clean ROM was supplied for this packaging. The patch bytes and CRC are unchanged.
-
-Japanese remains visible in a later ending scene (`FAIL` for global linguistic QA). The ninth icon consumer and three Japanese credit-name readings remain `NOT_VALIDATED`; an independent context-free review of all 32 fullscreen epilogue pages is also incomplete. Synthetic passes describe their tested screens and access method, not a natural full playthrough. See [status](docs/STATUS.md), [validation](docs/VALIDATION.md) and the [gate matrix](validation/RC3_GATE_MATRIX.json).
-
-## Repository contents
-
-| Path | Purpose |
-|---|---|
-| `build.py`, `source/` | Guarded cumulative source builders and historical archive chain |
-| `patches/`, `apply_patch.py` | Direct BPS and local applicator |
-| `validation/`, `evidence/` | Supplied bounded reports and selected screen captures |
-| `docs/` | Technical findings, consumer offsets, build scope, status and organization decisions |
-| `scripts/verify_repository.py` | Package identity, file-limit and forbidden-extension checks |
-
-No project-wide license was supplied; preservation of existing credits and tool sources does not grant rights in the commercial game. See [NOTICE.md](NOTICE.md) and the historical reports for the credited evidence and tools. Contributors should consult [CONTRIBUTING.md](CONTRIBUTING.md). Original tool authorship/licensing should be confirmed before changing redistribution terms.
+Astra approved the changed credit page; the native decoder output matched all 4,608 graphic bytes. All 76 screenshot pairs outside that page were pixel-identical to RC6 in the 6,000-frame bounded replay. These checks do not imply a complete playthrough, hardware validation or global language approval.

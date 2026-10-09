@@ -1,0 +1,15 @@
+{
+  "rom_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+  "resources": 1766,
+  "hash_matches": 1766,
+  "uses": 3418,
+  "pointer_checks": 3325,
+  "context_uses": 93,
+  "without_i03_edge": 176,
+  "width_flags": 9,
+  "residuals_classified": 45,
+  "residuals_unresolved": 2,
+  "manual_review": 60,
+  "corpus_1436": "NOT_VALIDATED",
+  "rom_changed": false
+}

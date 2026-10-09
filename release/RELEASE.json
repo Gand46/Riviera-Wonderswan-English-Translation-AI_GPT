@@ -1,37 +1,57 @@
 {
-  "game": "Riviera: The Promised Land",
-  "platform": "WonderSwan Color",
-  "target_language": "English",
-  "version": "0.112",
-  "stage": "S459",
-  "label": "RC3",
-  "classification": "EXPERIMENTAL_INTERNAL_TEST",
-  "manual_testing_approved": true,
+  "project": "Riviera Work Pt1.5",
+  "version": "v0.116 S463 RC7",
+  "date_utc": "2026-10-07",
+  "classification": "INTERNAL_TEST_NOT_FINAL",
   "final_approved": false,
-  "original_rom": {
-    "size": 8388608,
-    "sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921"
+  "manual_test_ready": true,
+  "rom_included": false,
+  "source_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "target_rom_sha256": "933cfcd5ea40f0f1d960338e78dc60ead6d8e5c280ea28bc69007f55ed2cc7aa",
+  "target_size": 8388608,
+  "target_checksum": "2564",
+  "cumulative_bps": "patches/Riviera_EN_v0.116_S463_RC7_CUMULATIVE_FROM_JP.bps",
+  "cumulative_bps_sha256": "c70c704ddd0f9e67646ea4bcb67c38be725648b1893b55b540ff07f0f37ade0f",
+  "rom_change_scope": "Only CREDIT-7A3D29 packed graphic at0x7FF4EA..0x7FF9B1 and checksum; existing font/decoder/hooks/animation/code unchanged.",
+  "regression_fix": {
+    "id": "R01_COMPACT_SELECTOR_PARENT_RANGE_LOSS",
+    "result": "PASS",
+    "affected_streams": 22,
+    "affected_data_changed": false,
+    "selector_changed_bytes": 10,
+    "runtime_access_method": "SAVESTATE_REPLAY_WITH_SCRIPTED_INPUT",
+    "renderer_representatives": [
+      "0x7CB227",
+      "0x7CDBE1"
+    ],
+    "representative_visual_result": "PASS"
   },
-  "result_rom": {
-    "size": 8388608,
-    "sha256": "c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd",
-    "wonderswan_checksum": "BF7D"
+  "quality": {
+    "post_final_streams": "102/102 PASS (inherited byte-identical)",
+    "epilogue_blind_pages": "32/32 PASS (inherited byte-identical)",
+    "credits_page_08": "PASS (inherited byte-identical)",
+    "i05_individual": "2 PASS, 1 NOT_VALIDATED",
+    "approved_scope": "Previously approved Hades, post-final scene, five ending branches, 32 epilogue pages and modified credits page-08 row; plus representative S462 streams 0x7CB227 and 0x7CDBE1. S463 adds only page09 and two non-text candidate classifications; no global approval.",
+    "project_wide_approval": false,
+    "credits_page_09": "PASS: full name, native glyphs, exact runtime decompression, bounded transition A/B",
+    "i04": "PASS: both intervals CONFIRMED_GRAPHIC_NON_TEXT; synthetic access; natural use remains unknown"
   },
-  "cumulative_bps": {
-    "path": "patches/Riviera_EN_v0.112_S459_RC3_CUMULATIVE_FROM_JP.bps",
-    "size": 284345,
-    "sha256": "0d90bce872e7383497b90ef6051bf197260eb2ddc1ea4dd9c2d63c36c0e40504"
-  },
-  "gates": {
-    "PASS": 11,
-    "PASS_SYNTHETIC": 6,
-    "NOT_VALIDATED": 2,
-    "FAIL": 1
-  },
-  "packaging_verification": {
-    "bps_identity": "PASS",
-    "source_archive_structure": "PASS",
-    "source_rebuild_after_archive_sanitization": "NOT_RUN_NO_CLEAN_JP_ROM",
-    "source_bps_byte_equality_after_sanitization": "NOT_RUN_NO_CLEAN_JP_ROM"
-  }
+  "source_rebuild_full": "PASS_BYTE_EXACT",
+  "bps_roundtrip": "PASS_BYTE_EXACT",
+  "open_release_blockers": 1,
+  "pending_validation_items": [
+    "I05-READINGS: 高津利恵"
+  ],
+  "separate_follow_up": [
+    "High Score",
+    "second independent human review",
+    "Global visual/linguistic approval",
+    "Full gameplay and hardware validation",
+    "RC3/RC6 battle engine-counter offset provenance (historical; unrelated code unchanged in S463)"
+  ],
+  "created_utc": "2026-10-02T00:00:00Z",
+  "package_revision": "S463: Nobuyuki Hashimoto integrated; I04 classified graphically with synthetic native DMA/PPU evidence",
+  "current_qa_report": "docs/10_S463_ASTRA_I04_I05.md",
+  "base_rc6_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "rom_changed_from_rc6": true
 }

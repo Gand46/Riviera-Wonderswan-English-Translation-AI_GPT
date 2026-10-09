@@ -1,0 +1,64 @@
+{
+  "stage": "S461",
+  "gate": "I04-6C-TECH",
+  "result": "NOT_VALIDATED",
+  "subject": {
+    "bank": "0x6C",
+    "ninth_resource_start": "0x6CACBE",
+    "size": 512,
+    "format": "32x32 packed 4bpp",
+    "visual_identity": "building/tower, non-text"
+  },
+  "inherited_evidence_reused_not_repeated": {
+    "selector_combinations": 65536,
+    "real_mode_aliases": 4096,
+    "bounded_runtime_frames": 39008,
+    "bounded_candidate_reads": 0,
+    "positive_controls_present": true,
+    "known_consumer": "5000:49D9..4A88; BP=9CBE, CX=8, stride=0x200",
+    "known_consumer_exclusive_end": "0x6CACBE",
+    "direct_physical_or_mapper_le24_le32_hits": 0
+  },
+  "new_structural_pass": {
+    "rom_sha256": "931e5cfec6e60fe3ad2b48b192b38bfd071d1a3b2453ddac3e1c271fb8da3c7d",
+    "raw_lowword_hits": 14,
+    "authenticated_consumers": 0,
+    "candidates": [
+      {"rom_offset":"0x0027F3","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"packed-nibble graphic context; no authenticated bank-0x6C load"},
+      {"rom_offset":"0x19A4A0","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"structured/compressed-looking data; no authenticated pointer field"},
+      {"rom_offset":"0x31852F","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"packed-nibble graphic context"},
+      {"rom_offset":"0x319CD3","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"packed-nibble graphic context"},
+      {"rom_offset":"0x3D8452","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"structured graphic/data context with long zero/E patterns"},
+      {"rom_offset":"0x438985","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"packed-nibble graphic context"},
+      {"rom_offset":"0x485A63","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"packed-nibble graphic context"},
+      {"rom_offset":"0x50868B","classification":"DATA_CONTEXT_NO_BANK_EVIDENCE","detail":"packed-nibble graphic context"},
+      {"rom_offset":"0x5F3166","classification":"COMPRESSED_PAYLOAD","detail":"inside RIV-LZ-5F2F56, range 0x5F2F56..0x5F43E1"},
+      {"rom_offset":"0x6F6AE0","classification":"RECORD_BOUNDARY_FALSE_POSITIVE","detail":"high byte BE of a prior value followed by record marker AC"},
+      {"rom_offset":"0x6F6AE3","classification":"RECORD_BOUNDARY_FALSE_POSITIVE","detail":"high byte BE of a prior value followed by record marker AC"},
+      {"rom_offset":"0x6F6AE6","classification":"RECORD_BOUNDARY_FALSE_POSITIVE","detail":"high byte BE of a prior value followed by record marker AC"},
+      {"rom_offset":"0x6FA2EA","classification":"FIELD_BOUNDARY_FALSE_POSITIVE","detail":"record marker BE followed by low byte AC of value 0xE3AC"},
+      {"rom_offset":"0x741883","classification":"INSTRUCTION_OVERLAP_FALSE_POSITIVE","detail":"bytes BE AC 19 decode as mov si,0x19AC; not literal 0xACBE"}
+    ],
+    "far_pointer_candidates": {
+      "count": 4,
+      "cdl_flags": "00000000 for all",
+      "authenticated": 0,
+      "source": "sources/QA_PT2_EXTENSIONS/analysis/PT2_I04_STRONG_PASS.json"
+    }
+  },
+  "anti_blocking": {
+    "limit_minutes": 40,
+    "limit_exceeded": false,
+    "restarted_exhaustive_selector_search": false,
+    "strategy_changes": [
+      "stopped archive-repair route after disk amplification",
+      "switched to exact RC4 reconstruction and bounded raw-context/disassembly classification",
+      "stopped after remaining candidates required evidence unavailable from static structure alone"
+    ]
+  },
+  "decision": {
+    "pass_rejected_because": "No authentic consumer of the ninth resource was identified.",
+    "na_rejected_because": "Computed references and unexecuted paths remain possible; global disuse is not proven.",
+    "not_validated_reason": "The available bounded evidence cannot decide authentic use versus true non-use."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "source_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "rom_sha256": "933cfcd5ea40f0f1d960338e78dc60ead6d8e5c280ea28bc69007f55ed2cc7aa",
+  "bps_sha256": "c70c704ddd0f9e67646ea4bcb67c38be725648b1893b55b540ff07f0f37ade0f",
+  "bps_size": 287713,
+  "roundtrip_byte_exact": true,
+  "negative_cases": {
+    "wrong_source": {
+      "result": "REJECTED",
+      "exception": "ValueError"
+    },
+    "truncated_patch": {
+      "result": "REJECTED",
+      "exception": "ValueError"
+    },
+    "corrupted_patch": {
+      "result": "REJECTED",
+      "exception": "ValueError"
+    }
+  },
+  "checksum": "2564"
+}

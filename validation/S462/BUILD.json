@@ -1,0 +1,11 @@
+{
+  "stage": "S462",
+  "version": "v0.115 RC6",
+  "base_rc5_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "size": 8388608,
+  "checksum": "289A",
+  "changed_bytes_from_rc5": 12,
+  "unexpected_changed_bytes": 0,
+  "result": "PASS"
+}

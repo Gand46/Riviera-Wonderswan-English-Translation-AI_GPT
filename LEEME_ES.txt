@@ -1,0 +1,31 @@
+RIVIERA WSC — v0.116 S463 RC7, revisión con Astra
+
+Resueltos 3 de los 4 pendientes de este lote:
+- 橋本信之: lectura Nobuyuki Hashimoto acreditada por créditos originales de
+  juegos Bandai. Integrada en dos líneas con la fuente nativa y validada en Mesen.
+- Los dos intervalos I04 son píxeles de un edificio de 32x32, no texto japonés.
+  Prueba sintética documentada: 512/512 bytes DMA y 1024/1024 píxeles coinciden.
+
+高津利恵 permanece en japonés: todavía no hay lectura vinculada a esa persona.
+No se ha sustituido por una lectura deducida. El proyecto sigue siendo de prueba,
+no final ni globalmente aprobado.
+
+Aplica patches/Riviera_EN_v0.116_S463_RC7_CUMULATIVE_FROM_JP.bps a la ROM japonesa
+original limpia. También puedes ejecutar:
+python apply_patch.py Riviera_JP_CLEAN.wsc Riviera_EN_v0.116_S463_RC7.wsc
+
+Para reconstruir desde fuentes: BUILD.bat (Windows), BUILD.command (macOS/Linux)
+o python build_rc7.py ROM_JP.wsc --out SALIDA.wsc. Usa archivos distintos de entrada
+y salida. No necesitas parches intermedios.
+
+El BPS y la reconstrucción completa generan el mismo resultado. Checksum: 2564.
+SHA-256 RC7: 933cfcd5ea40f0f1d960338e78dc60ead6d8e5c280ea28bc69007f55ed2cc7aa
+
+Cambios respecto a RC6: una página gráfica de créditos y checksum, 1128 bytes,
+ninguno fuera del rango previsto. Fuente, decodificador, animación y código de
+jugabilidad intactos. Las 76 capturas comparadas de otras páginas coinciden.
+No equivale a garantizar todo el juego; los límites anteriores siguen abiertos.
+
+Informe actual: docs/10_S463_ASTRA_I04_I05.md
+Pruebas, capturas y savestates: validation/S463/
+No se incluyen ROM ni BIOS.

@@ -1,0 +1,247 @@
+{
+  "reviewer": "primary Codex",
+  "method": "Direct pixels first in the image review; source had been read earlier, so not a fully blind reviewer",
+  "rows": [
+    {
+      "id": 1,
+      "image": "work/qa_current/stable/ending_route0/owner_793563.png",
+      "sha256": "65f3c310533e04cd1668108eff716854193a3122fa1fa98241b0d4846ac4c540",
+      "visible_transcription": "......?",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 2,
+      "image": "work/qa_current/stable/ending_route0/owner_793568.png",
+      "sha256": "534b8151c7b8cccc5f340909bd6199eca0e7d4d9ea85827b3f89f1feb20fbe9d",
+      "visible_transcription": "Fia!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 3,
+      "image": "work/qa_current/stable/ending_route0/owner_79356D.png",
+      "sha256": "ab72bef892e827d8260b8c601be1f781d618ee8f47ff4c442e7d94bb4e757455",
+      "visible_transcription": "Lina!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 4,
+      "image": "work/qa_current/stable/ending_route0/owner_793573.png",
+      "sha256": "8f8e168b7b4e18930a112b34370b53a99ff519e7af8abac63e82ed6597b15ec9",
+      "visible_transcription": "Serene!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 5,
+      "image": "work/qa_current/stable/ending_route0/owner_793578.png",
+      "sha256": "3a6a648173167d749a0d8fb1fa254b5d49048529cac0d71d26a64f2df28fbc05",
+      "visible_transcription": "Cierra!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 6,
+      "image": "work/qa_current/stable/ending_route0/owner_79357F.png",
+      "sha256": "36844d401c273ff5381d3e7ad7dbdc1b5ed0c7a6c4874527cc97e88c28085e92",
+      "visible_transcription": "Rose!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 7,
+      "image": "work/qa_current/stable/ending_route0/owner_793583.png",
+      "sha256": "7a80e8c5ebfce814e7fb44067280cfb34851f3523925ba441f678a6734a69ee5",
+      "visible_transcription": "Everyone...\nWe made it!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 8,
+      "image": "work/qa_current/stable/ending_route0/owner_793595.png",
+      "sha256": "e3b89cbd812ed62f355fae96874cf07e4676b62d5a35d81a2223d9992e863b7a",
+      "visible_transcription": "...Huh?\nI am alive...",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 9,
+      "image": "work/qa_current/stable/ending_route0/owner_7935A1.png",
+      "sha256": "204659e4f35986cfc9f621cfc392296c0925a94dcf1d0d569f7bb389dbbe7ebc",
+      "visible_transcription": "Where are we?",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 10,
+      "image": "work/qa_current/stable/ending_route0/owner_7935B4.png",
+      "sha256": "479e65fb56c100495cf717522dbdf9f6daa9317107ec5cf6d01419d6a3e037aa",
+      "visible_transcription": "It is Elendia!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 11,
+      "image": "work/qa_current/stable/ending_route0/owner_7935C7.png",
+      "sha256": "5f01dec8684b5af9f462bfc9fb4007056dc54e1aa328b15fdfc71f6e60406cc3",
+      "visible_transcription": "We made it...\nback alive.",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 12,
+      "image": "work/qa_current/stable/ending_route0/owner_7935D3.png",
+      "sha256": "48101c7ebd42bfcbe545c4ef91e383b5ab8bb3fe194bb8ff77d3871d93150a2e",
+      "visible_transcription": "Thank goodness!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 13,
+      "image": "work/qa_current/stable/ending_route0/owner_7935D7.png",
+      "sha256": "99efb7aea22ce88d9219dee0ca4b871e3454a301b399cd41bbbdfb6d1ffaf6a7",
+      "visible_transcription": "It was Ursula.\nShe saved us.",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 14,
+      "image": "work/qa_current/stable/ending_route0/owner_7935DB.png",
+      "sha256": "ed21992a259378d62e8adc89d946f31eed4f5121d84757599e55d22f2bb531fe",
+      "visible_transcription": "You are right.",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 15,
+      "image": "work/qa_current/stable/ending_route0/owner_7935DF.png",
+      "sha256": "6e292f0c331eb71817966f8fe2ea680fe34dd5f6070637dcafc50ca2218ded54",
+      "visible_transcription": "Riviera is\npeaceful now!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 16,
+      "image": "work/qa_current/stable/ending_route0/owner_7935E3.png",
+      "sha256": "f84fb073dc42bee13be002394236ddbf0c8de8b84ae267ca9562ea986aa45a98",
+      "visible_transcription": "It is all over.",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 17,
+      "image": "work/qa_current/stable/ending_route0/owner_7935E7.png",
+      "sha256": "992da3ae4609d56e22ec1b1e2303658f40065bc574f9a84ddbc1f543780390a5",
+      "visible_transcription": "Riviera is free\nat last!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 18,
+      "image": "work/qa_current/stable/late_route1/owner_793AB9.png",
+      "sha256": "2b54893543ae4780c2ef1007831089457d7b08055919c40d560d8061372afda9",
+      "visible_transcription": "Take that!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 19,
+      "image": "work/qa_current/stable/late_route1/owner_793AFB.png",
+      "sha256": "731ede7586d77143a6f3fe5842d24a980cc41f0f61d7f0d76719e5e09db4e1dc",
+      "visible_transcription": "Ein!",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 20,
+      "image": "work/qa_current/stable/late_route1/owner_793B00.png",
+      "sha256": "4fa43e739d71fe0fc4798e4f83d15df813efe77189ba0949c240d2bf1c4d643d",
+      "visible_transcription": "Was that all,\nSerene?",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 21,
+      "image": "work/qa_current/stable/late_route1/owner_793B04.png",
+      "sha256": "d3ade5d0b58cd17dbf527f35539203ec6bda8b9902fc729e9cba315e191f0fe4",
+      "visible_transcription": "I think so...",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 22,
+      "image": "work/qa_current/stable/late_route1/owner_793B0D.png",
+      "sha256": "6e23b6a9e9e96f889df33bbfe0f8e0ccbe800319d2c431577936d93a1d0fb740",
+      "visible_transcription": "Nearby towns\ncan live safely",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 23,
+      "image": "work/qa_current/stable/late_route1/owner_793B11.png",
+      "sha256": "69c8be87645ec30d40ece1907d96a63ab9df7ee208777d2661369b5781cf54b7",
+      "visible_transcription": "But one day...",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    },
+    {
+      "id": 24,
+      "image": "work/qa_current/stable/late_route1/owner_793B15.png",
+      "sha256": "6a8a3fc31bcbcb1459e476a3377e7ab5e0f951a70d7d27334eaeea1b392483a8",
+      "visible_transcription": "We can end them\nfor good.",
+      "visible_japanese": false,
+      "glyph_ambiguity": false,
+      "clipping_observed": false,
+      "scope": "Last visible page only"
+    }
+  ],
+  "global_approval": false
+}

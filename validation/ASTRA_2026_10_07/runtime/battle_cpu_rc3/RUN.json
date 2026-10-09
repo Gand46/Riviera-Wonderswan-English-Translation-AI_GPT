@@ -1,0 +1,18 @@
+{
+  "exit": 0,
+  "rom_sha256": "c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd",
+  "state_sha256": "76a49adf29aa9b3859ae6ce63f51afaa6206fabed0231a1a9d1f21247b0475df",
+  "command": [
+    "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+    "--testRunner",
+    "--timeout=15",
+    "--enableStdout",
+    "--doNotSaveSettings",
+    "--debug.scriptWindow.allowIoOsAccess=true",
+    "/workspace/scratch/f08b2bc0a289/work/qa_current/battle_replay_cpu.lua",
+    "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S459_RC3.wsc"
+  ],
+  "access_method": "SAVESTATE",
+  "state_origin": "S457 PW3 second battle route",
+  "rom_writes": 0
+}

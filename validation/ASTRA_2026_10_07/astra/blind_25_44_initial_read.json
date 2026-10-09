@@ -1,0 +1,268 @@
+{
+  "reviewer": "Astra independent visual reader",
+  "stage": "initial_visual_read_before_BLIND_MAP",
+  "inputs": [
+    "work/qa_current/blind_03.png",
+    "work/qa_current/blind_04.png"
+  ],
+  "independence_disclosure": "Did not consult BLIND_MAP or expected strings for this task. Reviewer had earlier read build_s460.py during separate static coverage subtask, so reviewer was not fully blind to source text historically.",
+  "scope": "IDs 25..44 only. Contact-sheet last-visible-page captures at FF; no claim about all pages or universal runtime coverage.",
+  "rows": [
+    {
+      "id": 25,
+      "speaker": "Serene",
+      "visible_lines": [
+        "Darn right!",
+        "We sure will"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "Final punctuation not visible after will; inspect native capture."
+      ]
+    },
+    {
+      "id": 26,
+      "speaker": "Lina",
+      "visible_lines": [
+        "The treasure is",
+        "this way"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "Final punctuation not visible after way."
+      ]
+    },
+    {
+      "id": 27,
+      "speaker": "Ein",
+      "visible_lines": [
+        "Careful, Lina!"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 28,
+      "speaker": "Lina",
+      "visible_lines": [
+        "Stop worrying"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "Final punctuation not visible after worrying."
+      ]
+    },
+    {
+      "id": 29,
+      "speaker": "Ein",
+      "visible_lines": [
+        "Lina"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "No final punctuation visible despite empty margin."
+      ]
+    },
+    {
+      "id": 30,
+      "speaker": "Lina",
+      "visible_lines": [
+        "Hee hee...",
+        "Oopsie"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "No musical-note or other trailing glyph visible."
+      ]
+    },
+    {
+      "id": 31,
+      "speaker": "Fia",
+      "visible_lines": [
+        "guard our land."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 32,
+      "speaker": "Fia",
+      "visible_lines": [
+        "Ein"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "No final punctuation visible despite empty margin."
+      ]
+    },
+    {
+      "id": 33,
+      "speaker": "Ein",
+      "visible_lines": [
+        "No demons have",
+        "appeared here."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 34,
+      "speaker": "Fia",
+      "visible_lines": [
+        "No..."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 35,
+      "speaker": "Fia",
+      "visible_lines": [
+        "Thanks to you,",
+        "Ein."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 36,
+      "speaker": "Ein",
+      "visible_lines": [
+        "You are strong,",
+        "Fia"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "No final punctuation visible despite empty margin."
+      ]
+    },
+    {
+      "id": 37,
+      "speaker": "Fia",
+      "visible_lines": [
+        "May this peace",
+        "last forever."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 38,
+      "speaker": "Rose",
+      "visible_lines": [
+        "sighting in",
+        "Riviera."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 39,
+      "speaker": "Ein",
+      "visible_lines": [
+        "Time to use my",
+        "Einherjar-"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "One trailing short horizontal mark visible; exact dash count needs native capture."
+      ]
+    },
+    {
+      "id": 40,
+      "speaker": "Rose",
+      "visible_lines": [
+        "Let the Sprites",
+        "handle it."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    },
+    {
+      "id": 41,
+      "speaker": "Ein",
+      "visible_lines": [
+        "Oh, r-right.."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "Looks like two trailing dots; count needs native capture."
+      ]
+    },
+    {
+      "id": 42,
+      "speaker": "Rose",
+      "visible_lines": [
+        "Your report is",
+        "due today"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "No final punctuation visible despite empty margin."
+      ]
+    },
+    {
+      "id": 43,
+      "speaker": "Ein",
+      "visible_lines": [
+        "Okay. We should",
+        "do what we can"
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": [
+        "No final punctuation visible despite empty margin."
+      ]
+    },
+    {
+      "id": 44,
+      "speaker": "Rose",
+      "visible_lines": [
+        "Riviera belongs",
+        "to the Sprites."
+      ],
+      "japanese_visible": false,
+      "unreadable_letters": false,
+      "box_edge_clipping_observed": false,
+      "notes": []
+    }
+  ],
+  "summary": "English words legible in all 20 frames. No visible Japanese, clear letter corruption, or box-edge clipping. Several expected sentence endings are not visibly present; this can be capture timing at FF and is not adjudicated as ROM truncation. Native-frame follow-up requested."
+}

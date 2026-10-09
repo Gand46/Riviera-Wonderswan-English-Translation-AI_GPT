@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-07",
+  "reviewer": "Astra I05 focused documentary review",
+  "scope": "Only 高津利恵 and 橋本信之; no ROM edits; no full-game audit",
+  "entries": [
+    {
+      "japanese": "橋本信之",
+      "credit": "Riviera WSC Special Thanks page 9 row 3",
+      "result": "PASS",
+      "reading": "Nobuyuki Hashimoto",
+      "method": "CROSS_TITLE_PRIMARY_GAME_CREDITS_SAME_ORGANIZATION_AND_COLLEAGUES",
+      "identity_is_inferred_from_linked_credits": true,
+      "identity_chain": [
+        "Riviera original credits identify 橋本 信之 in Special Thanks. Its Bandai Sales staff are 干川 耕司, 吉田 賢司, 大野 聡.",
+        "User-supplied original One Piece Treasure Wars 2 ROM directly contains structurally bounded CP932 credits: えいぎょう： / 橋本 信之 / 干川 耕司, followed by えいぎょう： / 熊田 直樹 / 大野 聡. Exact Japanese names, role, and order independently agree with GDRI transcription.",
+        "One Piece: Grand Battle Swan Colosseum WSC credits (same stated publication date as Riviera, 2002-07-12) identify NOBUYUKI HASHIMOTO under PROMOTION immediately followed by KOHJI HOSHIKAWA, KENJI YOSHIDA, SATOSHI OHNO, exactly the three Riviera Sales colleagues.",
+        "The actual in-game promotion screenshot supplied by the credit archive was downloaded and inspected visually; all four Latin names are clearly readable. This is not a romanization guessed from kanji or borrowed from a homonym."
+      ],
+      "sources": [
+        {
+          "url": "https://raido.moe/staff/ws/ws_riviera.html",
+          "web_ref": "turn21view0",
+          "kind": "GAME_CREDIT_TRANSCRIPTION",
+          "relevant_lines": "68-71 (Sales); 85-95 (Special Thanks)",
+          "local_primary": "deliverables/Riviera_EN_S462_RC6_Fuentes_BPS_QA_Astra_2026-10-07/sources/Riviera_S457_FULL_SOURCE/source/CREDIT_LAYOUT.json"
+        },
+        {
+          "url": "https://gdri.smspower.org/wiki/index.php/Credits_Repository_Archive_05",
+          "web_ref": "turn16view0",
+          "kind": "GAME_CREDIT_TRANSCRIPTION",
+          "section": "One Piece: Treasure Wars 2 (WSC)",
+          "relevant_lines": "1527-1531, 1554-1555"
+        },
+        {
+          "url": "https://raido.moe/staff/ws/ws_one_piece_grand_battle.html",
+          "web_ref": "turn21view1",
+          "kind": "GAME_CREDIT_TRANSCRIPTION_WITH_PRIMARY_IMAGES",
+          "relevant_lines": "109-114"
+        },
+        {
+          "url": "https://raido.moe/staff/ws/source/ws_one_piece_grand_battle.rar",
+          "kind": "PRIMARY_GAME_CREDIT_SCREENSHOT_ARCHIVE",
+          "local_file": "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/names_evidence/ws_one_piece_grand_battle.rar",
+          "sha256": "efa2c0ecccdad2ba2328d5d1a938ca6fee585eed3b70484ee92225305a5f0d1e"
+        },
+        {
+          "kind": "PRIMARY_GAME_CREDIT_SCREENSHOT",
+          "local_file": "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/names_evidence/one_piece_promotion_original.jpg",
+          "sha256": "e5015c8863f0a86dbaca5ceba2a0d22292c5ad8b389a83ffe0b9f1e4647776e8",
+          "archive_original_filename": "One Piece Grand Battle Swan Colosseum [WonderSwan Color] [Lo.mp4_snapshot_19.29_[2017.06.22_21.15.39].jpg",
+          "visual_read": "PROMOTION / NOBUYUKI HASHIMOTO / KOHJI HOSHIKAWA / KENJI YOSHIDA / SATOSHI OHNO"
+        },
+        {
+          "kind": "PRIMARY_ROM_STRUCTURED_CREDIT_RECORDS",
+          "local_file": "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/names_evidence/treasure_wars2_primary_records.json",
+          "rom_sha256": "0cb0ba5c0a7d3bbe05fe62536e48fff6c8d47d7311fe97c4595718f17f88c812",
+          "evidence": "At 0x2930D8 literal えいぎょう： followed by 橋本 信之 and 干川 耕司; at 0x29311C literal えいぎょう： followed by 熊田 直樹 and 大野 聡. Inline CP932 strings bounded by NUL and validated continuation pointers."
+        }
+      ],
+      "rejected_evidence": [
+        "MusicBrainz SMT engineer identity not linked to Riviera; not relied upon.",
+        "Happinet Vending president of same Japanese name in 2017 Bandai-related press release remains unlinked; not relied upon."
+      ],
+      "recommended_rom_action": "Integrate Nobuyuki Hashimoto after parent review and normal bounded build/runtime validation.",
+      "limitations": [
+        "No Treasure Wars 2 runtime screenshot was produced. Japanese identity/coworker evidence now comes directly from structurally validated original ROM credit records, supported by GDRI transcription. Latin reading comes from visually inspected Grand Battle original credit screenshot."
+      ]
+    },
+    {
+      "japanese": "高津利恵",
+      "credit": "Riviera WSC Special Thanks page 10 row 1",
+      "result": "NOT_VALIDATED",
+      "reading": null,
+      "reason": "No identity-linked Latin or kana reading established. Exact-name hits outside Riviera do not establish identity. No other target-name credit found in all 72 Raido WonderSwan credit pages fetched and normalized for whitespace.",
+      "additional_checks": [
+        "Japanese Riviera GBA credits omit this name, so cannot provide a paired reading.",
+        "Targeted exact-name searches with and without spaces; Sting/Bandai/Riviera contexts; 髙 and 惠 variants; neighboring Sting credit colleagues; English candidate searches.",
+        "Sting official Riviera pages identify 高津幸央, the character designer, but no source links 高津利恵 to that person or establishes her reading; surname resemblance not evidence.",
+        "One sequential scan of all 207 WS/WSC ROM files in user-authorized 208-entry archive (one directory entry), without saving ROMs: CP932 高津/髙津 within 100 bytes of 利恵/利惠; kana surname and りえ/リエ proximity; case-insensitive ASCII Rie and Takatsu/Kozu/Kouzu in either order within 10 bytes. Zero candidates, no archive errors; 30.66 seconds. This does not exclude custom-encoded or graphical credits."
+      ],
+      "sources": [
+        {
+          "url": "https://raido.moe/staff/ws/ws_riviera.html",
+          "web_ref": "turn21view0",
+          "evidence": "Exact Japanese name in Special Thanks."
+        },
+        {
+          "url": "https://raido.moe/staff/gba/gba_riviera.html",
+          "web_ref": "turn12search2",
+          "evidence": "GBA Special Thanks omits the target."
+        },
+        {
+          "url": "https://raido.moe/staff/list_ws.html",
+          "web_ref": "turn20view0",
+          "evidence": "72 linked WS credit pages checked; only Riviera contains 高津利恵 after whitespace normalization."
+        },
+        {
+          "url": "https://design.ko-zu.jp/office/index.html",
+          "web_ref": "turn13search2",
+          "evidence": "Same-name web designer, no identity bridge to Riviera."
+        },
+        {
+          "url": "https://yanorin.blogspot.com/2010/07/mk.html",
+          "web_ref": "turn25search2",
+          "evidence": "Web designer surname こうず; no game identity link."
+        },
+        {
+          "kind": "BOUNDED_LOCAL_BINARY_DISCOVERY_SCAN",
+          "local_file": "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/rie_authorized_collection_scan.json",
+          "candidates": 0,
+          "files_scanned": 207,
+          "limitation": "Negative evidence only for specified byte-pattern encodings, not proof of absence of person from graphical/custom-encoded credits."
+        }
+      ],
+      "recommended_rom_action": "Preserve Japanese pixels. Do not replace with Rie Takatsu or Rie Kozu on present evidence."
+    }
+  ],
+  "gate_result": "NOT_VALIDATED",
+  "gate_reason": "One of two remaining readings resolved; 高津利恵 still unresolved.",
+  "summary": {
+    "new_readings_PASS": 1,
+    "remaining_NOT_VALIDATED": 1,
+    "rom_modified": false
+  },
+  "next_decisive_evidence": "For 高津利恵: a contemporary Sting/Bandai staff record, official credit/manual with kana or Latin spelling, or explicit identity-linked statement. Another name-reading dictionary or same-name personal website would not resolve it."
+}

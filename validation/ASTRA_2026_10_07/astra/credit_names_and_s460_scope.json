@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-07",
+  "reviewer": "independent Astra credit/scope review",
+  "scope": "bounded documentary and static coverage review; no ROM, source, or build edits",
+  "names": [
+    {
+      "japanese": "高津利恵",
+      "result": "NOT_VALIDATED",
+      "reading": null,
+      "reason": "No identity-linked Riviera reading found. Same-name web designer has Kozu/こうず surname evidence but no connection to Riviera, Bandai, or Sting established; do not transfer this reading.",
+      "sources": [
+        {
+          "url": "https://design.ko-zu.jp/office/index.html",
+          "ref": "turn4view2",
+          "evidence": "First-party office names 高津 利恵 and KozuDesignOffice; no game link."
+        },
+        {
+          "url": "https://yanorin.blogspot.com/2010/07/mk.html",
+          "ref": "turn1search3",
+          "evidence": "Collaborator report identifies atPs web production credit and 高津（こうず）; no game link."
+        }
+      ]
+    },
+    {
+      "japanese": "橋本信之",
+      "result": "NOT_VALIDATED",
+      "reading": null,
+      "reason": "MusicBrainz linked soundtrack artist does have Latin sort name Hashimoto, Nobuyuki. This is a candidate only: no identity chain from the T3 Studio assistant engineer to Riviera Special Thanks. Unrelated academic/construction homonyms are not evidence.",
+      "documentation_correction": "S461 reason should be narrowed: soundtrack release body is Japanese, but linked MusicBrainz artist has Latin sort-name; missing evidence is identity linkage and authoritative reading, not absolute absence of Latin metadata.",
+      "sources": [
+        {
+          "url": "https://musicbrainz.org/artist/989292d1-cbc4-4029-949c-e29dfc4f0ac9",
+          "ref": "turn6view0",
+          "evidence": "橋本信之; Sort name Hashimoto, Nobuyuki; no Riviera attribution."
+        },
+        {
+          "url": "https://musicbrainz.org/release/ef6160dc-a1d6-46f8-a889-f1e4c130226d",
+          "ref": "turn5view0",
+          "evidence": "Assistant engineer for SMT arranged tracks recorded/mixed at T3 Studio."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/989292d1-cbc4-4029-949c-e29dfc4f0ac9/aliases",
+          "ref": "turn7view2",
+          "evidence": "No aliases; repeats Latin sort name."
+        }
+      ]
+    }
+  ],
+  "shared_credit_source": {
+    "url": "https://www.mobygames.com/game/19619/riviera-the-promised-land/credits/wonderswan-color/",
+    "ref": "turn1search0",
+    "evidence": "Both names remain Japanese in WSC Special Thanks; direct open 403, indexed search extract reviewed."
+  },
+  "static_coverage": {
+    "result": "PASS",
+    "catalog": "work/audit459/Riviera_S459_RC3_Auditoria_Astra_Japones/catalog/ENDING97.json",
+    "catalog_sha256": "48a113c6fe412236ee4352be2d80875bd41d451b778287464c86b1d19d93bb2f",
+    "build_source": "work/rc6/Riviera_EN_v0.115_S462_RC6_GITHUB_SOURCE/sources/Riviera_S460_OVERLAY/build_s460.py",
+    "build_source_sha256": "0923901be1cd81b7e72e7203879044c8e5dd1c23fe02d68c7b0197f222c6834d",
+    "catalog_rows": 97,
+    "catalog_statuses": {
+      "PUNCTUATION_ONLY_NO_JAPANESE": 3,
+      "CONFIRMED_ACTIVE_JAPANESE": 94
+    },
+    "build_owners": 102,
+    "build_text_streams": 102,
+    "missing_owners": [],
+    "stream_mismatches": [],
+    "all_94_japanese_have_owner_and_text": true,
+    "additional_owners": {
+      "0x7936e8": "0x7c1a4f",
+      "0x793717": "0x7c1a7d",
+      "0x79371b": "0x7c1a93",
+      "0x79377d": "0x7c1b9c",
+      "0x79379e": "0x7c1bea"
+    },
+    "limitation": "Confirms inclusion in current source only; does not independently prove final ROM integration, translation accuracy, runtime reachability or rendering."
+  },
+  "recommended_rom_action": "Preserve both Japanese credit graphics until identity-linked reading evidence exists."
+}

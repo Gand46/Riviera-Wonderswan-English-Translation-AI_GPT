@@ -1,0 +1,12 @@
+{
+  "stage": "PW3",
+  "clean_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "s457_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+  "rebuilt_s457_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+  "bps_applied_s457_sha256": "80ff36655d83956d96b634adafc685fa4379da326c3d45099dedcb73ef72a951",
+  "cumulative_bps_sha256": "e4bda7c628316fb92978f33ffc136c7f480f2a885f0b606be46e09b7c2335cef",
+  "source_rebuild_byte_exact": true,
+  "bps_apply_byte_exact": true,
+  "rom_modified_in_pw3": false,
+  "checksum": "D44D"
+}

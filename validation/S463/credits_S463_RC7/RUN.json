@@ -1,0 +1,20 @@
+{
+  "version": "S463_RC7",
+  "exit": 0,
+  "seconds": 13.557953391999945,
+  "rom_sha256": "933cfcd5ea40f0f1d960338e78dc60ead6d8e5c280ea28bc69007f55ed2cc7aa",
+  "source_state_sha256": "f592bb1b51ee11cbbcf7e11faca8ecb1a4590ce9db29381bd164dfc4a196a75d",
+  "command": [
+    "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+    "--testRunner",
+    "--timeout=40",
+    "--enableStdout",
+    "--doNotSaveSettings",
+    "--debug.scriptWindow.allowIoOsAccess=true",
+    "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/credit_qa.lua",
+    "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S463_RC7.wsc"
+  ],
+  "access_method": "SAVESTATE",
+  "source_origin": "S460 synthetic ending",
+  "rom_writes": 0
+}

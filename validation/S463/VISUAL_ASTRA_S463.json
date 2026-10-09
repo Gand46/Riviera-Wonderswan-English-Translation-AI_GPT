@@ -1,0 +1,123 @@
+{
+  "reviewer": "Astra",
+  "date": "2026-10-07",
+  "build": "S463 RC7",
+  "scope": "Actual supplied runtime screenshots of changed credit page and bounded transition frames. No builder, expected string, or source JSON opened during visual first pass. No ROM changes.",
+  "first_native_pixel_read": {
+    "header": [
+      "Special",
+      "Thanks"
+    ],
+    "names": [
+      "Makoto Shibasaki",
+      "Satoshi Oshita",
+      "Takashi Shoji",
+      "Nobuyuki",
+      "Hashimoto",
+      "Takashi [uncertain] Nakamura",
+      "Masashi Umeda",
+      "Toshimitsu Sakairi"
+    ],
+    "uncertainty": "At native scale the first name before Nakamura was initially read tentatively as Takashi. Enlarging the exact supplied pixels by nearest-neighbor reveals Takuji. This correction is based on the visible k-u-j-i glyph sequence, not a builder/source string."
+  },
+  "final_pixel_transcription": {
+    "header": [
+      "Special",
+      "Thanks"
+    ],
+    "eight_name_lines": [
+      "Makoto Shibasaki",
+      "Satoshi Oshita",
+      "Takashi Shoji",
+      "Nobuyuki",
+      "Hashimoto",
+      "Takuji Nakamura",
+      "Masashi Umeda",
+      "Toshimitsu Sakairi"
+    ]
+  },
+  "visual_findings": {
+    "eight_lines": "PASS: eight distinct rows; no clipped or merged name text in stable f3300.",
+    "native_font": "PASS within screenshot scope: both new lines share pixel height, strokes, baseline behavior, and spacing with adjacent Latin names. Individual new glyphs are complete and readable from their pixel forms.",
+    "line_spacing": "PASS: regular ten-pixel line cadence, seven-pixel glyph cells, and about three blank rows between lines. Two new lines remain visually separate.",
+    "alignment": "PASS: centered within the same left credit column; consistent baselines per line.",
+    "width": "PASS: widest name reaches x=1..94 within the 96-pixel left column. Nobuyuki is visibly shorter and centered, Hashimoto likewise. Neither new line is clipped.",
+    "neighbor_comparison": [
+      {
+        "name": "Makoto Shibasaki",
+        "S463_y": 31,
+        "RC6_y": 31,
+        "exact_rgb_equal_after_vertical_alignment": true
+      },
+      {
+        "name": "Satoshi Oshita",
+        "S463_y": 41,
+        "RC6_y": 43,
+        "exact_rgb_equal_after_vertical_alignment": true
+      },
+      {
+        "name": "Takashi Shoji",
+        "S463_y": 51,
+        "RC6_y": 55,
+        "exact_rgb_equal_after_vertical_alignment": true
+      },
+      {
+        "name": "Takuji Nakamura",
+        "S463_y": 81,
+        "RC6_y": 79,
+        "exact_rgb_equal_after_vertical_alignment": true
+      },
+      {
+        "name": "Masashi Umeda",
+        "S463_y": 91,
+        "RC6_y": 91,
+        "exact_rgb_equal_after_vertical_alignment": true
+      },
+      {
+        "name": "Toshimitsu Sakairi",
+        "S463_y": 101,
+        "RC6_y": 103,
+        "exact_rgb_equal_after_vertical_alignment": true
+      }
+    ],
+    "background_lower_region_unchanged": "RGB data below y115 identical to RC6 at f3300."
+  },
+  "transitions": [
+    {
+      "file": "credit_10_f3060.png",
+      "assessment": "Credit text is still revealing/animating; some lower lines show partial pixels. Not treated as malformed stable glyphs."
+    },
+    {
+      "file": "credit_10_f3300.png",
+      "assessment": "Stable complete credit page; used for approval."
+    },
+    {
+      "file": "credit_10_f3600.png",
+      "assessment": "Credits have transitioned to a color portrait/dialogue page showing Claude; no leftover credit glyphs or visible corruption."
+    },
+    {
+      "file": "credit_10_f4200.png",
+      "assessment": "Same color portrait/dialogue page, with additional dialogue rendering; no credit remnants or visible corruption."
+    }
+  ],
+  "gates": {
+    "TYPOGRAPHY_APPROVED": "PASS",
+    "LEGIBILITY_APPROVED": "PASS",
+    "DESIGN_APPROVED": "PASS",
+    "VISUAL_APPROVED": "PASS"
+  },
+  "limitations": [
+    "Visual approval applies to the inspected page at supplied frames only. It does not itself grant full-game linguistic, runtime, or functional approval.",
+    "The final column is narrow with about one pixel side margin on the longest pre-existing line; this is unchanged from RC6 and is not a new clipping issue."
+  ],
+  "evidence": [
+    {
+      "path": "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/credits_S463_RC7/credit_10_f3300.png",
+      "sha256": "e8578fc2338c1f235ee96b513d26ef62280fbd432124d74a73704abed3e818a9"
+    },
+    {
+      "path": "/workspace/scratch/f08b2bc0a289/work/close_i04_i05/credits_S462_RC6_build/credit_10_f3300.png",
+      "sha256": "baec75e22be28ad008bea4d06beb7a1ec3765d008307bdd780e3d9eac10c90c9"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "stage": "S462",
+  "version": "v0.115 RC6",
+  "base_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "rom_size": 8388608,
+  "checksum": "289A",
+  "patch_rom": "0x75eaf1",
+  "preimage_hex": "eb0081ff22ed7299ebe1",
+  "postimage_hex": "81ff22ed73e5ebcbffff",
+  "changed_bytes": 12,
+  "changed_offsets": [
+    "0x75eaf1",
+    "0x75eaf2",
+    "0x75eaf3",
+    "0x75eaf4",
+    "0x75eaf5",
+    "0x75eaf6",
+    "0x75eaf7",
+    "0x75eaf8",
+    "0x75eaf9",
+    "0x75eafa",
+    "0x7ffffe",
+    "0x7fffff"
+  ],
+  "unexpected_changed_bytes": 0,
+  "affected_stream_count": 22,
+  "affected_streams_byte_identical": true,
+  "lost_ranges_restored": [
+    [
+      "0x7cb227",
+      "0x7cb529"
+    ],
+    [
+      "0x7cdbe1",
+      "0x7cdc00"
+    ]
+  ],
+  "new_s460_tail_preserved": [
+    "0x7CED22",
+    "0x7D0000"
+  ],
+  "final_approved": false,
+  "source_chain": "JP clean -> S456 -> S457 -> S458 -> S459 -> S460 -> S461 -> S462",
+  "source_jp_sha256": "62f3886d3bae02105e56677ae7f5efe77ff7cb47036d2955ca46ea4a3f712921",
+  "intermediate_rc5_sha256": "2eaeb2c90ca2ef62d858a887fa1ee2091d680b17366bf5dd07d642d0fc8171bf",
+  "bps_used": false,
+  "result": "PASS"
+}

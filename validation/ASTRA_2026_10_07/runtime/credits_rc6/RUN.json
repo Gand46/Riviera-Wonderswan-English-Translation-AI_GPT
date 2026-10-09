@@ -1,0 +1,20 @@
+{
+  "exit": 0,
+  "seconds": 10.290044679999937,
+  "rom_sha256": "b8aa59568a860c229751f504e2b5e9cd81d21909507e9f685c6f3797f18c1204",
+  "state": "/workspace/scratch/f08b2bc0a289/work/rc6/Riviera_EN_v0.115_S462_RC6_GITHUB_SOURCE/validation/S460/final_routes/final_route0_full/chunk2/checkpoint_02000.mss",
+  "state_sha256": "f592bb1b51ee11cbbcf7e11faca8ecb1a4590ce9db29381bd164dfc4a196a75d",
+  "access_method": "SAVESTATE",
+  "state_origin": "S460 synthetic ending",
+  "command": [
+    "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+    "--testRunner",
+    "--timeout=30",
+    "--enableStdout",
+    "--doNotSaveSettings",
+    "--debug.scriptWindow.allowIoOsAccess=true",
+    "/workspace/scratch/f08b2bc0a289/work/qa_current/credits_replay.lua",
+    "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S462_RC6_build.wsc"
+  ],
+  "rom_writes": 0
+}

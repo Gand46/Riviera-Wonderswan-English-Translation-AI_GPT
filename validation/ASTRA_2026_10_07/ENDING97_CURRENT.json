@@ -1,0 +1,1451 @@
+[
+  {
+    "owner_rom": "0x793563",
+    "old_stream": "0x7C17DD",
+    "new_stream": "0x7CED22",
+    "audit_status": "PUNCTUATION_ONLY_NO_JAPANESE",
+    "current_status": "PUNCTUATION",
+    "pages": [
+      [
+        "......?"
+      ]
+    ],
+    "sha256": "4f36cadd34cbe96354635595a872d5db06600e32788d0f7ed30cf757f68fc7c6"
+  },
+  {
+    "owner_rom": "0x793568",
+    "old_stream": "0x7C17E4",
+    "new_stream": "0x7CED2A",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Fia!"
+      ]
+    ],
+    "sha256": "b620007a6f1cfc08a8b19682308046c3764d54030eeb5ca6e482e3ea7100b8b4"
+  },
+  {
+    "owner_rom": "0x79356D",
+    "old_stream": "0x7C17EA",
+    "new_stream": "0x7CED2F",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Lina!"
+      ]
+    ],
+    "sha256": "cb328a681b8944f1b71c1fffbf5db0642297e68e6c4aaec50b6d6caac984beb1"
+  },
+  {
+    "owner_rom": "0x793573",
+    "old_stream": "0x7C17F0",
+    "new_stream": "0x7CED35",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Serene!"
+      ]
+    ],
+    "sha256": "b2666798c77b27caa452de5c684bbb5f5d6bb2d5e2f3f9402f54c74d3a625950"
+  },
+  {
+    "owner_rom": "0x793578",
+    "old_stream": "0x7C17F6",
+    "new_stream": "0x7CED3D",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Cierra!"
+      ]
+    ],
+    "sha256": "09bb7ceb9f1adc41c9d9321520b08a5187e62339e3ab26bd2b386afe2f34d13b"
+  },
+  {
+    "owner_rom": "0x79357F",
+    "old_stream": "0x7C17FC",
+    "new_stream": "0x7CED45",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Rose!"
+      ]
+    ],
+    "sha256": "a595852fdbba1b72fb0f9640bcc0da17e3ed473dfb0846defd1dd8931379866d"
+  },
+  {
+    "owner_rom": "0x793583",
+    "old_stream": "0x7C1801",
+    "new_stream": "0x7CED4B",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Everyone...",
+        "We made it!"
+      ]
+    ],
+    "sha256": "89c960c977d98e64c72388bd82634514d5c7ecf3be3dfc9ccee645e97fba3e17"
+  },
+  {
+    "owner_rom": "0x793595",
+    "old_stream": "0x7C1816",
+    "new_stream": "0x7CED63",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "...Huh?",
+        "I am alive..."
+      ]
+    ],
+    "sha256": "05d47364c78ca7c1bf9e2696a61e474bf180a23bf53e8e83f50e89673b1a9cbf"
+  },
+  {
+    "owner_rom": "0x7935A1",
+    "old_stream": "0x7C1825",
+    "new_stream": "0x7CED79",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Where are we?"
+      ]
+    ],
+    "sha256": "51e373a498a33a1e91fd0d3045d782e4ac897f7abcdf156274e5ef87017b91fb"
+  },
+  {
+    "owner_rom": "0x7935B4",
+    "old_stream": "0x7C182B",
+    "new_stream": "0x7CED87",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "It is Elendia!"
+      ]
+    ],
+    "sha256": "c5a5eca86b8fa805c742a881bc6fa9841d57bd38c03338810e1e5b376ef80418"
+  },
+  {
+    "owner_rom": "0x7935C7",
+    "old_stream": "0x7C183B",
+    "new_stream": "0x7CED96",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "We made it...",
+        "back alive."
+      ]
+    ],
+    "sha256": "68145edabd9cae580134809b726221439192e1cb748bfe9bf550a7e415ae2f3f"
+  },
+  {
+    "owner_rom": "0x7935D3",
+    "old_stream": "0x7C1855",
+    "new_stream": "0x7CEDB0",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Thank goodness!"
+      ]
+    ],
+    "sha256": "c7eba5e5c716ce111c7665fe7bdcc755dbf37c53670875e40d426d3d22e3f517"
+  },
+  {
+    "owner_rom": "0x7935D7",
+    "old_stream": "0x7C1873",
+    "new_stream": "0x7CEDC0",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "It was Ursula.",
+        "She saved us."
+      ]
+    ],
+    "sha256": "3fc4530fe6c63dbb1af6a4f536f5ccd83f7345f87b894fec3df6e3ad4b7a8a3a"
+  },
+  {
+    "owner_rom": "0x7935DB",
+    "old_stream": "0x7C1886",
+    "new_stream": "0x7CEDDD",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "You are right."
+      ]
+    ],
+    "sha256": "9820a30532da03803da5d3941f049fee551270c599ea425510bba984c07acc68"
+  },
+  {
+    "owner_rom": "0x7935DF",
+    "old_stream": "0x7C188E",
+    "new_stream": "0x7CEDEC",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Riviera is",
+        "peaceful now!"
+      ]
+    ],
+    "sha256": "15457e53a1a8853a5d1d0fca3e663a01de381686804f13d1bff888f55c9032c2"
+  },
+  {
+    "owner_rom": "0x7935E3",
+    "old_stream": "0x7C18A5",
+    "new_stream": "0x7CEE05",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Yeah..."
+      ],
+      [
+        "No more Seth..."
+      ],
+      [
+        "No more",
+        "judgment."
+      ],
+      [
+        "It is all over."
+      ]
+    ],
+    "sha256": "4fcb71aa28b2a25f0a17b58280ae646bf7d59eb85ccdd8c55fa45d7ca2edb1c1"
+  },
+  {
+    "owner_rom": "0x7935E7",
+    "old_stream": "0x7C18C6",
+    "new_stream": "0x7CEE42",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Riviera is free",
+        "at last!"
+      ]
+    ],
+    "sha256": "538ba60fbb976e358d601ddde93d351c794b332a7b03c0398c8ec82841647ba2"
+  },
+  {
+    "owner_rom": "0x793623",
+    "old_stream": "0x7C18DE",
+    "new_stream": "0x7CEE5B",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Master Ein!",
+        "You are safe!"
+      ],
+      [
+        "You are a true",
+        "hero."
+      ]
+    ],
+    "sha256": "79c6231e8829cca3ba974a8a8276160f829dd3c591f1ecda34d28810c392ac02"
+  },
+  {
+    "owner_rom": "0x793639",
+    "old_stream": "0x7C1912",
+    "new_stream": "0x7CEE8B",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Elendia exists",
+        "because of you."
+      ],
+      [
+        "Thank you, Ein,",
+        "from my heart."
+      ]
+    ],
+    "sha256": "b0dd081a3b0ec599a62f5491f99f17f7b8c2a5776c749a73f9f47465d07ab146"
+  },
+  {
+    "owner_rom": "0x79365A",
+    "old_stream": "0x7C1954",
+    "new_stream": "0x7CEECA",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Our hero, Ein!"
+      ]
+    ],
+    "sha256": "b460d15126a5f26996f9957707f710c5d628de3226554fa9ba80e109f3bdddfd"
+  },
+  {
+    "owner_rom": "0x79365E",
+    "old_stream": "0x7C196B",
+    "new_stream": "0x7CEED9",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Umm... Thanks,",
+        "mister."
+      ]
+    ],
+    "sha256": "7c1202053500f224c0e6552da6bcec1535f75dd2d5cf1c7139478d59586af2eb"
+  },
+  {
+    "owner_rom": "0x793681",
+    "old_stream": "0x7C197F",
+    "new_stream": "0x7CEEF0",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Glad we have a",
+        "tomorrow."
+      ]
+    ],
+    "sha256": "f322429ed344f028f76eceff2650a103125f80b93ef112241da7ac8da8818593"
+  },
+  {
+    "owner_rom": "0x793685",
+    "old_stream": "0x7C199D",
+    "new_stream": "0x7CEF09",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "No more fear",
+        "of demons!"
+      ]
+    ],
+    "sha256": "f5c3f4d5e34ae314dd7c984a618e795f6559b301a5d425a342ead2762c81685f"
+  },
+  {
+    "owner_rom": "0x79369D",
+    "old_stream": "0x7C19B3",
+    "new_stream": "0x7CEF21",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "The winds have",
+        "calmed..."
+      ],
+      [
+        "We owe it all",
+        "to you, Ein."
+      ]
+    ],
+    "sha256": "f80fcf11109209eda4d2b68852273f887fc6c300e9e20546034460bbb7ef8f88"
+  },
+  {
+    "owner_rom": "0x7936B3",
+    "old_stream": "0x7C19DE",
+    "new_stream": "0x7CEF56",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "It began when",
+        "we found you..."
+      ],
+      [
+        "I am glad this",
+        "ended well!"
+      ]
+    ],
+    "sha256": "0916a9282bbeb708577457d24de6731ca7ef8f9572180e1ef821ccad923887ca"
+  },
+  {
+    "owner_rom": "0x7936C9",
+    "old_stream": "0x7C1A1D",
+    "new_stream": "0x7CEF90",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "The sun is nice",
+        "and warm. Nya."
+      ],
+      [
+        "Purr... I hope",
+        "this will last."
+      ]
+    ],
+    "sha256": "d1edc6f5ca9ba58ae72cb9e63e169f92b97f823decd01612832b75ed0adcacc6"
+  },
+  {
+    "owner_rom": "0x793722",
+    "old_stream": "0x7C1AB8",
+    "new_stream": "0x7CF00B",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "You got so far",
+        "by luck..."
+      ],
+      [
+        "But you are not",
+        "so bad."
+      ]
+    ],
+    "sha256": "2e6b6cccb537f1b39bfb4859342fea21b36b0d6bd671fa7f987a8cfaffa1bf50"
+  },
+  {
+    "owner_rom": "0x793726",
+    "old_stream": "0x7C1AD6",
+    "new_stream": "0x7CF03E",
+    "audit_status": "PUNCTUATION_ONLY_NO_JAPANESE",
+    "current_status": "PUNCTUATION",
+    "pages": [
+      [
+        "......!"
+      ]
+    ],
+    "sha256": "231b5d17e6c124c454c17e886c6e22ab56ad1ce863689676ac43c0ade286bfb0"
+  },
+  {
+    "owner_rom": "0x79372A",
+    "old_stream": "0x7C1AE7",
+    "new_stream": "0x7CF046",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Meute says",
+        "thank you, too."
+      ]
+    ],
+    "sha256": "b04c958439a0351b55064e864703dabdf2b207097f95a352fa93f1a33058ade0"
+  },
+  {
+    "owner_rom": "0x793742",
+    "old_stream": "0x7C1AFB",
+    "new_stream": "0x7CF061",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "So, Elendia is",
+        "saved."
+      ],
+      [
+        "I cheered from",
+        "the mine."
+      ]
+    ],
+    "sha256": "c6590c15ab994395080c95cf70f430a2cab6a19fd608ffd6e97440953ee29d37"
+  },
+  {
+    "owner_rom": "0x793758",
+    "old_stream": "0x7C1B34",
+    "new_stream": "0x7CF091",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Knowledge turns",
+        "into treasure"
+      ],
+      [
+        "through action.",
+        "Now tell me"
+      ],
+      [
+        "what you saw."
+      ]
+    ],
+    "sha256": "c4f4d67e210f76f8d5a906f07a5028a653d9455d545a78f34e89c5c3b8e9892d"
+  },
+  {
+    "owner_rom": "0x793779",
+    "old_stream": "0x7C1B79",
+    "new_stream": "0x7CF0DB",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "No more demons!",
+        "I can focus on"
+      ],
+      [
+        "my experiments."
+      ]
+    ],
+    "sha256": "917eb608cbbdd2c2c4ddfd515cba151244d9e2cf18780032de18a73b6b8f82c5"
+  },
+  {
+    "owner_rom": "0x793781",
+    "old_stream": "0x7C1BC1",
+    "new_stream": "0x7CF12A",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Bring me three",
+        "dried bats!"
+      ]
+    ],
+    "sha256": "11a17b2a00dacf14e1f7ecbc065e700230e76400862117f08468855ad7a5c2a0"
+  },
+  {
+    "owner_rom": "0x793785",
+    "old_stream": "0x7C1BDE",
+    "new_stream": "0x7CF145",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "I should have",
+        "kept quiet..."
+      ]
+    ],
+    "sha256": "6685276d627d1a57008fa2e72af4f3ac01fae8d0da037796112fb8f12a12d6bb"
+  },
+  {
+    "owner_rom": "0x7937F6",
+    "old_stream": "0x7C1C29",
+    "new_stream": "0x7CF199",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Welcome home,",
+        "Ein!"
+      ]
+    ],
+    "sha256": "e2ddfa9e1ac99594068f6e66382dd9589cec172e8b0db578e0e789352f95b213"
+  },
+  {
+    "owner_rom": "0x7937FF",
+    "old_stream": "0x7C1C3A",
+    "new_stream": "0x7CF1AC",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "You are late!"
+      ]
+    ],
+    "sha256": "1c48a87ad5c57930dd500d4fadb1d07a8087854886bd31734edb669aad8f5659"
+  },
+  {
+    "owner_rom": "0x793803",
+    "old_stream": "0x7C1C48",
+    "new_stream": "0x7CF1BA",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Serene, pass me",
+        "the seasoning?"
+      ]
+    ],
+    "sha256": "e45c13251805f48bc5b85b7a4b6110b4ff5eae228536c5af0e4703e98bff9af6"
+  },
+  {
+    "owner_rom": "0x793807",
+    "old_stream": "0x7C1C63",
+    "new_stream": "0x7CF1D9",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Okay. This one?"
+      ]
+    ],
+    "sha256": "bd7da0b95664c2570258efcc583ed74b051a93c4a139fac35065ba56bddb20df"
+  },
+  {
+    "owner_rom": "0x79380E",
+    "old_stream": "0x7C1C71",
+    "new_stream": "0x7CF1E9",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Here it is: a",
+        "cake made with"
+      ],
+      [
+        "the best fruit",
+        "in Elendia."
+      ]
+    ],
+    "sha256": "ba3fd698d1c248ac71e9e7a001338e5a4b1bbffd865fe5a836fe8d39ca4674b5"
+  },
+  {
+    "owner_rom": "0x793812",
+    "old_stream": "0x7C1C91",
+    "new_stream": "0x7CF222",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Yummy! It looks",
+        "so good..."
+      ],
+      [
+        "Just one bite!"
+      ]
+    ],
+    "sha256": "63c082654546cb20c35fb9d4863ba07ec4397cb82a89f886e83135ded3723cbc"
+  },
+  {
+    "owner_rom": "0x793816",
+    "old_stream": "0x7C1CB7",
+    "new_stream": "0x7CF24D",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "No, not yet!"
+      ],
+      [
+        "Ein gets the",
+        "first bite."
+      ],
+      [
+        "That is my",
+        "decision."
+      ]
+    ],
+    "sha256": "09ea717b506b444b5d3f524a858ad8c6990f0f391f63e2d9f474ca76858b7fa6"
+  },
+  {
+    "owner_rom": "0x79381A",
+    "old_stream": "0x7C1CE8",
+    "new_stream": "0x7CF28A",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Why?"
+      ]
+    ],
+    "sha256": "aa1d544875dc20d056fb76d016dae8a679ecc07d275a3e709554b4869a862ca5"
+  },
+  {
+    "owner_rom": "0x79381E",
+    "old_stream": "0x7C1CF0",
+    "new_stream": "0x7CF28F",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "W-Well...",
+        "Because..."
+      ]
+    ],
+    "sha256": "0d09d515b704353486f1c4d15e57540adf91fea2b33726c5a6c3d908098c5c19"
+  },
+  {
+    "owner_rom": "0x793822",
+    "old_stream": "0x7C1CFC",
+    "new_stream": "0x7CF2A4",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Because why?"
+      ]
+    ],
+    "sha256": "4f3b9e2221a92c5bdcd7f6c1747102b26e5716560f598ccc24e1b53ae184ef3d"
+  },
+  {
+    "owner_rom": "0x793826",
+    "old_stream": "0x7C1D02",
+    "new_stream": "0x7CF2B1",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Uh... No reason"
+      ]
+    ],
+    "sha256": "062340e64d32aa7209a1b398f1bb9d92bbedfb761b552625335dca98adc8a3f4"
+  },
+  {
+    "owner_rom": "0x79382D",
+    "old_stream": "0x7C1D0F",
+    "new_stream": "0x7CF2C1",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Oh, the cake is",
+        "already done?"
+      ]
+    ],
+    "sha256": "e4eb34048964ca0e9cff070dd8c22d9511e0d8e75ba6bdef5b6fd53dae5d2ab2"
+  },
+  {
+    "owner_rom": "0x793834",
+    "old_stream": "0x7C1D49",
+    "new_stream": "0x7CF2DF",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "More heat...",
+        "Fire!!"
+      ]
+    ],
+    "sha256": "81480fc3b9a934c0de646b25db3e9aec447c3397d44343bc1756844673701b51"
+  },
+  {
+    "owner_rom": "0x793838",
+    "old_stream": "0x7C1D69",
+    "new_stream": "0x7CF2F3",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Cierra! Fire!",
+        "It is burning!"
+      ]
+    ],
+    "sha256": "509fe53037cfa639cfa4ea7d85ae4ff50472d02ea661e89684da68d623af18aa"
+  },
+  {
+    "owner_rom": "0x79383C",
+    "old_stream": "0x7C1D83",
+    "new_stream": "0x7CF310",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Oops... Now?"
+      ],
+      [
+        "Flood spell..."
+      ]
+    ],
+    "sha256": "ebd4d8e1703fb1d73b9221a41eaa59e9b80eb6ef0c7ee008cf11055ad46bca8c"
+  },
+  {
+    "owner_rom": "0x793840",
+    "old_stream": "0x7C1DA7",
+    "new_stream": "0x7CF32D",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "It will ruin",
+        "our house!"
+      ]
+    ],
+    "sha256": "97a44e8b47030556412ef68c7a60a1821519abea05ffe12435290e5fd173d696"
+  },
+  {
+    "owner_rom": "0x793844",
+    "old_stream": "0x7C1DB9",
+    "new_stream": "0x7CF345",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Oh dear..."
+      ]
+    ],
+    "sha256": "15005259e0d30aecc3a753717f1ba26fca7fd02c9a2b72471b362bfe89253482"
+  },
+  {
+    "owner_rom": "0x793848",
+    "old_stream": "0x7C1DC0",
+    "new_stream": "0x7CF350",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Stop talking!",
+        "Put it out!"
+      ],
+      [
+        "The whole house",
+        "will burn down!"
+      ]
+    ],
+    "sha256": "59e62b29137f03b61c1a0001e72a0e56d2fa2a0cda511b48a05d1ed96499c3eb"
+  },
+  {
+    "owner_rom": "0x79384F",
+    "old_stream": "0x7C1DEA",
+    "new_stream": "0x7CF38B",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "It has already",
+        "been a month..."
+      ],
+      [
+        "It all seems",
+        "so surreal."
+      ],
+      [
+        "We made it back",
+        "alive."
+      ]
+    ],
+    "sha256": "ae291d84b8ed02b41877c194fabbceda1fd56799be0e680550002fbd1b6e404e"
+  },
+  {
+    "owner_rom": "0x793853",
+    "old_stream": "0x7C1E37",
+    "new_stream": "0x7CF3DC",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "I know what",
+        "you mean."
+      ]
+    ],
+    "sha256": "3e95d01088827c01f2ba039aadb161c9dd88a3e403117f6c54c3da960da72c99"
+  },
+  {
+    "owner_rom": "0x793857",
+    "old_stream": "0x7C1E3E",
+    "new_stream": "0x7CF3F2",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Still..."
+      ]
+    ],
+    "sha256": "ef69b48969029875729f0311406cadad2cec40eaaa7a03add882c2f652b5fbf3"
+  },
+  {
+    "owner_rom": "0x79385B",
+    "old_stream": "0x7C1E50",
+    "new_stream": "0x7CF3FB",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "I still have",
+        "no voice!"
+      ]
+    ],
+    "sha256": "79d0e76a32160b4a014366c368810fa5749c2de4ce91260f29adb1ac383fea7e"
+  },
+  {
+    "owner_rom": "0x79385F",
+    "old_stream": "0x7C1E71",
+    "new_stream": "0x7CF412",
+    "audit_status": "PUNCTUATION_ONLY_NO_JAPANESE",
+    "current_status": "PUNCTUATION",
+    "pages": [
+      [
+        "........"
+      ]
+    ],
+    "sha256": "abf1c6dd850dd152ca063c88f10deccb462b1ab9d0d37358c291e1f76d2f5146"
+  },
+  {
+    "owner_rom": "0x793863",
+    "old_stream": "0x7C1E78",
+    "new_stream": "0x7CF41B",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "So..."
+      ],
+      [
+        "What will you",
+        "do now?"
+      ],
+      [
+        "Back to Asgard",
+        "or stay here?"
+      ]
+    ],
+    "sha256": "ee7ec95f4bd453f2e5137dd4c322651758c5e0db9690f096620a91b09caca6a7"
+  },
+  {
+    "owner_rom": "0x793867",
+    "old_stream": "0x7C1EBA",
+    "new_stream": "0x7CF456",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Me? Well..."
+      ]
+    ],
+    "sha256": "abdf26a4e458cb9ef28b57e304c978f68511a0b4dce8b69ac54b164b434aa60c"
+  },
+  {
+    "owner_rom": "0x79394F",
+    "old_stream": "0x7C1EC7",
+    "new_stream": "0x7CF462",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Ein! Over here!"
+      ],
+      [
+        "The treasure is",
+        "this way!"
+      ]
+    ],
+    "sha256": "e979d68b5994de216ba239c57045bca7e966e02903e03aff952d72e27d08316b"
+  },
+  {
+    "owner_rom": "0x79395D",
+    "old_stream": "0x7C1EEC",
+    "new_stream": "0x7CF48D",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Careful, Lina!"
+      ]
+    ],
+    "sha256": "b9cc023c895c250c1c0f654e853c083abe9c4483cb74b9256b87f16c66db96e5"
+  },
+  {
+    "owner_rom": "0x793966",
+    "old_stream": "0x7C1EF9",
+    "new_stream": "0x7CF49C",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Stop worrying!"
+      ]
+    ],
+    "sha256": "962dc000b8a187468d26a5486063e861567e142a6eb382365b4e275d172620d2"
+  },
+  {
+    "owner_rom": "0x79398B",
+    "old_stream": "0x7C1F08",
+    "new_stream": "0x7CF4AB",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Lina!"
+      ]
+    ],
+    "sha256": "cb328a681b8944f1b71c1fffbf5db0642297e68e6c4aaec50b6d6caac984beb1"
+  },
+  {
+    "owner_rom": "0x7939A3",
+    "old_stream": "0x7C1F0E",
+    "new_stream": "0x7CF4B1",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Hee hee...",
+        "Oopsie ♪"
+      ]
+    ],
+    "sha256": "a4f9ae0c5e19eb1c79094c260400f086460ebc6bef37af562de2406b14a53930"
+  },
+  {
+    "owner_rom": "0x7939CC",
+    "old_stream": "0x7C1F20",
+    "new_stream": "0x7CF4C5",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Ancient spirits",
+        "binding Riviera"
+      ],
+      [
+        "guard our land."
+      ]
+    ],
+    "sha256": "22ada4935ec58bfce663a18ccf9f173ba70d1eef4f2bc9acab384e51bb729417"
+  },
+  {
+    "owner_rom": "0x7939E2",
+    "old_stream": "0x7C1F42",
+    "new_stream": "0x7CF4F6",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Ein!"
+      ]
+    ],
+    "sha256": "84e04a5173efbdc2c7234be944d0647e71792e92188f944a752897225f04a980"
+  },
+  {
+    "owner_rom": "0x7939E7",
+    "old_stream": "0x7C1F4B",
+    "new_stream": "0x7CF4FB",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "It is thanks to",
+        "you, Fia."
+      ],
+      [
+        "No demons have",
+        "appeared here."
+      ]
+    ],
+    "sha256": "d216e8156c1faccdcf756454f4b0620b99b1fa7beef23e29e274aae8a93d7bc3"
+  },
+  {
+    "owner_rom": "0x7939F0",
+    "old_stream": "0x7C1F77",
+    "new_stream": "0x7CF534",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "No..."
+      ]
+    ],
+    "sha256": "404bc94fa43f5a396c1c230db6ce19f687db757c60a1eccd6f58e9b80bbf4444"
+  },
+  {
+    "owner_rom": "0x7939F4",
+    "old_stream": "0x7C1F7D",
+    "new_stream": "0x7CF53A",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Thanks to you,",
+        "Ein."
+      ]
+    ],
+    "sha256": "164eff3f4a067b575d2d8fdd50cfdce9a395f22c0ab2c6e648a9d1441419fc28"
+  },
+  {
+    "owner_rom": "0x7939FD",
+    "old_stream": "0x7C1F8E",
+    "new_stream": "0x7CF54E",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "No. I did",
+        "nothing."
+      ],
+      [
+        "You are strong,",
+        "Fia."
+      ]
+    ],
+    "sha256": "48c364bec9d1a2ca65eaf6758c250e14846cd1551ebca0ad7ff5e698605b733c"
+  },
+  {
+    "owner_rom": "0x793A04",
+    "old_stream": "0x7C1FB0",
+    "new_stream": "0x7CF577",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "May this peace",
+        "last forever."
+      ]
+    ],
+    "sha256": "90f6c07c214dbd1ace5d1d76625e8399b423baa871b12afd9fec0961a33d78d4"
+  },
+  {
+    "owner_rom": "0x793A08",
+    "old_stream": "0x7C1FC4",
+    "new_stream": "0x7CF594",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "It will, if we",
+        "work hard."
+      ]
+    ],
+    "sha256": "69f060fbd7202723320fa83deda45fe7e12236918858bb066785f5883d6aeb90"
+  },
+  {
+    "owner_rom": "0x793A0C",
+    "old_stream": "0x7C1FDA",
+    "new_stream": "0x7CF5AE",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Yes... You are",
+        "right."
+      ]
+    ],
+    "sha256": "164fe96947516990967f969fdd455f3ea1d19bb8c763e396adf140dfbe1cae8c"
+  },
+  {
+    "owner_rom": "0x793A3F",
+    "old_stream": "0x7C1FE4",
+    "new_stream": "0x7CF5C4",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "A new herb..."
+      ],
+      [
+        "I have never",
+        "seen it before."
+      ],
+      [
+        "It may create",
+        "new magic."
+      ]
+    ],
+    "sha256": "0e25eb2ed8ba48a43859c09304852ab6fccce76a93cd449faedd82413de0355f"
+  },
+  {
+    "owner_rom": "0x793A4D",
+    "old_stream": "0x7C2010",
+    "new_stream": "0x7CF60A",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Ein, look!",
+        "A great find!"
+      ]
+    ],
+    "sha256": "debdb82e50aa6bf53d96e9efe6fd9c1f1d6028a2ffa2768ec91cd69354db58ad"
+  },
+  {
+    "owner_rom": "0x793A5B",
+    "old_stream": "0x7C2022",
+    "new_stream": "0x7CF623",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "A new herb?"
+      ]
+    ],
+    "sha256": "476f034bb4d309271829beacc8af30372310e7b5b739ac55d6553c8e63f1f1a5"
+  },
+  {
+    "owner_rom": "0x793A60",
+    "old_stream": "0x7C202B",
+    "new_stream": "0x7CF62F",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "A ten-year leap",
+        "for magic!"
+      ]
+    ],
+    "sha256": "f1af0e4d043af40c55dec44b0503a1598ab5d0648c640fe9eaf635f3a9584652"
+  },
+  {
+    "owner_rom": "0x793A64",
+    "old_stream": "0x7C204D",
+    "new_stream": "0x7CF64A",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Really?"
+      ]
+    ],
+    "sha256": "b7ded4feaeabdbde1f25d4406845bb170c0673a44341c4f1a76f2962796750bd"
+  },
+  {
+    "owner_rom": "0x793A6F",
+    "old_stream": "0x7C2054",
+    "new_stream": "0x7CF652",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "I just need to",
+        "test it..."
+      ]
+    ],
+    "sha256": "3364805647e235e08a88500b988d0226a99220edbb7a53a4575085d1a102be60"
+  },
+  {
+    "owner_rom": "0x793A73",
+    "old_stream": "0x7C205D",
+    "new_stream": "0x7CF66C",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Huh?"
+      ]
+    ],
+    "sha256": "8103bdb6e8e9203f8c336733dedcc28a828da8983aa67a67023a362ff41c26f0"
+  },
+  {
+    "owner_rom": "0x793A89",
+    "old_stream": "0x7C2062",
+    "new_stream": "0x7CF671",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Cough... Did it",
+        "work? Cough..."
+      ]
+    ],
+    "sha256": "8ff2d842e5749aa783c8011cc162b4b7bd861deb569037b0f39c3e537eae2192"
+  },
+  {
+    "owner_rom": "0x793A90",
+    "old_stream": "0x7C207B",
+    "new_stream": "0x7CF690",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Huh!? No clue."
+      ],
+      [
+        "What was wrong?"
+      ]
+    ],
+    "sha256": "d15ccae6e59d4f80843f5ea177152b57307ff3212ccee0fcaa94dd7c326fba0f"
+  },
+  {
+    "owner_rom": "0x793AB9",
+    "old_stream": "0x7C2095",
+    "new_stream": "0x7CF6B0",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Take that!"
+      ]
+    ],
+    "sha256": "4effc7ebb168ff8f4415a4c2e930847c46b42e9d01d8ddf09ea63f9355120fcb"
+  },
+  {
+    "owner_rom": "0x793AFB",
+    "old_stream": "0x7C20A3",
+    "new_stream": "0x7CF6BB",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Ein!"
+      ]
+    ],
+    "sha256": "84e04a5173efbdc2c7234be944d0647e71792e92188f944a752897225f04a980"
+  },
+  {
+    "owner_rom": "0x793B00",
+    "old_stream": "0x7C20AA",
+    "new_stream": "0x7CF6C0",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Was that all,",
+        "Serene?"
+      ]
+    ],
+    "sha256": "9707359bca98e8e443c78be7a58c129837a5db328560bc16b5447c2e88ae1569"
+  },
+  {
+    "owner_rom": "0x793B04",
+    "old_stream": "0x7C20BB",
+    "new_stream": "0x7CF6D6",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "I think so..."
+      ]
+    ],
+    "sha256": "834739f268859bc6f3bedca8aeccee8bb3124454809753a13d2643f68344a5ad"
+  },
+  {
+    "owner_rom": "0x793B0D",
+    "old_stream": "0x7C20C4",
+    "new_stream": "0x7CF6E4",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Nearby towns",
+        "can live safely"
+      ]
+    ],
+    "sha256": "23fd96a2c80334969e85bebd4cf1c2290221b53ac98f22bcf6ff2b87cb37d6ef"
+  },
+  {
+    "owner_rom": "0x793B11",
+    "old_stream": "0x7C20E6",
+    "new_stream": "0x7CF701",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Demons remain",
+        "in Riviera."
+      ],
+      [
+        "But one day..."
+      ]
+    ],
+    "sha256": "105837170d5e15d309dcb7f3f86aa0ef4ae98b63e5eb088863d2fee8ee769aff"
+  },
+  {
+    "owner_rom": "0x793B15",
+    "old_stream": "0x7C210A",
+    "new_stream": "0x7CF72B",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "We can end them",
+        "for good."
+      ]
+    ],
+    "sha256": "5bb830e3d611b71a845f908df39db37b0d86789ac70a4916ac59f4ab3aff5bd4"
+  },
+  {
+    "owner_rom": "0x793B1E",
+    "old_stream": "0x7C2123",
+    "new_stream": "0x7CF745",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Darn right!",
+        "We sure will!"
+      ]
+    ],
+    "sha256": "c96aa4c82ef74f9ff6919725114a4b434f772d29e26b574015516b84919c833f"
+  },
+  {
+    "owner_rom": "0x793B3F",
+    "old_stream": "0x7C212B",
+    "new_stream": "0x7CF75F",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Ein, there was",
+        "another demon"
+      ],
+      [
+        "sighting in",
+        "Riviera."
+      ]
+    ],
+    "sha256": "df676797c1dede2d7cecd0f0d57d6c653bb66a5efbfd69a126fe079cdf9a1c48"
+  },
+  {
+    "owner_rom": "0x793B50",
+    "old_stream": "0x7C214C",
+    "new_stream": "0x7CF792",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "All right..."
+      ],
+      [
+        "Time to use my",
+        "Einherjar--"
+      ]
+    ],
+    "sha256": "35aa92c631681accc94a16dd4393e395de79a3e98bdd9a26ab7c98d6369a088f"
+  },
+  {
+    "owner_rom": "0x793B54",
+    "old_stream": "0x7C2163",
+    "new_stream": "0x7CF7BB",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Easy, Ein."
+      ],
+      [
+        "Let the Sprites",
+        "handle it."
+      ]
+    ],
+    "sha256": "5bb987d953b1de73f032f1adf523086fa4c0a66e06c89b7c67518908843d1a91"
+  },
+  {
+    "owner_rom": "0x793B58",
+    "old_stream": "0x7C2181",
+    "new_stream": "0x7CF7E2",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Oh, r-right..."
+      ]
+    ],
+    "sha256": "d31edc1c7a552e27b3f08b3b5c01d3dba448539841077e7327bd01b3a2348eb4"
+  },
+  {
+    "owner_rom": "0x793B5C",
+    "old_stream": "0x7C218B",
+    "new_stream": "0x7CF7F1",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Now hurry!"
+      ],
+      [
+        "Your report is",
+        "due today."
+      ]
+    ],
+    "sha256": "2716d96c92de1626c07ad2d3c23572a55938d46ab7e150b2152b4ad24ed5ef37"
+  },
+  {
+    "owner_rom": "0x793B60",
+    "old_stream": "0x7C21A6",
+    "new_stream": "0x7CF817",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Okay. We should",
+        "do what we can."
+      ]
+    ],
+    "sha256": "5f79afc12564cae819caef52a9fb0f759c78309cd9a061b20eed2090406db46a"
+  },
+  {
+    "owner_rom": "0x793B64",
+    "old_stream": "0x7C21CD",
+    "new_stream": "0x7CF837",
+    "audit_status": "CONFIRMED_ACTIVE_JAPANESE",
+    "current_status": "ENGLISH_INTEGRATED",
+    "pages": [
+      [
+        "Do not worry."
+      ],
+      [
+        "Riviera belongs",
+        "to the Sprites."
+      ]
+    ],
+    "sha256": "0ca1162497daf26c6ed8088292a2ca8325bb34cbcbed30497d4bde4a5fcd76fd"
+  }
+]

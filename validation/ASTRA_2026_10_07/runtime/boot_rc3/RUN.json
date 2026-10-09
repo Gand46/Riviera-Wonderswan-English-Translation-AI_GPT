@@ -1,0 +1,21 @@
+{
+  "exit": 0,
+  "elapsed_seconds": 10.74,
+  "rom_sha256": "c79079537ea5f66cf74f94d48afc3da14dd9db1f8458156d337f5e0107c111dd",
+  "command": [
+    "/workspace/scratch/f08b2bc0a289/work/emulator/Mesen",
+    "--testRunner",
+    "--timeout=40",
+    "--enableStdout",
+    "--doNotSaveSettings",
+    "--debug.scriptWindow.allowIoOsAccess=true",
+    "/workspace/scratch/f08b2bc0a289/work/rc6/Riviera_EN_v0.115_S462_RC6_GITHUB_SOURCE/sources/Riviera_S457_FULL_SOURCE/scripts/qa_intro_bounded.lua",
+    "/workspace/scratch/f08b2bc0a289/work/private/Riviera_S459_RC3.wsc"
+  ],
+  "access_method": "SCRIPTED_NATURAL",
+  "route": null,
+  "late_subset": false,
+  "rom_writes": 0,
+  "images": 16,
+  "owner_captures": 0
+}

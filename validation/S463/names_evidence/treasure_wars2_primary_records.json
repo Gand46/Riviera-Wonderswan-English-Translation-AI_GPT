@@ -1,0 +1,329 @@
+{
+  "source_archive": "project_sources/19-WonderswanRomTesting.7z",
+  "archive_entry": "WonderswanRomCollectionByGhostware/From TV Animation - One Piece - Treasure Wars 2 - Buggy Land e Youkoso (J) [!].wsc",
+  "rom_size": 8388608,
+  "rom_sha256": "0cb0ba5c0a7d3bbe05fe62536e48fff6c8d47d7311fe97c4595718f17f88c812",
+  "source_kind": "USER_SUPPLIED_ORIGINAL_ROM_PRIMARY_BINARY",
+  "extraction_note": "libarchive data_skip failed on solid 7z; reading intervening entries into discard buffer succeeded. Only target ROM saved in private_evidence; no complete ROM included in evidence outputs.",
+  "encoding": "CP932",
+  "structural_evidence": "Bounded credits script records share prefix 20 21 followed by little-endian continuation offset, six-byte control suffix FE 00 12 02 12 00, inline CP932 text, NUL. Every inspected record continuation points exactly one byte past NUL in the same bank. Consecutive records follow the credit ordering independently transcribed by GDRI.",
+  "records": [
+    {
+      "record_offset": "0x292a3f",
+      "text_offset": "0x292a49",
+      "terminator_offset": "0x292a91",
+      "stored_continuation_pointer": "0x2a92",
+      "expected_continuation_low16": "0x2a92",
+      "pointer_matches": true,
+      "text": "　　　　　　　　ＯＮＥ　ＰＩＥＣＥ\n\r　　　　　　　　トレジャーウォーズ２"
+    },
+    {
+      "record_offset": "0x292a97",
+      "text_offset": "0x292aa1",
+      "terminator_offset": "0x292ab7",
+      "stored_continuation_pointer": "0x2ab8",
+      "expected_continuation_low16": "0x2ab8",
+      "pointer_matches": true,
+      "text": "原作：\n\r　尾田　栄一郎"
+    },
+    {
+      "record_offset": "0x292abd",
+      "text_offset": "0x292ac7",
+      "terminator_offset": "0x292b01",
+      "stored_continuation_pointer": "0x2b02",
+      "expected_continuation_low16": "0x2b02",
+      "pointer_matches": true,
+      "text": "プロデューサー：\n\r　佐々木　夕介　　　　　　　　鈴木　敏弘"
+    },
+    {
+      "record_offset": "0x292b5c",
+      "text_offset": "0x292b66",
+      "terminator_offset": "0x292b9c",
+      "stored_continuation_pointer": "0x2b9d",
+      "expected_continuation_low16": "0x2b9d",
+      "pointer_matches": true,
+      "text": "かいはつとうかつ：\n\r　澤田　芳明　　　　　　水谷　靖志"
+    },
+    {
+      "record_offset": "0x292ba2",
+      "text_offset": "0x292bac",
+      "terminator_offset": "0x292bca",
+      "stored_continuation_pointer": "0x2bcb",
+      "expected_continuation_low16": "0x2bcb",
+      "pointer_matches": true,
+      "text": "ディレクター：\n\r　あべ　ゆうじ"
+    },
+    {
+      "record_offset": "0x292bd0",
+      "text_offset": "0x292bda",
+      "terminator_offset": "0x292c06",
+      "stored_continuation_pointer": "0x2c07",
+      "expected_continuation_low16": "0x2c07",
+      "pointer_matches": true,
+      "text": "アシスタントディレクター：\n\r　ごみ　ひろゆき"
+    },
+    {
+      "record_offset": "0x292c64",
+      "text_offset": "0x292c6e",
+      "terminator_offset": "0x292ca2",
+      "stored_continuation_pointer": "0x2ca3",
+      "expected_continuation_low16": "0x2ca3",
+      "pointer_matches": true,
+      "text": "プログラム：\n\r　はやし　まさと　　　　つつい　としき"
+    },
+    {
+      "record_offset": "0x292ca8",
+      "text_offset": "0x292cb2",
+      "terminator_offset": "0x292ce6",
+      "stored_continuation_pointer": "0x2ce7",
+      "expected_continuation_low16": "0x2ce7",
+      "pointer_matches": true,
+      "text": "プログラム：\n\r　シムラ　オサム　　　　もり　のぶひろ"
+    },
+    {
+      "record_offset": "0x292cec",
+      "text_offset": "0x292cf6",
+      "terminator_offset": "0x292d34",
+      "stored_continuation_pointer": "0x2d35",
+      "expected_continuation_low16": "0x2d35",
+      "pointer_matches": true,
+      "text": "プログラムアシスト：\n\r　いいじま　こういち　　はまだ　やすゆき"
+    },
+    {
+      "record_offset": "0x292d9c",
+      "text_offset": "0x292da6",
+      "terminator_offset": "0x292dde",
+      "stored_continuation_pointer": "0x2ddf",
+      "expected_continuation_low16": "0x2ddf",
+      "pointer_matches": true,
+      "text": "グラフィック：\n\r　ほりうち　たくや　　　さかもと　かずや"
+    },
+    {
+      "record_offset": "0x292de4",
+      "text_offset": "0x292dee",
+      "terminator_offset": "0x292e26",
+      "stored_continuation_pointer": "0x2e27",
+      "expected_continuation_low16": "0x2e27",
+      "pointer_matches": true,
+      "text": "グラフィック：\n\r　ほしの　さき　　　　　しなだ　りょうこ"
+    },
+    {
+      "record_offset": "0x292e2c",
+      "text_offset": "0x292e36",
+      "terminator_offset": "0x292e64",
+      "stored_continuation_pointer": "0x2e65",
+      "expected_continuation_low16": "0x2e65",
+      "pointer_matches": true,
+      "text": "グラフィックアシスタント：\n\r　サーク　ベイダー"
+    },
+    {
+      "record_offset": "0x292ec2",
+      "text_offset": "0x292ecc",
+      "terminator_offset": "0x292eea",
+      "stored_continuation_pointer": "0x2eeb",
+      "expected_continuation_low16": "0x2eeb",
+      "pointer_matches": true,
+      "text": "サウンド：\n\r　ますざわ　みきお"
+    },
+    {
+      "record_offset": "0x292ef0",
+      "text_offset": "0x292efa",
+      "terminator_offset": "0x292f18",
+      "stored_continuation_pointer": "0x2f19",
+      "expected_continuation_low16": "0x2f19",
+      "pointer_matches": true,
+      "text": "ボイスアクター：\n\r　野沢　雅子"
+    },
+    {
+      "record_offset": "0x292f66",
+      "text_offset": "0x292f70",
+      "terminator_offset": "0x292fa8",
+      "stored_continuation_pointer": "0x2fa9",
+      "expected_continuation_low16": "0x2fa9",
+      "pointer_matches": true,
+      "text": "せいさくサポート：\n\r　田中　庸介　　　　　　　丸山　和也"
+    },
+    {
+      "record_offset": "0x292fae",
+      "text_offset": "0x292fb8",
+      "terminator_offset": "0x292fd8",
+      "stored_continuation_pointer": "0x2fd9",
+      "expected_continuation_low16": "0x2fd9",
+      "pointer_matches": true,
+      "text": "せいさくサポート：\n\r　田中　良也"
+    },
+    {
+      "record_offset": "0x292fde",
+      "text_offset": "0x292fe8",
+      "terminator_offset": "0x292ff8",
+      "stored_continuation_pointer": "0x2ff9",
+      "expected_continuation_low16": "0x2ff9",
+      "pointer_matches": true,
+      "text": "ＢｅｅＷｏｒｋｓ"
+    },
+    {
+      "record_offset": "0x293056",
+      "text_offset": "0x293060",
+      "terminator_offset": "0x293098",
+      "stored_continuation_pointer": "0x3099",
+      "expected_continuation_low16": "0x3099",
+      "pointer_matches": true,
+      "text": "プロモーション：\n\r　神林　幹雄　　　　　　　　安子　大樹"
+    },
+    {
+      "record_offset": "0x29309e",
+      "text_offset": "0x2930a8",
+      "terminator_offset": "0x2930c8",
+      "stored_continuation_pointer": "0x30c9",
+      "expected_continuation_low16": "0x30c9",
+      "pointer_matches": true,
+      "text": "プロモーション：\n\r　本間　さなえ"
+    },
+    {
+      "record_offset": "0x2930ce",
+      "text_offset": "0x2930d8",
+      "terminator_offset": "0x29310c",
+      "stored_continuation_pointer": "0x310d",
+      "expected_continuation_low16": "0x310d",
+      "pointer_matches": true,
+      "text": "えいぎょう：\n\r　橋本　信之　　　　　　　　干川　耕司"
+    },
+    {
+      "record_offset": "0x293112",
+      "text_offset": "0x29311c",
+      "terminator_offset": "0x29314e",
+      "stored_continuation_pointer": "0x314f",
+      "expected_continuation_low16": "0x314f",
+      "pointer_matches": true,
+      "text": "えいぎょう：\n\r　熊田　直樹　　　　　　　　大野　聡"
+    },
+    {
+      "record_offset": "0x29319c",
+      "text_offset": "0x2931a6",
+      "terminator_offset": "0x2931b8",
+      "stored_continuation_pointer": "0x31b9",
+      "expected_continuation_low16": "0x31b9",
+      "pointer_matches": true,
+      "text": "版権元：\n\r　集英社"
+    },
+    {
+      "record_offset": "0x2931be",
+      "text_offset": "0x2931c8",
+      "terminator_offset": "0x2931de",
+      "stored_continuation_pointer": "0x31df",
+      "expected_continuation_low16": "0x31df",
+      "pointer_matches": true,
+      "text": "少年ジャンプ編集部\n\r　"
+    },
+    {
+      "record_offset": "0x2931e4",
+      "text_offset": "0x2931ee",
+      "terminator_offset": "0x29320e",
+      "stored_continuation_pointer": "0x320f",
+      "expected_continuation_low16": "0x320f",
+      "pointer_matches": true,
+      "text": "Ｖジャンプ編集部：\n\r　岡本　堅史"
+    },
+    {
+      "record_offset": "0x293214",
+      "text_offset": "0x29321e",
+      "terminator_offset": "0x293246",
+      "stored_continuation_pointer": "0x3247",
+      "expected_continuation_low16": "0x3247",
+      "pointer_matches": true,
+      "text": "月刊少年ジャンプ編集部：\n\r　小野　孝太郎"
+    },
+    {
+      "record_offset": "0x293297",
+      "text_offset": "0x2932a1",
+      "terminator_offset": "0x2932c3",
+      "stored_continuation_pointer": "0x32c4",
+      "expected_continuation_low16": "0x32c4",
+      "pointer_matches": true,
+      "text": "かんしゅう：\n\r　東映アニメーション"
+    },
+    {
+      "record_offset": "0x2932c9",
+      "text_offset": "0x2932d3",
+      "terminator_offset": "0x293307",
+      "stored_continuation_pointer": "0x3308",
+      "expected_continuation_low16": "0x3308",
+      "pointer_matches": true,
+      "text": "　清水　慎治\n\r　平田　薫　　　　　　　　　小池　克美"
+    },
+    {
+      "record_offset": "0x29330d",
+      "text_offset": "0x293317",
+      "terminator_offset": "0x293347",
+      "stored_continuation_pointer": "0x3348",
+      "expected_continuation_low16": "0x3348",
+      "pointer_matches": true,
+      "text": "スペシャルサンクス：\n\r　ワンピースデバッグチーム"
+    },
+    {
+      "record_offset": "0x2933a5",
+      "text_offset": "0x2933af",
+      "terminator_offset": "0x2933d1",
+      "stored_continuation_pointer": "0x33d2",
+      "expected_continuation_low16": "0x33d2",
+      "pointer_matches": true,
+      "text": "制作：\n\rグラフィックリサーチ（株）"
+    },
+    {
+      "record_offset": "0x293408",
+      "text_offset": "0x293412",
+      "terminator_offset": "0x29342e",
+      "stored_continuation_pointer": "0x342f",
+      "expected_continuation_low16": "0x342f",
+      "pointer_matches": true,
+      "text": "企画・販売：\n\r（株）バンダイ"
+    },
+    {
+      "record_offset": "0x293458",
+      "text_offset": "0x293462",
+      "terminator_offset": "0x293488",
+      "stored_continuation_pointer": "0x3489",
+      "expected_continuation_low16": "0x3489",
+      "pointer_matches": true,
+      "text": "さいごまで　遊んでくれて　ありがとう！"
+    },
+    {
+      "record_offset": "0x29348e",
+      "text_offset": "0x293498",
+      "terminator_offset": "0x2934b8",
+      "stored_continuation_pointer": "0x34b9",
+      "expected_continuation_low16": "0x34b9",
+      "pointer_matches": true,
+      "text": "　\n\r　　　　　　　　　　　ＦＩＮ"
+    }
+  ],
+  "runtime_confirmed": false,
+  "use": "Primary identity evidence for 橋本 信之 and Bandai sales colleagues; not a runtime rendering assertion.",
+  "checksum": {
+    "stored": "0xeafd",
+    "computed_sum_excluding_checksum": "0xeafd",
+    "matches": true
+  },
+  "header_last16_hex": "ea 00 00 fd ff 00 01 01 33 00 08 02 04 01 fd ea",
+  "bounded_target_records_hex": [
+    {
+      "start": "0x2930ce",
+      "end_exclusive": "0x29315a",
+      "hex": "20 21 0d 31 fe 00 12 02 12 00 82 a6 82 a2 82 ac 82 e5 82 a4 81 46 0a 0d 81 40 8b b4 96 7b 81 40 90 4d 94 56 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 8a b1 90 ec 81 40 8d 6b 8e 69 00 22 10 d2 00 30 20 21 4f 31 fe 00 12 02 12 00 82 a6 82 a2 82 ac 82 e5 82 a4 81 46 0a 0d 81 40 8c 46 93 63 81 40 92 bc 8e f7 81 40 81 40 81 40 81 40 81 40 81 40 81 40 81 40 91 e5 96 ec 81 40 91 8f 00 22 10 d2 00 30 77 05 01 78 00 40"
+    }
+  ],
+  "publisher_evidence": {
+    "primary_credit_record": [
+      {
+        "record_offset": "0x293408",
+        "text_offset": "0x293412",
+        "terminator_offset": "0x29342e",
+        "stored_continuation_pointer": "0x342f",
+        "expected_continuation_low16": "0x342f",
+        "pointer_matches": true,
+        "text": "企画・販売：\n\r（株）バンダイ"
+      }
+    ],
+    "explanation": "Bandai Sales/Promotion team linkage uses the three exact Riviera Sales colleagues in the original Grand Battle screenshot; Treasure Wars 2 primary records identify 橋本 信之 beside two of those colleagues in sales. GDRI independently names Bandai in the same ending."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "sheet": "GLYPH_BLIND_SHEET.png",
+  "key_hidden_during_transcription": true,
+  "visible_transcription": {
+    "1": "r",
+    "2": "T",
+    "3": "l",
+    "4": "j",
+    "5": "I",
+    "6": "I",
+    "7": "I",
+    "8": "L",
+    "9": "f",
+    "10": "i",
+    "11": "I"
+  },
+  "context": "isolated glyphs only; no words or expected-name strings shown",
+  "scale": "5x diagnostic plus 1x source preserved separately",
+  "status_before_key": "TRANSCRIBED",
+  "comparison_after_key": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true,
+    "8": true,
+    "9": true,
+    "10": true,
+    "11": true
+  },
+  "all_11_correct": true,
+  "runtime_capital_i_samples": 4,
+  "result": "PASS_CONTEXT_MINIMIZED_ISOLATED_GLYPHS"
+}

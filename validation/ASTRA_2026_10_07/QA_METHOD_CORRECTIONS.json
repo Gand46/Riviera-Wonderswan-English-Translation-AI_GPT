@@ -1,0 +1,8 @@
+{
+  "early_capture": "FF+1 captures preceded the final glyph blit; QA-only fix waits six frames and pauses A eight frames. Initial review records are retained.",
+  "battle_initial_stop": "createSavestate in endFrame did not complete; bounded runs hit testRunner timeout. Moved snapshot to a CPU exec callback; both corrected replays exited0.",
+  "optional_write_probe": "Two watchpoint variants stalled after the first tick and were abandoned; no conclusion based on their output. CPU-only end snapshots subsequently succeeded.",
+  "battle_first_frame": "No framebuffer immediately after savestate load; empty first-tick image excluded.",
+  "rendered_scale": "Mesen captures are237x144 including the side input display; final contact sheets preserve exact2x aspect ratio.",
+  "rom_action": "No edits were made in response to capture/probe problems."
+}
